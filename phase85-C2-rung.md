@@ -1,0 +1,34 @@
+# Phase 85 — The C2 rung: the mapping-class constraint attacked, the ν-blindness theorem, and an error caught by its own generalization
+
+*Working session, 2026-07-18 (late). The next rung of the dictionary ladder: C2, the Γ-automorphy/mapping-class-group constraint — the one flagged as "plausibly the constraint that cuts the candidate class from a family to one theory or none." The session's first act of discipline: generalizing phase 84's relative-phase computation to the full 16-fold way exposed an error in phase 84 itself — the c₀ derivation had paired Kirby–Melvin's spin-sum weight (which belongs to SU(2)₂, central charge 3/2, the ν = 3 member) with part I's surgery phases (computed for the c = 1/2 Ising theory, ν = 1). **Erratum applied: the corrected constant is c₀ = 1 + 2(g−1) mod 16, derived consistently within each ν and — the finding — identical across all odd ν.** The record notes with some satisfaction that the error was caught by the standing method (generalize before trusting) one phase after it was made, in-room, before any external eye needed to.*
+
+---
+
+## 1. The corrected μ-table [M2 amended; the E1b sealed envelope re-sealed]
+
+~~| g | NS half | theta even | theta odd | — 1 / 1+2(g−1) / 9+2(g−1) —~~ **[SUPERSEDED, 2026-07-18 (same night), phase 86: WRONG AGAIN — a sign error in the Kirby–Melvin import (their weight is e^{−6πiμ/16}; the anomaly enters as κ^{−σ}) survived this phase's erratum, and the ν-generalization check is provably blind to sign errors by this phase's own ν-blindness theorem. The correct table, derived three independent ways by a context-free referee (Freedman–Kirby characteristic-surface; the sign-corrected anomaly-included RT identity, verified exactly all g ≤ 8, all odd ν; Kirby–Taylor 6.5 itself — which was online all along): NS half 1; theta even 3−2g mod 16; theta odd 11−2g mod 16 (g=2: 1/15/7). The Arf-slope 8 and NS row stand; the sector correspondence is CONFIRMED to the anomaly. The relative-phase bootstrap is retired as a method for mod-16 constants. See phase 86 §1.]**
+
+Derivation now internally consistent at every odd ν (verified ν = 1,3,5,7, g ≤ 6): the ν-theory's surgery phase θ_σ^n = e^{2πiν(g−1)/8} against the ν-theory's spin-sum weight e^{2πiνμ/16} gives ν(c₀−1) ≡ 2ν(g−1) mod 16, and ν odd cancels. The Arf-slope 8 is unchanged. Kill conditions as before; KT-6.5 now tests this table.
+
+## 2. C2 at orbit level: passes, automatically, and that is the weak part [derived]
+
+The MCG ledger on the Floer side: Mod(Σ_g) lifts canonically to T¹Σ_g; it fixes each torsion spin^c class (the ℤ/(2g−2) is fiber-generated and Euler-class-tied); it acts on the spin ledger through Sp(2g,ℤ/2) with the classical orbit structure — **exactly two orbits per half, even and odd, of sizes 2^{g−1}(2^g±1)** (the Arf classification); it acts on the towers as the standard Sp representation on Λ*H¹; and it fixes the protected class (rank one, canonical). The candidate side: the ν-Majorana/spin-CS class permutes its θ-lines through the same Sp(2g,ℤ/2), same two orbits, and its sector/tower structures carry the same representations by construction. **C2 at the level of orbits, stabilizers, and representation types is satisfied identically — necessary, and toothless, exactly as the discrimination theorem (phase 80 §3) predicted for anything generic.**
+
+## 3. Where C2's teeth are — and the ν-blindness theorem [the session's result]
+
+> **ν-blindness [derived]:** every computation this program has performed — the surgery sums, the spin-refined Gauss sums, the decomposition cross-checks, the relative-phase chain — is **invariant under changing the Majorana level ν across all eight odd values of the 16-fold way.** The relative-phase equation cancels ν identically; the magnitudes never depended on it. The candidate class's one remaining discrete parameter is invisible to all relative data.
+
+Consequently C2's actual teeth lie in the **absolute layer** the room's discipline deliberately does not track: the framing anomaly / projective phase of the MCG action — the central charge c = σ(K) + ν/2 mod 8 — where the two sides differ in kind: the TQFT side acts *projectively* with anomaly c, while the Floer package's MCG action is (to the room's knowledge) honest, with its absolute normalization carried by the rational gradings ((4g−9)/4) and correction terms (DTAB-1's content). The sharp question this rung produces, posed rather than answered:
+
+> **C2-ν [registered]:** does the mapping-class action on the (spin-refined) Floer package of T¹Σ_g carry a well-defined projective anomaly, and does matching it against σ(K) + ν/2 mod 8 select ν? The Floer-side input needed is precisely DTAB-1 (the absolute gradings/correction terms — the "small real paper" already declared) plus the MCG-equivariance of the d-invariants — expert territory adjacent to known Heegaard Floer functoriality. **If the Floer anomaly is 0 mod 8, the candidate needs σ(K) + ν/2 ≡ 0 — which no odd ν satisfies with the minimal K, forcing either a larger odd lattice or a nonzero Floer-side anomaly: either way, a computation, not a choice.**
+
+The honest summary of the rung: C2 does not currently cut the family to one — it cuts the *question* to one (C2-ν), locates its data requirements in an artifact already on the program's build list (DTAB-1), and establishes that nothing short of the absolute layer will do it.
+
+## 4. Ledger
+
+- **Erratum (phase 84):** c₀ = 1+6(g−1) → **1+2(g−1)** mod 16; cause: ν = 3 weight paired with ν = 1 phases; caught in-room by the generalization; phase 84 and ledger M2 amended in place. The B3c file gains its cleanest specimen: an error created by trusting a single consistency check and destroyed by demanding the same check at all ν.
+- **C2 status: orbit level PASSED (toothless); absolute level = C2-ν [registered, open], data-gated on DTAB-1 + MCG-equivariance of correction terms.**
+- **ν-blindness** logged as a standing limitation of all relative-phase methods; the packet's Track W/F asks gain one line (C2-ν as a named question attached to DTAB-1).
+- Next rungs unchanged: C4 (the joint anomaly books — where the absolute layer's other end lives), then the far rungs (matter content, the join).
+
+*Status line: the rung held weight but did not break — C2 passed where passing means nothing, sharpened to a single question where it means everything, and en route the method ate one of its own errors, which is what the method is for. The candidate class leaves this phase one question narrower and one parameter blinder: eight values of ν walk abreast until someone computes an absolute phase — and the artifact that would do it is already on the program's own to-write list, wearing a referee's compliment as its name.*

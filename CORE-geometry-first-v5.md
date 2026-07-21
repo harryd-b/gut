@@ -1,0 +1,62 @@
+# Geometry-First Physics and the Protected Stratum — v5
+### The constructive synthesis, the dictionary problem, the chiral chapters, and the one number
+
+*Core document, fifth issue, 2026-07-18. **Supersedes v4** (2026-07-17). Sections of v4 not restated stand as written there, **except where the PROV-1 corrections below override them**. Tags as before; [verified-source] marks primary-source-checked imports. Companions: `PREDICTIONS-LEDGER-2026-07-17.md` (amended below), `TIER-3-PLAN.md` (executed), the phase files 54–62.*
+
+---
+
+## A. PROV-1 corrections to the foundational record [phase 61 — these override all earlier issues]
+
+1. **§2.4 (universal entanglement term):** the CHMP attribution stands structurally (Part I, JHEP 02 (2020) 014); the Haag-duality-violation citation moves to the *entropic order parameters* paper (JHEP 04 (2021) 277); **the "S²×S¹ ⟹ Ĝ = U(1), coefficient −1" worked example is deleted — phantom** (the papers' real examples: disjoint balls + shell; complementary ring regions).
+2. **§2.6 (exotic smoothness sources gravity):** tag corrected from [proved] to **[conjectured (Brans 1994); supported by formal arguments (Asselmeyer 1997; Sładkowski 2001); not proved]**. Nothing in the verified spine used the stronger tag.
+3. **§4.4 ("why 4D is special"):** rewritten. The Cheeger-exception framing is **false** (finiteness holds in all dimensions; Peters 1984 closed dim 4), and compact 4-manifolds have at most **countably** many smooth structures. The correct and sufficient statement: **ℝ⁴ is the only ℝⁿ with exotic smooth structures, and it has uncountably many (Taubes)** — dimension four's unique wildness stands on its true feet.
+4. **P5a (Chishtie bridge):** re-tagged to the ledger's lowest evidential class — *conditional on an unrefereed, version-unstable preprint* (arXiv:2502.18524; predictions moved by an order of magnitude between versions). The one-scale structure owes it nothing (independently derived, phases 41/44).
+5. **Attribution:** the Aharonov–Bohm sector theorem is **Dappiaggi–Ruzzi–Vasselli** (LMP 110 (2020)).
+6. **P4b:** already retracted as phantom in phase 59; recorded here for completeness. Cumulative phantom count: two; both caught by in-house sweeps; both replaced by stronger in-house structures.
+
+## B. The dictionary problem (phases 54–56) — the program's decisive front, posed
+
+The flatness sum rule of the mechanism **is conformal anomaly cancellation** — the ZT coefficient 6n²−6n+1 is the Mumford exponent and (×−2) the bc-system central charge; the chain is explicit in Belavin–Knizhnik 1986 [verified-source]. The dictionary is therefore a **four-constraint classification problem** (anomaly; Γ-automorphy; sector-category matching; joint 4D/2D anomaly books), with: a refined candidate — **D-hyp**: a Liouville/Virasoro-TQFT sector at discrete b (the quantum-Teichmüller ≅ Liouville chain, Teschner/CEMZ, verified; the framework's own skein map connects by Bonahon–Wong's quantum trace) forcing **discrete c ≤ 1 matter**; a pre-stated kill test — **D-test**: the protected census vs the degenerate content at the framework's b; and one shared technical crux (the closed-surface gap of quantum Teichmüller theory). Payoff structure: no solution = clean death; forced solution = computable dimensionless constants.
+
+**The string shadow, measured and conceded (phase 55):** ~60–70% of the dictionary machinery is standard string/AdS₃/spectral-geometry material, cited and owned as rediscovery. The delimited novel core: **(i)** compact Γ\PSL(2,ℝ) as *space* (not spacetime) with modular time — the ontology that dissolves the CTC objection; **(ii)** Weil–Petersson quintessence (unoccupied because Mostow kills shape moduli in d ≥ 3 — the framework uses the 2D exception); **(iii)** the joint species+ZT content constraint. Plus the discovered ally: **Moncrief's theorem** (2+1 gravity *is* Teichmüller dynamics) — the coupling gap's proven lower-dimensional prototype.
+
+## C. The chiral chapters (phases 57–60) — Plank IV formalized, the arrow assembled, CPT restored
+
+- **Maximal twisting (57):** quantified at four scales [C1–C6 verified-source]: GV globally (maximal at constant curvature, *uniform* at equilibrium — no node in vacuum); the contact condition pointwise; **tightness = the existence of the Bennequin bound** — the formalization of Plank IV's founding sentence: *the protection is the existence of a maximal twist*; Lutz/Giroux quantized twist insertion. **Twist-defect knots** registered as the closed carrier's puncture-substitute. **Export GV-T** (the unjoined corner of four literatures: does GV bound the twist budget of the Eliashberg–Thurston perturbations?).
+- **The arrow (58) — scorecard III.2 CONJECTURED → ASSEMBLED:** asymmetry forced (KMS orientation + entropy production ≥ 0 [verified]); rate derived (**h = 1 per tick**, Pesin; maximal at EQ by Katok); **GV is arrow-blind** (in-room refutation of the probe's own opening hypothesis); the direction is a spontaneously broken chirality carried by the **contact pair** — with the fluctuation theorem inherited verbatim (the fold is the Gallavotti–Cohen paradigm class). Lemmas N1–N2 flagged.
+- **CPT (60):** the flip is **geometric CPT** [assembly on verified BW/Borchers/GF modular-conjugation results]; what is spontaneously broken is the joint package (arrow + handedness + matter assignment), **exactly symmetric globally** — repairing the latent T-vs-CPT worry. **Antimatter = the commutant** [conjecture; cosmologically unclaimed]; the Sakharov conditions map structurally onto the record's own pieces (chirality choice; the arrow; topology change); **export #4: the modular grounding of the CPT-symmetric universe** (Boyle–Turok's pair = M and M′ exchanged by J — a bridge nobody has written). Lemma N3 flagged.
+
+## D. The ledger amendments (phase 59 + 60)
+
+- **P4b deleted** (phantom). **P8 added [conditional on the twist-defect identification and the join]:** the framework's chiral sector produces **parity-violating polarization effects of one universal handedness** — (a) isotropic uniform-sign cosmic birefringence [the live anomaly: Planck+WMAP 3.6σ; ACT DR6 2.9σ same sign; total ~7σ; LiteBIRD decides; the axion rival named; magnitude not claimed; **kill: robust sky-varying sign**]; (b) same-sign circular residuals in lensed systems; **(c) the EM-birefringence handedness must equal any chiral-GW-background handedness** — cross-channel, magnitude-free.
+
+## E. The one number (phase 62)
+
+The temperature "tension" dissolves by clock-relativity (T is conjugate to a clock; the fold's 10³² K is β = 1 in its own units; L1 hides it locally). The framework's temperature ladder has **two derived ends** (fold; Gibbons–Hawking horizon), the CMB deliberately unclaimed, and the √(T_UV·T_IR) ≈ 10 K numerology **debunked at birth** (≡ Ω_γ^¼ — historical, decaying, empty). The residue is the consolidation:
+
+> **N ≡ R_H/R ≈ 4×10⁶¹.** Temperature hierarchy = N; cosmological-constant problem = N²; modulus lightness = N⁻¹. **Every large unexplained number in the framework is a power of one time-dependent quantity — the age of the universe in fold ticks.** The hierarchy is historical, not fundamental; the moduli route is the machinery that makes it dynamical. The coupling gap's final form: explain N — or explain why it needs no explanation beyond history.
+
+## F. Forward program (v5)
+
+1. **The packet** — unchanged as sole theory gate, now with four exports (GV-T; the arrow assembly, N1–N3 pending; the Legendrian-fiber gap; the CPT/modular grounding — the last with a waiting mainstream audience), the D-test, J1/L1-aud/M-aud/H-residues, and the phase 55 concession sheet.
+2. **The sky calendar** — unchanged (Euclid DR1; binned reconstructions vs the pre-stated T-M2 and P8 commitments; JUNO/LVK/LZ nulls; LiteBIRD for P8a).
+3. **Flagged lemmas N1–N3** (gate two exports); **TD-test**; the far-future question (GH endpoint vs terminal step — next probe).
+4. **Standing discipline:** two phantoms were found by sweeping; the sweep is now part of the method (any inherited claim entering a new chapter gets source-checked first — the rule that caught both).
+
+## G. The honest one-paragraph self-description (v5)
+
+*A program that derives the quantum character of the world from geometry at audited-theorem level; runs its clock on a proven III₁ carrier whose algebra is the laboratory's local algebra; has an assembled equilibrium mechanism selecting rigid geometry at extremal, topologically quantized, provably arrow-blind stiffness — with the arrow itself a spontaneously broken CPT-package chirality and antimatter conjecturally the commutant; whose dark-energy sector is a zero-free-function moduli roll pre-registered against imminent data; whose particle-content constraints the Standard Model passes by one unit; whose dictionary problem is posed as anomaly cancellation with a named candidate and kill test; whose every large unexplained number is one evolving quantity; and whose corrections ledger — five self-corrections, two phantoms caught, one 60–70% overlap conceded with citations — is maintained as carefully as its results, because it is the results' warranty.*
+
+*Changelog v4 → v5: PROV-1 corrections (§A); dictionary program + string shadow + Moncrief (§B); contact/arrow/CPT chapters with three new exports (§C); P4b out, P8a–c in (§D); the N-consolidation (§E); method rule added (§F.4).*
+
+---
+
+## H. Fresh-red-team overrides (phases 74–75, 2026-07-18) — these override all earlier issues
+
+1. **The census moves to the carrier (FR-2, phase 75) — and collapses to one (CEN-2, phase 77).** The protected census (phases 27/28/40) was computed on Σ_g×S¹; the carrier is T¹Σ_g — never migrated after the phase 43 switch. Verified carrier structure (MOY Cor 1.0.5/Thm 5.9.1; OS adjunction): torsion-only sectors, exactly **2g−2** classes; MOY components C±(e) ≅ Sym^e(Σ) reproduce the old census blocks at moduli level; the old k = 0 pathology (Jabuka–Mark) was an artifact of the wrong manifold; the carrier's triple cup product vanishes so HF^∞ is **standard** in every sector (via Lidman — apparently unrecorded; REMARK-1). **OBTAIN-5.6 closed (source PDF obtained): OS08 Thm 5.6 implemented and cross-checked gives HF⁺_red(T¹Σ_g; 𝔽₂) = rank ONE total, in the spin-type sector [g−1], at grading (4g−9)/4, all g — and T¹Σ_g is extremal (largest Euler number with any reduced content; n ≥ 2g−1 vanishes identically) [proved]. The census program as conceived is dead; its replacement target for the dictionary: universal Λ*H¹ towers + one protected class in the spin sector + nothing else (C3-recast). The tower-algebra salvage of "one handle, one fermion pair" is registered as [conjecture, unearned]. Phase 77 governs.**
+2. **All census-derived CFT candidates withdrawn as physics (FR-1/FR-2).** Phase 69's menus, the g = 2 Ising line, allocation A, D-alloc-H, and the tricritical Ising line are void on the carrier (arithmetic stands as arithmetic; corrected count-level menus in phase 75 carry **zero evidential weight** per the fresh Track W standard: *count-level matching is not evidence*). D-test is re-posed on the ℤ/(2g−2) ladder against CEN-2.
+3. **𝒯 = 2πR/c downgraded (FR-5).** The 2π is borrowed from vacuum Möbius-covariant nets; the carrier has neither. Now tagged **[convention, pending the T-2π boundary-to-carrier transport]**; 𝒯 ∝ R/c (dimensional uniqueness) unaffected; phase 47's "Gibbons–Hawking form emerging" withdrawn as circular.
+4. **Ledger integrity (FR-3/FR-4).** Bowen 1977 ("Anosov foliations are hyperfinite," Ann. of Math. 106) EXISTS — the phase 43 "correction" denying it is reversed; failure mode logged: fabricated absences, not just fabricated citations. Standing rule: **simulation output is never citable as confirmation** (the "Referee F confirmed" incident).
+5. **§C amendment:** "tightness = the existence of the Bennequin bound" weakens to *tightness ⟹ Bennequin bound* [theorem]; the converse reading was loose (fresh Track C), and saturation is not universal in tight manifolds. GV-T requires a defined target invariant before it is a posed problem.
+6. **§G's self-description** carries a rider: the III₁ isomorphism is physically empty by itself (Haagerup uniqueness — all content lives in the net/join, as §3 of phase 43 always said); the self-description may not imply otherwise.
+7. The full damage report and the five verbatim external reports: phases 74–75, `REPORTS-fresh-red-team-2026-07-18.md`. **The packet remains ON HOLD pending CEN-2 and the NOTE-1 revision.**

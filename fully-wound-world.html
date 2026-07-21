@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Fully Wound World — a geometry-first proposal</title>
+<style>
+  :root { color-scheme: dark; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background:#131312; color:#ffffff;
+    font-family:"Avenir Next","Segoe UI",system-ui,sans-serif;
+    line-height:1.55;
+    --surface-1:#1a1a19; --surface-2:#222220;
+    --text-1:#ffffff; --text-2:#c3c2b7; --text-3:#8f8e85;
+    --blue:#3987e5; --green:#008300; --magenta:#d55181; --yellow:#c98500;
+    --aqua:#199e70; --orange:#d95926; --violet:#9085e9; --red:#e66767;
+    --line:#33332f;
+  }
+  .wrap { max-width:1060px; margin:0 auto; padding:48px 28px 80px; }
+  header { text-align:center; margin-bottom:14px; }
+  h1 { font-size:2.5rem; font-weight:600; letter-spacing:-0.5px; }
+  .sub { color:var(--text-2); font-size:1.05rem; max-width:760px; margin:10px auto 0; }
+  .tagsbar { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; margin:22px 0 8px; }
+  .tag { font-size:.72rem; padding:3px 10px; border-radius:999px; border:1px solid var(--line); color:var(--text-2); }
+  .tag b { color:var(--text-1); font-weight:600; }
+  .t-proved { border-color:var(--aqua); } .t-conj { border-color:var(--yellow); }
+  .t-conv { border-color:var(--violet); } .t-interp { border-color:var(--magenta); }
+  section { margin-top:56px; }
+  h2 { font-size:1.35rem; font-weight:600; margin-bottom:4px; }
+  .kicker { color:var(--blue); font-size:.78rem; text-transform:uppercase; letter-spacing:.12em; font-weight:600; }
+  .lede { color:var(--text-2); max-width:840px; margin:8px 0 18px; }
+  .panel { background:var(--surface-1); border:1px solid var(--line); border-radius:14px; padding:22px; }
+  .status { font-size:.7rem; padding:2px 8px; border-radius:999px; margin-left:8px; vertical-align:2px; }
+  .s-proved { background:rgba(25,158,112,.15); color:#3fd9a3; }
+  .s-conj { background:rgba(201,133,0,.16); color:#eda100; }
+  .s-conv { background:rgba(144,133,233,.15); color:#b0a7f5; }
+  .s-interp { background:rgba(213,81,129,.15); color:#e87ba4; }
+  canvas.stage { width:100%; height:340px; display:block; border-radius:10px; background:#161615; }
+  .cap { color:var(--text-3); font-size:.82rem; margin-top:10px; }
+  .controls { display:flex; align-items:center; gap:14px; margin:14px 0 6px; flex-wrap:wrap; }
+  .controls label { color:var(--text-2); font-size:.88rem; }
+  input[type=range] { width:180px; accent-color:var(--blue); }
+  .gval { font-weight:600; color:var(--text-1); min-width:64px; }
+  .chart { position:relative; }
+  .tooltip { position:absolute; pointer-events:none; background:#262624; border:1px solid var(--line);
+    border-radius:8px; padding:8px 12px; font-size:.8rem; color:var(--text-1); opacity:0; transition:opacity .12s; z-index:5; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; }
+  .card { background:var(--surface-1); border:1px solid var(--line); border-radius:14px; padding:20px; }
+  .card h3 { font-size:1.02rem; margin-bottom:6px; }
+  .card p { color:var(--text-2); font-size:.9rem; }
+  .card .ic { font-size:1.6rem; margin-bottom:8px; display:block; }
+  .ledger { display:flex; gap:26px; flex-wrap:wrap; align-items:flex-start; }
+  .dotgrid { display:grid; gap:5px; }
+  .dot { width:13px; height:13px; border-radius:50%; }
+  .d-ns { background:#3b3b37; }
+  .d-even { background:var(--blue); }
+  .d-odd { background:var(--orange); box-shadow:0 0 7px rgba(217,89,38,.55); }
+  .legend { display:flex; gap:18px; flex-wrap:wrap; margin-top:14px; font-size:.83rem; color:var(--text-2); }
+  .legend span { display:inline-flex; align-items:center; gap:7px; }
+  .sw { width:12px; height:12px; border-radius:50%; display:inline-block; }
+  .timeline { border-left:2px solid var(--line); margin-left:8px; padding-left:22px; }
+  .tl { position:relative; padding-bottom:20px; }
+  .tl::before { content:""; position:absolute; left:-28px; top:5px; width:10px; height:10px; border-radius:50%; background:var(--blue); }
+  .tl.now::before { background:var(--red); box-shadow:0 0 8px rgba(230,103,103,.6); }
+  .tl b { color:var(--text-1); } .tl .when { color:var(--blue); font-size:.8rem; font-weight:600; text-transform:uppercase; letter-spacing:.06em; }
+  .tl p { color:var(--text-2); font-size:.9rem; }
+  .rungs { display:flex; flex-direction:column; gap:10px; }
+  .rung { display:flex; align-items:center; gap:14px; background:var(--surface-1); border:1px solid var(--line); border-radius:10px; padding:12px 16px; }
+  .rung .st { width:11px; height:11px; border-radius:50%; flex-shrink:0; }
+  .r-done { background:var(--aqua); } .r-open { background:var(--yellow); } .r-wall { background:var(--red); } .r-far { background:#4b4b46; }
+  .rung b { font-size:.92rem; } .rung span { color:var(--text-2); font-size:.85rem; }
+  footer { margin-top:64px; padding-top:20px; border-top:1px solid var(--line); color:var(--text-3); font-size:.82rem; text-align:center; }
+  .num { font-variant-numeric:tabular-nums; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">A geometry-first proposal · phases 1–87 · 2026</div>
+  <h1>The Fully Wound World</h1>
+  <p class="sub">The claim: everything physical is the geometry of one maximally-wound shape — space is the
+  set of all directions over a curved surface, time is that shape's own internal flow, and matter is
+  twisting that the geometry permits but caps. Every panel below carries the record's honesty tag.</p>
+  <div class="tagsbar">
+    <span class="tag t-proved"><b>proved / established</b> — theorem-backed, externally verified</span>
+    <span class="tag t-conj"><b>conjecture</b> — registered, kill condition attached</span>
+    <span class="tag t-conv"><b>convention / postulate</b> — chosen, not derived</span>
+    <span class="tag t-interp"><b>interpretation</b> — the physical reading</span>
+  </div>
+</header>
+
+<section>
+  <div class="kicker">I · The stage</div>
+  <h2>Space is every direction over a curved surface <span class="status s-interp">interpretation</span><span class="status s-proved">carrier math: established</span></h2>
+  <p class="lede">The carrier is T¹Σ<sub>g</sub> — over each point of a saddle-curved (hyperbolic) surface, the circle of
+  directions you could face. Following a direction traces the geodesic flow; the record's clock <i>is</i> this flow's
+  algebra. The bundle is wound 2g−2 times — and that number is not decoration (§III).</p>
+  <div class="panel">
+    <canvas id="stage" class="stage"></canvas>
+    <p class="cap">Animation: tangent directions (arrows) carried along geodesic paths over a genus-2 surface — the
+    fold in motion. Time in this picture is not the animation's clock; it is the flow itself
+    <span class="status s-conv">𝒯 ∝ R/c derived-dimensional · the 2π is a borrowed convention (T-2π)</span></p>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">II · The protection threshold</div>
+  <h2>Space winds as far as anything survives — and at the last winding, exactly one thing survives
+    <span class="status s-proved">proved (OS08 Thm 5.6 + elementary)</span></h2>
+  <p class="lede">Reduced Floer homology — the "protected content" — of circle bundles over Σ<sub>g</sub>, by Euler number n.
+  It is rich at low winding, dies for n ≥ 2g−1, and at the <b>extremal value n = 2g−2 — the unit tangent bundle,
+  the carrier — it is exactly one class</b>, in the spin sector. This is also the Milnor–Wood line, where horizontal
+  foliations end and Fuchsian rigidity begins.</p>
+  <div class="panel chart">
+    <div class="controls">
+      <label>genus g</label>
+      <input type="range" id="gslider" min="2" max="6" value="3" step="1">
+      <span class="gval num" id="gval">g = 3</span>
+      <span style="color:var(--text-3);font-size:.8rem">total rank of HF⁺<sub>red</sub>(Y(g,n); 𝔽₂), √-scaled bars, exact values labeled</span>
+    </div>
+    <svg id="threshold" width="100%" height="300"></svg>
+    <div class="tooltip" id="tt1"></div>
+    <p class="cap">Blue: computed totals from the published theorem. <span style="color:var(--orange)">Orange: the carrier,
+    n = 2g−2 — the largest winding with any protected content; it carries exactly one class.</span> Beyond it: nothing.
+    The old census (computed on the wrong manifold, retired phase 77) claimed totals of <span class="num" id="oldcensus"></span> — the collapse to
+    <b>1</b> is the single most consequential correction in the record.</p>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">III · The spin ledger</div>
+  <h2>The one protected class lives where all the spin structures collect
+    <span class="status s-proved">theta-collapse lemma: proved</span>
+    <span class="status s-conj">per-θ refinement: conjecture (M-Θ)</span></h2>
+  <p class="lede">The carrier has 2<sup>2g+1</sup> spin structures. Half are fiber-NS (no protected content); the other half
+  <i>are</i> the theta characteristics of the surface (Johnson, 1980). Those split by the Arf invariant — and each
+  <b>odd</b> theta carries one Majorana zero mode (h⁰(K<sup>1/2</sup>) = 1). The registered conjecture: a spin-refined
+  Floer theory would see one Arf-graded line per theta — with the expert caveat that the separation may be a wall, not a gate.</p>
+  <div class="panel">
+    <div class="ledger" id="ledgerbox"></div>
+    <div class="legend">
+      <span><span class="sw d-ns"></span> fiber-NS half — no protected content <span class="status s-proved" style="margin-left:4px">derived</span></span>
+      <span><span class="sw d-even"></span> even theta — no zero mode</span>
+      <span><span class="sw d-odd"></span> odd theta — one Majorana line <span class="status s-conj" style="margin-left:4px">answer sheet, sealed</span></span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">IV · The physical readings</div>
+  <h2>What the geometry is claimed to <i>be</i> <span class="status s-interp">interpretation throughout</span></h2>
+  <div class="cards">
+    <div class="card"><span class="ic">🔥</span><h3>The vacuum is warm</h3>
+      <p>Empty space is the fully wound geometry in equilibrium with its own clock — so it has energy and a temperature
+      set by one length R, the winding radius: the framework's only dimensionful constant.</p></div>
+    <div class="card"><span class="ic">🪢</span><h3>Matter is trapped twist</h3>
+      <p>Particles are localized extra windings — knots the tight geometry permits but caps (the Bennequin budget):
+      why matter is stable, and why there is only so much of it.</p></div>
+    <div class="card"><span class="ic">🌑</span><h3>Dark matter never shows up</h3>
+      <p>Pure geometric knotting: it gravitates and does nothing else. Every empty detector is a pass — forever.
+      A confirmed non-gravitational detection kills the framework.</p></div>
+    <div class="card"><span class="ic">🪞</span><h3>The mirror world is the commutant</h3>
+      <p>The universe's CPT twin is not elsewhere — it is the algebraic shadow (the commutant) of ours, exchanged by
+      modular conjugation, sharing one state. The arrow of time is the broken symmetry between the pair.</p></div>
+    <div class="card"><span class="ic">🌌</span><h3>Dark energy is the shape drifting</h3>
+      <p>The surface's shape-parameters roll on the Weil–Petersson landscape: dark energy is exactly rigid, or thaws
+      in a committed pattern — no free functions, registered before the data.</p></div>
+    <div class="card"><span class="ic">📖</span><h3>The dictionary is the gap</h3>
+      <p>The map from this geometry to measured particle physics does not exist yet. It is now a named extension
+      problem (Ẑ-EXT) for a live research program — with this record's computed answer key attached.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">V · The scoreboard</div>
+  <h2>Registered bets, with referees</h2>
+  <div class="panel"><div class="timeline">
+    <div class="tl now"><span class="when">Running now</span><br><b>JUNO / triple-slit</b> — κ = 0 exactly, or the whole framework dies. <b>LVK O5</b> — GW propagation exactly GR. <b>LZ / XENONnT</b> — dark matter stays dark.</div>
+    <div class="tl now"><span class="when">Any afternoon</span><br><b>Class M — predictions about mathematics.</b> The μ-table (corrected thrice, now externally triple-derived); the SRF answer sheet; DTAB-1. Referee: whoever computes.</div>
+    <div class="tl"><span class="when">Late 2026</span><br><b>Euclid DR1</b> — the headline test: dark energy exactly rigid (w = −1), or the registered thawing successor takes the field.<p>The nearest sharp verdict the program faces.</p></div>
+    <div class="tl"><span class="when">2027–28</span><br><b>DESI full survey</b> — decisive on rigidity vs. thawing; dark-matter pressure w = 0 tightened.</div>
+    <div class="tl"><span class="when">2030s</span><br><b>LiteBIRD</b> — the universal-handedness polarization reading. <b>LISA</b> — multiband GW nulls.</div>
+  </div></div>
+</section>
+
+<section>
+  <div class="kicker">VI · The ladder</div>
+  <h2>The dictionary, rung by rung — where it stands tonight</h2>
+  <div class="rungs">
+    <div class="rung"><span class="st r-done"></span><div><b>The definition & no-gos</b> <span>— F-GAP posed (GPPV-adjacent, conceded); bosonic abelian candidates vanish; all discrimination in the protected sector. Done.</span></div></div>
+    <div class="rung"><span class="st r-done"></span><div><b>The answer key</b> <span>— the carrier census (rank one, extremal), the spin ledger, the corrected μ-table. Done, externally verified.</span></div></div>
+    <div class="rung"><span class="st r-open"></span><div><b>E1 · E2 · DTAB-1 · M-Θa</b> <span>— bounded computations, sized for single experts, predictions sealed.</span></div></div>
+    <div class="rung"><span class="st r-wall"></span><div><b>The separation gate (SRF)</b> <span>— per-theta refinement vs. the theta divisor. Expert judgment: probably the wall. K-JTZ aimed at the candidate.</span></div></div>
+    <div class="rung"><span class="st r-open"></span><div><b>Ẑ-EXT</b> <span>— extend the Ẑ-invariant across the genus and b₁ walls; the carrier is the checkpoint; the spin/Arf layer is the frontier.</span></div></div>
+    <div class="rung"><span class="st r-far"></span><div><b>Matter content · the join · the 25 constants</b> <span>— the far rungs. No mechanism yet; the record says so rather than fills the gap.</span></div></div>
+  </div>
+</section>
+
+<footer>
+  The Fully Wound World · a geometry-first research program · 87 phases · corrections ledger maintained as carefully as the results,
+  because it is the results' warranty · every load-bearing number above is either computed in the record's committed scripts or cited to a published theorem ·
+  drafted with substantial AI assistance; the tags govern.
+</footer>
+</div>
+
+<script>
+// ---------- Thm 5.6 port (cen2_calc.py) ----------
+function C(n,k){ if(k<0||k>n) return 0; let r=1; for(let i=0;i<k;i++) r=r*(n-i)/(i+1); return Math.round(r); }
+function rankX(g,d){ if(d<0) return 0; let s=0; for(let k=0;k<=d;k++) s+=C(2*g,k)*(d-k+1); return s; }
+function censusTotal(g,n){
+  let tot=0;
+  for(let i=0;i<n;i++){
+    const cands=[]; for(let s=-n;s<=n;s++) if(((s-i)%n+n)%n===0) cands.push(s);
+    const mn=Math.min(...cands.map(Math.abs)); const j=cands.find(s=>Math.abs(s)===mn);
+    for(let s=-(g-1);s<=g-1;s++) if(((s-i)%n+n)%n===0 && s!==j) tot+=rankX(g,g-1-Math.abs(s));
+  }
+  return tot;
+}
+// ---------- Threshold chart ----------
+const svg=document.getElementById('threshold'), tt=document.getElementById('tt1');
+const gs=document.getElementById('gslider'), gv=document.getElementById('gval');
+function drawChart(){
+  const g=+gs.value; gv.textContent='g = '+g;
+  const ns=[]; for(let n=1;n<=2*g+1;n++) ns.push({n, r:censusTotal(g,n)});
+  const W=svg.clientWidth||1000, H=300, padL=46, padB=34, padT=16;
+  const maxr=Math.max(...ns.map(d=>Math.sqrt(d.r)),1);
+  const bw=Math.min(64,(W-padL-20)/ns.length-8);
+  let out='';
+  // baseline
+  out+=`<line x1="${padL}" y1="${H-padB}" x2="${W-8}" y2="${H-padB}" stroke="#33332f" stroke-width="1"/>`;
+  ns.forEach((d,i)=>{
+    const x=padL+14+i*((W-padL-24)/ns.length);
+    const h=d.r===0?0:Math.max(4,(H-padB-padT)*Math.sqrt(d.r)/maxr);
+    const carrier=d.n===2*g-2;
+    const col=carrier?'var(--orange)':'var(--blue)';
+    out+=`<rect data-n="${d.n}" data-r="${d.r}" x="${x}" y="${H-padB-h}" width="${bw}" height="${h}" rx="4" fill="${col}"/>`;
+    out+=`<text x="${x+bw/2}" y="${H-padB-h-7}" text-anchor="middle" font-size="12" fill="${carrier?'#eda100':'#c3c2b7'}" font-weight="${carrier?700:400}">${d.r}</text>`;
+    out+=`<text x="${x+bw/2}" y="${H-padB+18}" text-anchor="middle" font-size="11.5" fill="#8f8e85">${d.n}</text>`;
+    if(carrier) out+=`<text x="${x+bw/2}" y="${H-padB+31}" text-anchor="middle" font-size="10" fill="#eda100">carrier</text>`;
+  });
+  out+=`<text x="${padL-6}" y="${padT+4}" text-anchor="start" font-size="11" fill="#8f8e85">rank</text>`;
+  out+=`<text x="${W-10}" y="${H-6}" text-anchor="end" font-size="11" fill="#8f8e85">Euler number n</text>`;
+  svg.innerHTML=out;
+  document.getElementById('oldcensus').textContent=(g*Math.pow(4,g-1)).toLocaleString()+` (at g = ${g})`;
+  svg.querySelectorAll('rect').forEach(r=>{
+    r.addEventListener('mousemove',e=>{
+      const n=r.dataset.n, val=r.dataset.r;
+      tt.style.opacity=1;
+      tt.innerHTML=`<b>n = ${n}</b>${+n===2*g-2?' — the carrier T¹Σ<sub>'+g+'</sub>':''}<br>HF⁺<sub>red</sub> total rank: <b>${val}</b>${+n>=2*g-1?'<br><span style="color:#8f8e85">beyond the threshold: nothing survives</span>':''}`;
+      const bb=svg.getBoundingClientRect();
+      tt.style.left=Math.min(e.clientX-bb.x+14,bb.width-180)+'px'; tt.style.top=(e.clientY-bb.y-14)+'px';
+    });
+    r.addEventListener('mouseleave',()=>tt.style.opacity=0);
+  });
+}
+gs.addEventListener('input',()=>{drawChart(); drawLedger();});
+// ---------- Spin ledger ----------
+function drawLedger(){
+  const g=+gs.value, box=document.getElementById('ledgerbox');
+  const even=Math.pow(2,g-1)*(Math.pow(2,g)+1), odd=Math.pow(2,g-1)*(Math.pow(2,g)-1), half=Math.pow(2,2*g);
+  if(g<=3){
+    const cols=g===2?8:16;
+    let nsD='', thD='';
+    for(let i=0;i<half;i++) nsD+='<span class="dot d-ns"></span>';
+    for(let i=0;i<even;i++) thD+='<span class="dot d-even"></span>';
+    for(let i=0;i<odd;i++) thD+='<span class="dot d-odd"></span>';
+    box.innerHTML=`
+      <div><p class="cap" style="margin:0 0 8px"><b style="color:var(--text-1)">fiber-NS half</b> · ${half} structures · μ = 1 uniformly</p>
+        <div class="dotgrid" style="grid-template-columns:repeat(${cols},13px)">${nsD}</div></div>
+      <div><p class="cap" style="margin:0 0 8px"><b style="color:var(--text-1)">theta half</b> · ${half} = ${even} even + ${odd} odd · μ = 3−2g + 8·Arf (mod 16)</p>
+        <div class="dotgrid" style="grid-template-columns:repeat(${cols},13px)">${thD}</div></div>`;
+  } else {
+    const pct=(100*odd/half).toFixed(1);
+    box.innerHTML=`
+      <div style="flex:1;min-width:280px">
+        <p class="cap" style="margin:0 0 10px">At g = ${g}: ${2*half} spin structures — ${half} fiber-NS, ${half} theta (${even} even, ${odd} odd). Grid omitted at this size; proportions shown.</p>
+        <div style="display:flex;height:26px;border-radius:6px;overflow:hidden;gap:2px">
+          <div style="flex:${half};background:#3b3b37"></div>
+          <div style="flex:${even};background:var(--blue)"></div>
+          <div style="flex:${odd};background:var(--orange)"></div>
+        </div>
+        <p class="cap">Odd thetas — the Majorana lines — are ${pct}% of the theta half; the asymmetry #even − #odd = 2<sup>${g}</sup> is the Arf-signed count that shows up in every partition function this record computed.</p>
+      </div>`;
+  }
+}
+// ---------- Stage animation ----------
+const cv=document.getElementById('stage'), cx=cv.getContext('2d');
+function resize(){ cv.width=cv.clientWidth*devicePixelRatio; cv.height=cv.clientHeight*devicePixelRatio; }
+resize(); addEventListener('resize',()=>{resize(); drawChart();});
+const P=[]; const NP=54;
+for(let i=0;i<NP;i++) P.push({t:Math.random()*Math.PI*2, sp:.0022+Math.random()*.0035, lobe:Math.random()<.5?-1:1, ph:Math.random()*Math.PI*2, r:.55+Math.random()*.4});
+function pos(p,t){
+  // figure-eight (lemniscate-ish) paths around two handles
+  const W=cv.width, H=cv.height, cxm=W/2, cym=H/2, a=W*.30;
+  const u=t+p.ph;
+  const x=cxm + a*Math.sin(u)*p.r*1.05 + p.lobe*0;
+  const y=cym + a*.42*Math.sin(2*u)*p.r + p.lobe*H*0.02;
+  return [x,y];
+}
+function frame(){
+  const W=cv.width, H=cv.height;
+  cx.fillStyle='rgba(22,22,21,0.28)'; cx.fillRect(0,0,W,H);
+  // surface silhouette: two linked ovals (genus-2 hint)
+  cx.strokeStyle='rgba(144,133,233,0.22)'; cx.lineWidth=2*devicePixelRatio;
+  const a=W*.30;
+  cx.beginPath();
+  for(let u=0;u<=Math.PI*2+.01;u+=.02){
+    const x=W/2+a*Math.sin(u), y=H/2+a*.42*Math.sin(2*u);
+    u===0?cx.moveTo(x,y):cx.lineTo(x,y);
+  }
+  cx.stroke();
+  // holes
+  cx.strokeStyle='rgba(144,133,233,0.30)';
+  [[-1,0],[1,0]].forEach(([s])=>{ cx.beginPath(); cx.ellipse(W/2+s*a*.52,H/2,a*.13,a*.055,0,0,Math.PI*2); cx.stroke(); });
+  // particles with tangent arrows
+  P.forEach(p=>{
+    p.t+=p.sp;
+    const [x,y]=pos(p,p.t), [x2,y2]=pos(p,p.t+.03);
+    const ang=Math.atan2(y2-y,x2-x);
+    cx.save(); cx.translate(x,y); cx.rotate(ang);
+    const L=9*devicePixelRatio;
+    cx.strokeStyle='#3987e5'; cx.lineWidth=1.6*devicePixelRatio;
+    cx.beginPath(); cx.moveTo(-L,0); cx.lineTo(L,0); cx.stroke();
+    cx.fillStyle='#3987e5';
+    cx.beginPath(); cx.moveTo(L,0); cx.lineTo(L-4.5*devicePixelRatio,3*devicePixelRatio); cx.lineTo(L-4.5*devicePixelRatio,-3*devicePixelRatio); cx.closePath(); cx.fill();
+    cx.restore();
+  });
+  requestAnimationFrame(frame);
+}
+frame(); drawChart(); drawLedger();
+</script>
+</body>
+</html>

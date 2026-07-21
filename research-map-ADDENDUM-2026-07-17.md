@@ -1,0 +1,19 @@
+# Research map — addendum, phases 38–46 (2026-07-16/17)
+
+*Companion to `research-map-MASTER.md` (which indexes phases 1–37). This addendum indexes the Tier-2 execution, the acting-expert sweep, and the Tier-3 runs. Authoritative core document is now `CORE-geometry-first-v3.md` (supersedes `CORE-geometry-first-FINAL.md`). Plan documents: `TIER-2-KICKOFF.md` (executed), `TIER-3-PLAN.md` (in progress). Plain-language summary: `STATUS-plain-english-2026-07-17.md`.*
+
+| Phase | Title | One-line result | Key outputs |
+|---|---|---|---|
+| 38 | Tier-2 2B executed: the κ go/no-go | **NO-GO**: explicit leading-order I₃ computed (κ = C·gτ/ħ, \|C\| ~ 0.1, verified numerically); all three enhancement routes closed; κ retired as fingerprint, retained as null P3. | `i3_calc.py`; kill-test row 1 triggered; F1–F3 audit items |
+| 39 | The expert audit executed | All pending audit items (A1–A6, B1–B4, E1–E2, F1–F2) discharged against primary sources: nothing load-bearing fell; A1 corrected (Connes 0.3, not Hurder–Katok; III₁/factoriality open), A4 improved (trace-free route), B2 (BW needs license), B4 (at-most-one), F1 scope-limited, F2 withdrawn by computation. | One consolidated sharp open question (factoriality/III₁) |
+| 40 | The statistics-clause table | P6.2's finite computation done: exact per-sector b_even/b_odd census on S¹×Σ_g (g ≤ 6), Macdonald-verified; alternating statistics dominance; "one handle, one fermion pair." | `p6_f2_calc.py` |
+| 41 | E3: the two scale relations | R1 (k_BT·𝒯 = ħ; reproduces Unruh exactly) and R2 (G = c³/4ħη) written; one-scale collapse reduced to the tick–fold link. | T1-core restated finally |
+| 42 | T2 executed: the AMK verdict | **FITTED, not predictive**: GV enters no AMK numerical formula; per-observable exponent conventions; scan admitted in print; χ/4 term worth 25%; neutrino claim excluded by oscillation data. Φ(Λ,m_H)=0 unmeetable; AMK numerics permanently retired. | Constructive challenge to authors on record |
+| 43 | Tier-3 opening run | **Carrier switch**: Σ = T¹Σ_g Anosov — GV≠0, hyperfinite III₁ all proven; by Haagerup uniqueness the fold's algebra ≅ the QFT local algebra. B3 passes (+ quantized-scale corollary); V.7 halved; the activator-uniqueness argument written. | A2/B3b opened |
+| 44 | The convergence session (with erratum) | Tick–fold link on the carrier; **GV = 4π²(2g−2)** (stiffness quantized); η computation confirms one-scale + classifies framework as Sakharov induced gravity; **candidate net identified** (Γ-twisted chiral conformal net on ∂H²). *Erratum: §1a "modular = geodesic" withdrawn (see 45).* | G1–G4 audit items |
+| 45 | Corrections and finds | G1: modular and geodesic time are *conjugate* (error caught + repaired; 𝒯 = 2πR/c fixed via G3/G4). G2: GV value confirmed verbatim **+ Mitsumatsu formula found** (stiffness extremal ⟺ constant curvature). B3b: **sectors = classical shadows** (Chebyshev–Frobenius/FKL, verified). | B3c opened; 2A variational half proven |
+| 46 | 2A assembled | **The equilibrium principle EQ** (fold in equilibrium with its own clock): EQ ⟺ canonical scaling ⟺ constant curvature ⟺ extremal GV — every link a verified theorem on the carrier (Katok; Bowen–Margulis; Bowen–Ruelle; Livšic; Mitsumatsu). 2A kill test **passed at carrier level**; higher-dim gate = the open Katok conjecture. | H5b/H6 audit items |
+
+**Standing open items after phase 46** (see CORE v3 §8): Γ-twisted net (join rows 2–4); H6/H5b; B3c; the species sum; the Katok gate; E-Λ/E-DM; the S³ flank; the scholarship gate.
+
+**Corrections ledger (cumulative, phases 38–46):** v2 CORE §8B I₃ row (retracted → P3 null); "flow of weights determined by GV" (→ Connes 0.3 + pairing); phase 38 §1.3.2 equal-intensity corollary (withdrawn, F2); phase 38 §2 spectroscopy cross-check (scope-limited, F1); phase 44 §1a (withdrawn, erratum filed); "Bowen, Anosov foliations are hyperfinite" (nonexistent citation, caught before use).

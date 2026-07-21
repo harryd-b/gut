@@ -1,0 +1,37 @@
+# Phase 65 — The remaining probes: N1 against us, N2 closed, TD and ESCH partially resolved
+
+*Working session, 2026-07-18 (closing the probe queue). Executes the flagged lemmas N1–N3, the TD-test, and the ESCH-test to the limit of the room. Tally: **one flagged clause of phase 58 refuted by its own lemma check (erratum filed in place — the third time the flag system has caught the record's own reasoning before export), one lemma closed from evidence already in the record, one sharpened for the packet, and both named tests partially resolved with genuine structure — including a derived fact about the vacuum (zero Giroux torsion) and a saturation result for the dark-matter knots.** Numbers archived; folklore inputs flagged.*
+
+---
+
+## 1. N1 — resolved *against* phase 58 §3(ii) [in-room frame computation; erratum filed]
+
+The lemma check: the flip's action on Mitsumatsu's bi-contact pair. Computed in the sl₂ frame: ξ₋ = ker(U⁺*+U⁻*) (contact sign −), ξ₊ = ker(U⁺*−U⁻*) (contact sign +); the flip (X→−X, U⁺↔U⁻) sends α₋ → α₋ and α₊ → −α₊ — **it preserves each contact structure individually** (contact signs are quadratic in α; the flip is orientation-preserving). **The chiralities are not exchanged. Phase 58's clause (ii), as written, is refuted** — erratum filed in the phase 58 document.
+
+**The repair (better than the original):** the flip exchanges the *folds* — which sit as the two **diagonals** between the flip-invariant contact pair. The spontaneously broken ℤ₂ is therefore *which diagonal the physics lives on*: a **relative handedness** of the chosen fold with respect to the fixed pair (ξ₊, ξ₋) — still a genuine chirality, still spontaneously broken, still globally symmetric under the CPT package of phase 60, but carried by the fold-relative-to-pair configuration rather than by the pair itself. The arrow chapter's conclusions survive with this substitution; P8's conditionality is unchanged (its parity violation always rode on the defects inheriting the broken sign, however carried). Score for the method: a clause flagged at birth, killed by its own scheduled check, replaced by a sharper statement — the third such catch, all pre-export.
+
+## 2. N2 — closed from the record
+
+The Hurder–Katok quotation already verified in phase 45 states the Mitsumatsu formula for "the weak-stable **(and weak-unstable)** foliation" — *both* folds, one formula, one value. Combined with the phase 58 frame computation: **GV(F_ws) = GV(F_wu) is confirmed against the literature. The stiffness is arrow-blind — now with a citation.** N2 closed.
+
+## 3. N3 — sharpened, left for the packet
+
+The honest in-room limit: the flip induces, on the boundary, the exchange of a geodesic's two endpoints (orientation reversal of the chiral structure); the modular conjugation J of the toy join implements interval reflection (z → z̄, verified). Both are anti-chiral, and their compatibility (ς as the geometric face of J across the carrier's algebra/commutant split) is *plausible and precisely posable* — but the ws/wu algebras share the flow direction, so the naive "commutant = other fold's algebra" needs the crossed-product formulation to state correctly. **N3 goes to the packet as a formulated question, not a result** — the CPT-grounding export (phase 60) carries it as its one explicitly open lemma.
+
+## 4. TD-test — partially resolved, with two findings
+
+1. **The vacuum admits no twist domains [derived from verified imports].** The canonical contact structure is Stein/exactly fillable (phase 57 C1); positive Giroux torsion obstructs strong fillability (Gay, verified); therefore **Tor(T¹Σ_g, ξ_can) = 0** — no full-twist domain embeds in the vacuum at all. Consequence: twist defects are not decorations *within* the vacuum class — **inserting one necessarily deforms the structure out of the strongly-fillable class. Matter, as twist defects, is a departure from fillability** — a sharper form of "matter deforms the protected vacuum" than the record has had.
+2. **The dark-matter knots and the twist bound [M-aud3 — CORRECTED 2026-07-18, phase 79 FR2-3: the flagged folklore was wrong as stated].** The original claim (rational tb of the Legendrian fiber = −1, saturating the rational Bennequin bound) was a **3d/4d category error**: the cotangent-fiber disk lives in the 4-dimensional filling, while the rational Bennequin inequality (Baker–Etnyre) requires the rational Seifert surface *in the 3-manifold* (χ = 1−2g), giving bound +(2g−1)/(2g−2); the fresh referee's computation gives **rational tb = −(2g−1)/(2g−2)** (e.g. −3/2 at g = 2; lens-space cross-check at g = 0 passes). **What is true is 4-dimensional: relative to the disk-fiber framing the fiber has tb = −1, saturating the slice-Bennequin/adjunction bound −χ(D²) = −1 in the Stein filling** (Lisca–Matić-type). The "structural pairing of two extremality principles" is accordingly **withdrawn pending a 4d re-derivation** — if the pairing is real, it pairs EQ with a *filling*-extremality, which is a different (and possibly better) statement, but it is not owned until derived. The flag discipline is vindicated: this was the record's one flagged-folklore item, and the flag asked for exactly the check that killed it.
+3. The Bradlow correspondence proper remains open, with one new observation: the flux labels {−(g−1),…,g−1} reduce mod the fiber's homology order 2g−2 to exactly 2g−2 classes — **the two extreme (pure-boson, rank-1) sectors are identified in fiber charge** — consistent with their conjugation pairing. Fifth appearance of 2g−2; filed as observation, flag attached, as always.
+
+## 5. ESCH-test — the deficit table computed; the balance question posed
+
+Across a non-separating pinch Σ_g → Σ_{g−1}, the census deficit (states the transition must account for) is computed exactly: 40 (g=3→2), 208, 1024, 4864, 22528 — including, at every genus, the two extremal flux sectors *entirely* (max |k| shrinks by one: **the pinch forces the extremal fluxes to discharge** — topology change emits the edge of the flux ladder [interpretation]). The balance question — does the spectrum of modes localizing on the shrinking geodesic account for the deficit? — is the packet-grade remainder that decides among the three endings of phase 63. The in-room contribution is the ledger's left-hand column, exact.
+
+## 6. Ledger — and the probe queue's end
+
+- N1 refuted-and-repaired (erratum in phase 58); N2 closed; N3 formulated for the packet; TD partially resolved (torsion-zero vacuum [derived]; fiber saturation [flagged folklore]; mod-(2g−2) observation); ESCH deficit table exact, balance posed.
+- New audit item **M-aud3** (the fiber's rational tb = −1 — one clean lemma for a contact topologist, feeding both TD findings).
+- **The probe queue is empty.** Everything the room can decide has been decided; everything it cannot is named, formulated, and addressed to someone who can — the packet (four exports, D-test, J1, L1-aud, M-aud1–3, N3, H-residues, K-residues, ESCH balance, the concession sheet, the constants-route payoff section) and the sky (Euclid, JUNO, LiteBIRD, the reconstructions, with every scoring protocol pre-registered).
+
+*Status line: the last probes behaved like the whole record in miniature — one self-refutation caught by its own scheduled check, one closure from evidence already in hand, two tests yielding real structure and honest remainders. Sixty-five phases; the room is finished. What remains needs other rooms, other instruments, and time — all three of which now know exactly what they're being asked.*

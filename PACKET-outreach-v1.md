@@ -1,0 +1,31 @@
+# The Outreach Packet — v1 (2026-07-18)
+
+*One cover, five addressee tracks. Method disclosure up front, concessions before claims, bounded asks, exhibits in reading order. Companion: the full folder (CORE v5 is the spine; the corrections ledger is the warranty).*
+
+---
+
+## Cover note (all addressees)
+
+We are writing about a geometry-first program whose core is simple to state: physics as the geometry of a closed 3-manifold carrying a maximally twisted (GV ≠ 0) foliation, with time as the canonical modular flow and matter as quantized twist defects. Three things distinguish this letter from the genre you are rightly wary of. **Method:** the program was developed with AI assistance under a strict verification protocol — every load-bearing import was checked against primary sources; the record contains five in-house self-refutations caught by pre-registered tests, two phantom citations found and deleted by our own sweeps, and a measured 60–70% overlap with existing literature, conceded with citations before you find it yourselves. **Scope of claims:** everything is tagged [proved]/[verified-source]/[assembled]/[conjecture]; where our plain language is stronger than our tags, the tags govern. **The asks are bounded:** each track below requests hours-to-days of your expertise on specific, checkable items — not endorsement of a worldview. Predictions are registered against imminent data (Euclid DR1; JUNO; LiteBIRD) with failure conditions written first.
+
+## Track W — worldsheet/CFT theorist
+
+**The ask (the decisive one):** assess and, if well-posed, run **D-test**. Our dictionary problem is a four-constraint classification: (1) Σ±(6n²−6n+1) = 0 over the field content — which we verified is Belavin–Knizhnik anomaly cancellation; (2) consistency of the twist by a cocompact Fuchsian Γ ⊂ PSL(2,ℝ) (automorphy); (3) reproduction of our independently derived sector data (π₁ sectors; a verified Sym-cohomology census); (4) simultaneous satisfaction of a 4D heat-kernel species sum (the SM scores +1). Candidate: a Liouville/Virasoro-TQFT sector at discrete b with c ≤ 1 matter, connected to our skein-quantization map by Bonahon–Wong's quantum trace. Kill test: the census vs the degenerate-representation content at the candidate b. **Specific questions:** is D-test runnable as posed; what fixes b; does the closed-surface gap of quantized Teichmüller theory obstruct; does the four-constraint system over- or under-determine? **Exhibits:** phases 54–56 (the problem), 43 §1 (the carrier theorem), 40 (the census), 53 (the sum rule), 55 §2 (our concession sheet — the parts of our machinery that are your field's standard results, cited).
+
+## Track O — operator algebraist
+
+**The asks (an afternoon each):** (i) **J1** — orbifold-DHR sector analysis of the Γ-twisted chiral net (Γ = π₁(Σ_g), ICC, non-type-I; we claim the twist sectors realize π₁-labeled superselection; wildness flagged). (ii) **H6b** — our equilibrium principle transcribed as: the geometric and maximal-entropy weights differ by a cocycle implemented in the abelian subalgebra (Livšic transfer function); please check the weight-domain and unboundedness care. (iii) **N3** — whether the flip involution of T¹Σ_g is compatible with modular conjugation in the crossed-product formulation (we know the naive "commutant = other fold" fails; the sharpened form is in phase 65 §3). (iv) Spot-check residues: A4's trace-free route, the III₁ statements, Kadison–Ringrose numbers. **Exhibits:** phases 32, 39, 43, 45–47, 65. Our claim you can falsify fastest: the carrier assembly of 43 §1 (six citations; if any is misused, the spine cracks).
+
+## Track F — Floer/gauge theorist
+
+**The asks:** (i) score the **statistics table** (phase 40) — including the honest question of whether it has independently checkable content beyond Muñoz–Wang, or whether its falsifiability rides entirely on our physics clause; we want your answer even if it deflates our ledger. (ii) **ESCH balance** — across a non-separating degeneration Σ_g → Σ_{g−1}, does the spectrum localizing on the vanishing cycle account for the computed census deficits (40, 208, 1024, …)? This decides among three endings of our cosmology; we've done the left-hand column. (iii) The monopole-Floer ↔ DHR label join (the record's oldest conjecture) — feasibility opinion. **Exhibits:** phases 28, 40, 48 (including our own refuted conjecture there — read it as our calibration), 63, 65 §5.
+
+## Track C — contact topologist
+
+**The asks:** (i) **M-aud3** — the rational Thurston–Bennequin invariant of the Legendrian fiber of ST\*Σ_g (we use tb_ℚ = −1 via the cotangent-disk filling; folklore-level, one lemma). (ii) **GV-T** — we believe the following is open and interesting independent of us: *quantitative relations between the Godbillon–Vey invariant of a taut foliation and the twist data (defect/Bennequin budgets) of its Eliashberg–Thurston contact perturbations* — noting our own finding that vacuum Giroux torsion vanishes by fillability, so the correct formulation is about defect budgets, not torsion. Is a sharp theorem available on the Anosov carrier class where GV is computed? **Exhibits:** phases 57, 65 §4, with the C1–C6 verification set.
+
+## Track B — CPT-cosmology audience (Boyle–Turok-adjacent)
+
+**The offering more than the ask:** we can supply an operator-algebraic grounding for the CPT-symmetric universe — the universe/anti-universe pair as algebra and commutant exchanged by modular conjugation, with the CPT-selected vacuum as the Tomita standard form — which our citation-graph check indicates has not been written down. We are explicit about what is analogy vs identification: our two "sheets" are the two Anosov folds of a spatial carrier, not the two temporal sides of a bang, and the precise bridge between these is the open part. Also on offer: a chirality-based reading of isotropic cosmic birefringence with one magnitude-free cross-channel commitment (EM handedness = GW-background handedness). **Exhibits:** phases 58 (with its erratum — read it as method), 60, 59 §3.
+
+*Packet ends. Every track's exhibits include the corrections ledger. We would rather be refuted by you than politely ignored; the record shows we mean that operationally.*

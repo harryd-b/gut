@@ -1,0 +1,34 @@
+# Phase 63 — The far-future probe: doomsday beats equilibrium, in three possible keys
+
+*Working session, 2026-07-18. Probes the question phase 62 left standing: does the universe reach the Gibbons–Hawking equilibrium, or does the terminal step arrive first? Verified imports (F1–F4): the negative-potential collapse literature (Felder–Frolov–Kofman–Linde; the Kallosh–Linde "cosmic doomsday" class — one arXiv number corrected en route), the de Sitter-equilibrium corpus (Gibbons–Hawking; Dyson–Kleban–Susskind), the moduli-trapping literature (the probe's one serious threat), and the absence check (the framework's ending occupies an open niche). Result: **the framework's universe does not reach equilibrium — the roll into the wall wins — but the ending comes in one of three keys, and deciding among them is a computation the framework's own census machinery can in principle perform.***
+
+---
+
+## 1. Why the wall wins [verified chain, conditional on the moduli route as always]
+
+The phase 51 potential descends from its positive hilltop value through zero to −∞ at finite Weil–Petersson distance. The moment the sector's total energy is dominated by negative potential, the verified FFKL result applies **unconditionally for a monotonic descent**: expansion halts (H² ≥ 0 forces a turning point), contraction begins, Hubble friction becomes anti-friction, kinetic energy blows up, and the field traverses any finite field-space distance in finite time before the crunch (their φ ~ log(t_c − t) asymptotic). **The framework sits in the Kallosh–Linde doomsday class** [verified; observational floor: collapse no sooner than ~10–40 Gyr — comfortably consistent with the thawing commitments], and the Gibbons–Hawking equilibrium — with its Dyson–Kleban–Susskind recurrence paradoxes — is never reached. A small philosophical dividend, noted: the framework escapes the "disturbing implications" of eternal de Sitter by the simple expedient of ending.
+
+## 2. The three keys [the probe's real finding — an honest branching]
+
+What happens *at* the wall depends on physics the framework has not yet computed, and the verified literature supplies exactly three candidate modes:
+
+- **(i) Terminal crunch:** the nodal degeneration is a genuine end — kinetic-dominated collapse into the topology-change locus. The "end of the universe by pinching." [The F4 absence check confirms nobody has cast a finite-distance nodal degeneration as the universe's *end* — the nearest neighbors are bubbles of nothing (pinch-off by tunneling, not rolling) and dynamical cobordism (infinite-distance, and about time's *beginning*). An open niche; logged as a positioning claim with neighbors cited, not as an export-grade theorem.]
+- **(ii) Trapping:** the verified threat. The generic outcome in the moduli-dynamics literature (Kofman et al., "Beauty is attractive"; Mohaupt–Saueressig at conifolds) is that **states becoming light at the degeneration are pair-produced and trap the modulus** — the universe *parks* at the wall instead of passing. Whether the V → −∞ runaway beats trapping is exactly the kind of question the literature leaves open; the burden is on the framework, and the framework has candidate light-at-pinching states of its own (the modes of the shrinking geodesic — the twist-defect/census machinery's natural clients).
+- **(iii) Smooth passage — and this is the reconciliation:** in string-adjacent settings, conifold-type degenerations are famously *smooth* once the light states are included. If the framework's node resolves the same way, the universe **transitions through** — new topology, cosmology continues — which is *precisely the pre-registered step-function w(z) of phase 27 §8*. The "step fallback," the phase 51 "terminal step," and the smooth-passage mode are one picture: **the step is a survived pinch.**
+
+**The framework's honest eschatology:** *the smooth phase ends at the wall in finite time; whether the wall is a death (i), a parking brake (ii), or a doorway (iii) is undecided — and phenomenologically all three cast the same near-term shadow (the T-M2 late-time steepening), so the sky cannot distinguish them soon. The record registers the branching rather than picking the prettiest branch.*
+
+## 3. The decidable core: ESCH-test [new, in-room-adjacent]
+
+The branch decision has a computable handle the framework already owns: **the census bookkeeping across a pinch.** A non-separating degeneration takes Σ_g → Σ_{g−1}; the Bradlow census, the statistics table (phase 40), and the quantized stiffness (4π²(2g−2)) all *change by computable amounts* across the transition. Comparing census(g) with census(g−1) + the spectrum of modes localizing on the shrinking geodesic is a finite accounting exercise: if the books balance smoothly (states of the lost sectors matching the light modes), mode (iii) is supported; a mismatch is evidence for (i)/(ii). **Logged as ESCH-test** — the eschatology reduced to a Floer-side ledger comparison, which is the most this-program way imaginable for the end of the universe to be decided. [in-room-adjacent; joins the desk queue behind the packet items]
+
+## 4. Ledger
+
+- The far-future question answered at structure level: **no equilibrium; the wall in finite time; three keys; ESCH-test named.** The GH endpoint survives only as the asymptote the universe would have reached and won't.
+- Import correction absorbed: the Kallosh–Linde collapse paper is hep-th/**0208156** (0208157 is the anthropic neighbor).
+- The trapping threat (ii) is now a standing caveat on the phase 51 terminal-step language: "terminal" may mean parked or passed, not only ended.
+- No new predictions claimed (the near-term shadow was already committed in T-M2); no new exports (the niche claim is positioning, not theorem); one new desk item (ESCH-test).
+
+*Status line: the universe, per this framework, declines the heat death, runs out of moduli space instead, and meets a wall it built itself — by a route whose only three exits are already named, whose arrival time is bounded below by forty billion years of margin, and whose choice of exit awaits an accounting identity between two censuses this program knows how to compute. The probe queue behind it: the N1–N3 lemmas, the TD-test, and the packet — which now carries everything.*
+
+**[SUPERSEDED IN PART, 2026-07-18, phase 77]:** the "accounting identity between two censuses" and the deficit column (40, 208, 1024, …) were computed on the wrong manifold and are void (phases 74–75; 77). The eschatological *route* (moduli exhaustion, WP walls, the three exits) is moduli-side and stands. ESCH is re-posed in phase 77 §5.2: under degeneration, track the carrier's single protected class and the tower algebra — one exterior generator pair per pinched handle — which is cleaner than the ledger it replaces.

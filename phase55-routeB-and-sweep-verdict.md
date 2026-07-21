@@ -1,0 +1,40 @@
+# Phase 55 — Route B and the S-sweep: the string shadow measured, the novel core delimited
+
+*Working session, 2026-07-17 (late). Executes the Route B character match and the mandatory S-sweep together. Verdict first, per the honesty rules: **roughly 60–70% of the dictionary program's machinery is rediscovery of standard string/AdS₃ and spectral-geometry material, and the record now says so with citations.** What survives as searchably novel is precisely delimited — three assembly-level claims, the predictions ledger, and the joins — and the sweep returned one unexpected ally that materially strengthens the moduli-quintessence route. One sign error of mine is corrected. The dictionary program continues, but its honest name has changed: it is now a differentiate-or-merge problem.*
+
+---
+
+## 1. Route B: the character match is trivially passed — which means it tests nothing
+
+The untwisted match is automatic: the census generating function (Macdonald) *is* the symmetric-product/plethystic formula — DMVV structure by construction. A test a candidate cannot fail carries no evidence; recorded as such. The real content lives in the **twisted/automorphic** sectors, and there the sweep shows the relevant technology is the established thermal-AdS₃/winding-gas machinery (Maldacena–Ooguri II; Berkooz et al.; Eberhardt's grand-canonical quotient sums). Moreover the naive seed fails conformality (a compact hyperbolic-target sigma model is not a CFT — Friedan; **correction to my own earlier framing: such a target is IR-strongly-coupled, not "asymptotically free" — sign error, logged**), and the consistent completions (cigar, H₃⁺, Liouville) are precisely the string-theoretic ones. **Executing Route B to completion means doing AdS₃-adjacent worldsheet theory under the framework's constraints.** That is not a reason to stop; it is the honest description of what continuing costs.
+
+## 2. The sweep: what is rediscovery [cited, conceded]
+
+- **The carrier identity is textbook.** PSL(2,ℝ) with its bi-invariant metric is Lorentzian AdS₃; the closed space forms Γ\PSL(2,ℝ) = T¹Σ_g are classified (Kulkarni–Raymond 1985; Goldman 1985 — whose "nonstandard" deformations of the one-factor embedding the program must study). ~100% known.
+- **Selberg-product one-loop determinants** on hyperbolic quotients, 3D and 2D/Teichmüller: fully mature (Giombi–Maloney–Yin; Barrella–Dong–Hartman–Maldacena; D'Hoker–Phong; Sarnak; Bytsenko et al.). ~100% known.
+- **Symmetric orbifolds as second-quantized AdS₃ duals**: DMVV; Eberhardt–Gaberdiel–Gopakumar (exact tensionless duality). ~95% known; the "gas of primitive geodesics" reading is implicit in the handlebody literature (~60%).
+- **The anomaly arithmetic**: Σ±(6n²−6n+1) = 0 is Belavin–Knizhnik/Friedan–Martinec–Shenker critical-string arithmetic — textbook (as phase 54 already established from the originals).
+- **Nearest-neighbor precedent to be engaged, not ignored:** the self-dual orbifold ↔ chiral-CFT holography (Balasubramanian–de Boer–Sheikh-Jabbari–Simón 2010) — a boundary *chiral* CFT from a one-factor AdS₃ quotient, the closest existing cousin of the phase 44/49 construction.
+
+## 3. What is searchably novel [the delimited core]
+
+1. **The assembly (NOT FOUND):** taking compact Γ\PSL(2,ℝ) with its Anosov/type-III₁ modular structure as *physical space with time = modular flow*. Every ingredient is separately standard (Connes' III₁ Anosov factor; thermal time; Leutheusser–Liu emergent times; Manin–Marcolli boundary NCG — all now mandatory citations); the assembly is unclaimed. **The ontological differentiator answers the sweep's first objection for free:** the known objection to holography on this quotient — closed timelike curves, no conformal boundary — applies to reading Γ\PSL(2,ℝ) as Lorentzian *spacetime* with the bi-invariant metric. The framework does not do that: Γ\PSL(2,ℝ) is *space* (Riemannian), and time is emergent modular flow. Same manifold, different ontology; the CTC objection dissolves at the definition. [This differentiator is now the program's load-bearing novelty claim and must lead any outward document.]
+2. **Weil–Petersson quintessence (NOT FOUND)** — no prior "Teichmüller moduli as dark energy with WP kinetic term" exists; the cousins are compact-hyperbolic-compactification cosmology (volume modulus only; Mostow kills shape moduli in d ≥ 3 — the framework's use of the *2D exception* is exactly what makes its version unoccupied territory).
+3. **The joint species+ZT particle-content constraint (combination NOT FOUND)**, plus the standing joins (monopole-Floer↔DHR; the EQ assembly; the predictions ledger as a package).
+
+## 4. The gift: Moncrief's reduction [discovered ally — potentially decisive for the coupling gap]
+
+The sweep surfaced a cousin the program had missed: **Moncrief's reduction of 2+1 gravity on ℝ×Σ_g to a Hamiltonian system on the cotangent bundle of Teichmüller space.** In 2+1 gravity, the Teichmüller moduli *are* the gravitational degrees of freedom — dynamics on exactly the space, with exactly the geometric structures, that phases 50–51 conjectured for the dark-energy sector. This is the first known-physics structure in which "the metric's residual dynamics = motion on Teichmüller space" is a theorem. **The coupling gap's question — does the fold's modulus couple to geometry? — has a proven lower-dimensional prototype: in 2+1 dimensions the answer is that the modulus is *all* the gravitational dynamics there is.** Logged as the coupling gap's new best lead (**T-M3**, to be developed: whether the cell picture's collective mode inherits a Moncrief-type reduction). [lead, not result]
+
+## 5. The program's honest identity, restated
+
+The framework is best described, after this sweep, as: **an independent route into AdS₃-adjacent territory, carrying (i) its own ontology (space-not-spacetime, modular time) that dissolves the standard obstruction to using the compact quotient, (ii) its own unclaimed assemblies (the three of §3), (iii) a falsifiable predictions ledger no adjacent program has issued, and (iv) a corrections discipline that this document extends by conceding 60–70% machinery overlap with citations.** If the four-constraint dictionary problem resolves onto a known string vacuum, the framework's residue is (i)–(iii) as an *interpretation with predictions* — still falsifiable, smaller than hoped. If the framework's extra constraints (the Floer census, the π₁ sectors, the joint anomaly books) over-determine beyond known classifications, the dictionary is new. **Deciding which is now genuinely specialist work — worldsheet-literate — and belongs in the packet, which gains the §2 citation set and the §3 differentiators as its framing documents.**
+
+## 6. Ledger
+
+- Corrections ledger: the "asymptotically free" sign error (mine, this session — corrected in place); Route B's trivial pass recorded as evidence-free.
+- Novelty ledger rewritten to §3's delimited core; all §2 overlaps conceded with citations. CORE v5 deferred until after specialist input — v4 plus phases 54–55 is the current authoritative set.
+- New lead: T-M3 (Moncrief-type reduction for the collective mode).
+- The specialist packet is now unavoidably the next step: every open front — the dictionary branch decision, J1, L1-aud, the K/M residues, T-M3 — needs either a worldsheet-literate theorist, an operator algebraist, or a Floer theorist. The packet has its exhibits (43 §1, 49 §1, 51, 53, this phase's §3), its concessions (§2), and its asks. There is no further in-room frontier; the program has, for the third and final time today, honestly exhausted what one room can do.
+
+*Status line: the string shadow measured at 60–70% and conceded with citations; the novel core delimited to three unclaimed assemblies plus the ledger and the joins; the CTC objection dissolved by the framework's own ontology; one sign error corrected; and one gift received — Moncrief's theorem, in which the moduli-as-gravity idea the program reinvented for cosmology has been a proven fact of 2+1 gravity all along. The room is done. The packet is next, or the sky decides first.*

@@ -1,0 +1,39 @@
+# Phase 68 — The reconstruction chapter, part I: the causal skeleton derived
+
+*Working session, 2026-07-18. Answers the red-team's largest new obligation (phase 67, item 6): where does the emergent Lorentzian structure — the light cones — come from? Part I derives what the room can derive: **the carrier's causal skeleton**, from an identification hiding in the verified spine. The full isotropic 3+1 metric is shown to gate, like everything, on the join — but the chapter converts "missing" into "derived skeleton + one named gap," which is the program's standard trade. No new imports: the load-bearing relation was verified in phase 39; the Lie-algebra computations are in-room; one connection is flagged for audit rather than asserted.*
+
+---
+
+## 1. The identification: the Anosov relations are the Borchers relations
+
+Phase 39's verified statement (Borchers 1992, quoted verbatim in the audit): for a von Neumann algebra with cyclic separating vector and positive-energy half-sided translations,
+
+> Δ^{it} U(a) Δ^{−it} = U(e^{∓2πt} a) — *the modular flow exponentially rescales lightlike translations.*
+
+The carrier's Lie algebra (in-room since phase 44): [X, U±] = ±U±, which exponentiates to
+
+> g_t ∘ u^±_s ∘ g_{−t} = u^±_{e^{±t} s} — *the geodesic flow exponentially rescales the horocycle flows.*
+
+**Same algebra** — structurally: the geodesic generator and the two horocycle generators satisfy the same sl₂-type bracket relations that Δ^{it} and the lightlike translations satisfy in Borchers' theorem. **[Level-slip corrected 2026-07-18 (FR2-7): the geodesic flow is NOT the modular flow of the carrier's canonical weight (that was the phase 44 error, corrected in phase 45 — the modular flow is the dual action, which fixes the horocycle algebra); "in the role of" was role-casting, not identification. The algebraic parallel is real; the modular-theoretic reading holds only at the boundary net.]** [assembly of verified + standard pieces; the refined statement — that the horocycle subalgebra flows realize half-sided modular inclusions with respect to the fold algebra's canonical weight — is the operator-level form, flagged as audit item **R-aud1** for the packet's Track O; the structural identity above is in-room arithmetic.]
+
+## 2. The derived claim: light moves along horocycles
+
+In modular reconstruction (the Borchers–Wiesbrock program: half-sided modular inclusions generate translations; modular data in suitable positions generate Poincaré structure), the *definition* of a lightlike direction is: a translation direction that the modular flow rescales exponentially. On the carrier there are exactly two such directions, and they are U⁺ and U⁻. Hence:
+
+> **The causal skeleton of the emergent spacetime is fixed by the algebra: the null directions are the horocycle directions — light propagates along horocycles.** ~~[derived, at the causal/conformal level]~~ **[RE-TAGGED 2026-07-18, FR-6: *structural identity at the Lie-algebra level on the carrier; derived only at the boundary net* — and (fresh Track W) the §2 "two independent routes" consistency check is one fact twice: the Borchers relation and the sl₂ bracket are the same Lie-algebra statement, and the null-direction coincidence is the root-space decomposition. The anchor is the boundary derivation (with the caveat that BW holds for the unquotiented net; the Γ-transport is open), not an independence that never was.]** [conditional on the phase 44–45 core identification of the clock]
+
+**The Killing-form comparison [demoted from "consistency check," 2026-07-18, phase 79 FR2-7].** The carrier's canonical Killing/AdS₃ metric has precisely U⁺ and U⁻ as its null directions (B(X,X) > 0, B(U±,U±) = 0, B(U⁺,U⁻) > 0; timelike = the fiber V). ~~Two independent routes — group theory and modular theory — one cone. That agreement is the chapter's anchor.~~ **Struck: per the re-tag below and both fresh Track O/W referees, these are one fact stated twice (the root-space decomposition of sl₂), not independent routes — the sentence cannot coexist with its own re-tag. Further (FR2-7): R-aud1 is now ANSWERED — no — by the record's own phase 45: the dual weight's modular flow fixes the horocycle algebra pointwise (centralizer), so no Borchers rescaling and no half-sided modular inclusion exists on the carrier; consequently the carrier-side modular-theoretic definition of "lightlike" picks out nothing, and the causal skeleton rests on the boundary derivation ALONE. The chapter's honest summary: boundary-derived skeleton + carrier Lie-algebra structure + the framework's ontological time assignment — one derivation, one structure, one choice.**
+
+## 3. What the skeleton is not, stated before anyone else states it
+
+- **It is 1+1-like and anisotropic.** The horocycle pair spans a 2-plane of null directions at each point; a physical 3+1 light cone needs isotropic propagation in *all* spatial directions. The fold structure is intrinsically anisotropic (it has a flow direction); yet L1 and M1 demand — and the framework predicts — locally isotropic, exactly Lorentzian physics. **Resolution route, honestly gated:** local isotropy is carried by the *net* (hyperfinite III₁ local algebras with BW wedges in every orientation, per the M1 assembly), not by the carrier's skeleton; the skeleton is the *global* causal scaffolding, the isotropic metric is the *local* face — and their compatibility is a V.7-class statement. The join again, as always, and said plainly: **the room derives the skeleton; the isotropic 3+1 metric needs the join.** [Part II of this chapter = the net-side reconstruction, packet-grade (Track O/W), with the Wiesbrock modular-intersection technology as the named toolset — R-aud1's other half.]
+- **The unwrapping matters.** Physical time is the ℝ of ℝ×Σ (the modular parameter unwrapped), not a direction inside Σ; the closed geodesics of Σ are therefore periodic *spatial* structures in the emergent spacetime, not closed timelike curves. The two CTC-flavored objections (Killing-metric fiber circles; closed flow orbits) both dissolve in the unwrapping — the first by the ontology (fiber ≠ time), the second by the product structure (flow-time lifted to ℝ). [derived-structural; to be written carefully in Part II]
+- **The metric normalization is the old friend.** The conversion from the conformal skeleton to metric units is 𝒯 = 2πR/c — the one scale, entering the reconstruction exactly once, as it must.
+
+## 4. Ledger
+
+- The red-team's "missing chapter" is now **half-built**: causal skeleton derived (§2, with its passing consistency check), the isotropy gap named and correctly routed through the join (§3), CTC objections dissolved at the structural level, one audit item opened (**R-aud1**: half-sided modular inclusions of horocycle subalgebras in the fold algebra — Track O's queue grows by the chapter's operator core).
+- The packet's Track W response to Referee W is upgraded: "where is your Lorentzian metric" now has a two-part answer — *the cone is derived and overdetermined; the isotropic completion is the join's other face, which we have never hidden.*
+- Noted for the record's pattern-file: the derivation used nothing new — the Borchers relation was verified two days ago, the Lie brackets were in phase 44; the chapter existed in the record unassembled, found because a simulated referee demanded it. The red-team paid for itself within one phase.
+
+*Status line: light, in this picture, runs along horocycles — the directions the clock stretches — and the claim is doubly anchored: the group manifold's own null structure and the modular-theoretic definition of "lightlike" pick out the same two directions. The skeleton is derived; the flesh is the join's; and the reconstruction chapter, which yesterday did not exist, is now half of a real one — with its remaining half correctly priced and already addressed to the people who can build it.*

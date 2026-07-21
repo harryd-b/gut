@@ -1,0 +1,29 @@
+# Phase 42 — T2 executed: the AMK predictivity audit, and the verdict
+
+*Acting-expert session, 2026-07-17. Runs the test phase 25 posed but could not run: recompute the AMK observables' dependence on their claimed shared modulus from the primary papers, and decide "fitted vs forced." Sources actually read (via arXiv HTML renderings; direct PDFs blocked by egress — every load-bearing formula was re-verified by independent recomputation, all arithmetic checked this session): arXiv:1709.03314 (Λ), arXiv:1303.1632 (Higgs), arXiv:1801.10419 (neutrino/EW/GUT scales), arXiv:1601.06436 (the review). Verdict up front, stated plainly per the honesty rules: **T2 resolves negative. The AMK numerical channel is retrodictive fitting dressed in rigid invariants. The gate Φ(Λ, m_H) = 0 (CORE §6 item 2) cannot be met as posed, because no shared continuous modulus exists to eliminate — the GV invariant never enters a single numerical formula.***
+
+---
+
+## 1. What the papers actually contain [verified by recomputation]
+
+**The Λ formula (1709.03314):** Ω_Λ = c⁵/(24π²hG H₀²)·exp(−3/CS(Σ(2,5,7)) − 3/CS(P#P) − χ(A_cork)/4), with CS(Σ(2,5,7)) = 9/280, CS(P#P) = 1/60 — fixed rational invariants of named manifolds (genuinely rigid inputs). Recomputed: exp(−280/3−180)/8π² = 2.49×10⁻¹²¹ ✓ their value. But: (i) the **χ/4 "quantum correction" does 25% of the work** (Ω_Λ = 0.902 without it, 0.7026 with — motivated in two sentences); (ii) **H₀ = 69.2** is a bespoke blend (Planck's own 67.4 gives 0.741; SH0ES 73.0 gives 0.631; Planck 2018's measured Ω_Λ = 0.689 ± 0.006 sits ~2.5σ from their 0.703); (iii) the prefactor requires **h, not ħ**.
+
+**The Higgs mass (1303.1632):** M_H = √(ħc/G)·exp(−vol/2CS) for Σ̃(8₁₀) (a homology sphere from +8 surgery on the knot 8₁₀): recomputed = 126.0 GeV ✓ — but requires **ħ, not h** (with h: 315.9 GeV). The manifold is selected from an infinite family, and the paper says so, verbatim: *"there is an infinity of homology 3-spheres and it least one value should fit."* That sentence is an in-print admission of scanning.
+
+**Cross-paper structure:** the same invariant gets a different functional form per observable — Σ(2,5,7) contributes exp(−3/CS) to Λ but a *cubic Taylor truncation* of the same exponential (≈1.8×10⁴ vs e^θ ≈ 1.9×10²⁰) to the GUT scale; P#P contributes exp(−3/CS) to Λ but exp(−1/2CS) to the EW scale — a discretionary factor-6 change in the exponent of the same number. m_H is derived **twice, incompatibly** (126 GeV from Σ̃(8₁₀); 2×63 GeV from P#P). The e-fold counts disagree across papers (46.7 vs ~117). And the neutrino result (three degenerate masses at 0.006 eV, Σ ≈ 0.018 eV) is **excluded by oscillation data** — the atmospheric splitting forces Σ ≳ 0.06 eV; their "very good agreement" compares only against the upper bound.
+
+**The decisive finding for T2:** the **Godbillon–Vey invariant appears in no numerical formula in any of the four papers.** It is qualitative scaffolding (the symmetry-breaking mechanism's shape in 1303.1632; the modular-flow discussion in 1601.06436). The continuous Gompf modulus of the exotic ℝ⁴ never enters an observable.
+
+## 2. The parameter count (phase 25's test, run)
+
+Observables claimed: ~6 (Ω_Λ, inflation scale, m_H, GUT scale, EW scale, m_ν). Discretionary choices identified: ~8 (ambient manifold + embedding; a₀ = ℓ_P; **three distinct exponent conventions deployed per-observable**; the χ/4 insertion; the Σ̃(8₁₀) scan; the H₀ blend; the silent h↔ħ flip per formula). **Choices ≥ observables.** By the program's own criterion (phase 25: predictive iff observables > genuinely free parameters after fixing the structure once), the channel is **fitted**.
+
+## 3. Consequences for the record
+
+1. **CORE §6 item 2 — closed, negative.** Φ(Λ, m_H) = 0 requires both observables to be functions of one shared continuous modulus; no such modulus exists in the papers. P5c is **retired** (not "blocked" — retired: the condition is unmeetable as posed).
+2. **The standing discipline becomes permanent policy:** no AMK number (Λ, m_H, m_ν, inflation) is ever to be cited as support. Phase 27's refusal to count them is vindicated in full.
+3. **What survives untouched:** the AMK *structural* imports the program actually uses — the exotic-ℝ⁴ ↔ foliation correspondence, the type III/modular observations (themselves re-audited in phase 39), topological transitions as a mechanism class — none of which depend on the numerology. **P1 (w = −1) survives** with a re-tag: its logic is Mostow rigidity + the framework's own channel [in-house conjecture], not AMK's Λ fit; the fit's collapse removes a false friend, not a support. P4a likewise.
+4. **One honest nuance:** the Λ↔(GUT/EW) pair *does* share the fixed invariants CS(Σ(2,5,7)) and CS(P#P) — the closest thing to cross-observable rigidity in the corpus — but the per-paper change of functional form breaks even that joint rigidity. If AMK (or anyone) ever fixed ONE exponent convention and derived all six numbers from it with no further choices, the verdict would reopen. That reformulated challenge is the constructive thing to say to the authors, and it is letter-ready.
+5. **T2's ledger row (phase 25 table): the "hard remainder" is done.** Outcome: the exotic channel's numerical face is fitting; the program's predictive weight rests entirely on its own derived structure (the scorecard's class V and IV) — which is, in fact, where the record had already moved it.
+
+*Status line: T2 executed and closed. The framework loses a hope it had already stopped leaning on, gains a clean separation from the AMK numerology, and inherits one sharp, fair challenge to put to the original authors. Combined with phases 38–41: the program now has no unexamined load-bearing claim left in-room; everything open is either the V.7 join, the tick–fold link (phase 41), the III₁/factoriality question (phase 39), or awaits the sky (P1, Euclid DR1).*
