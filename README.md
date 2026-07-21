@@ -89,6 +89,19 @@ pandoc IN.md -o OUT.pdf --pdf-engine=xelatex -V geometry:margin=1in \
   -V fontsize=11pt -V colorlinks=true --toc
 ```
 
+## Contributing
+
+This is an open research record and collaboration is welcome — corrections, new calculations, referee-style critiques, and attacks on the open problems in `notes/QUESTIONS-2026-07-19.md` especially. Before opening an issue or PR, please read [`CONTRIBUTING.md`](CONTRIBUTING.md): the program runs under **standing honesty rules** (claim tags, pre-registered kill conditions, no fabricated numbers, negative results reported plainly), and contributions are held to the same bar. Open-ended discussion belongs in **Discussions**; specific problems and proposed fixes in **Issues**.
+
+## License
+
+This repository is dual-licensed:
+
+- **Written content** — all Markdown documents, notes, essays, data tables, and the `.pdf` write-ups authored here — is licensed under [**Creative Commons Attribution 4.0 International (CC-BY-4.0)**](LICENSE-CC-BY-4.0.txt). You may share and adapt it, including commercially, with attribution.
+- **Code** — everything under `scripts/` — is licensed under the [**MIT License**](LICENSE).
+
+Third-party PDFs under `papers/` are the property of their respective authors and publishers; they are included under fair-use/fair-dealing for citation and are **not** covered by the licenses above. To cite this work, see [`CITATION.cff`](CITATION.cff).
+
 ## A note on what this repository is for
 
 It is not a claim to have found a theory of everything. It is a complete, timestamped, adversarially audited record of a serious attempt that failed at a specific, identifiable place — plus the handful of theorems that are true whether or not the universe agrees. The method, not the conclusion, is the part offered for use.

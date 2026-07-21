@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "gut — a geometry-first physics research program"
+abstract: >-
+  The complete, timestamped, adversarially audited working record of a
+  research program pursuing the thesis that physics is, at bottom, the
+  geometry of a smooth 3-manifold with time emergent as modular flow —
+  including the honest negative result on the framework and the standalone
+  mathematics (Heegaard Floer d-invariants of circle bundles over surfaces)
+  that survives independently.
+type: dataset
+authors:
+  # Replace with your full legal name if you wish it to appear in citations.
+  - name: "Harry (github.com/harryd-b)"
+repository-code: "https://github.com/harryd-b/gut"
+url: "https://github.com/harryd-b/gut"
+license: CC-BY-4.0
+date-released: 2026-07-21
+keywords:
+  - mathematical physics
+  - Heegaard Floer homology
+  - d-invariants
+  - foliations
+  - Godbillon-Vey invariant
+  - modular flow
+  - quantum gravity
+  - geometry-first
