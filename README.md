@@ -69,7 +69,7 @@ The archive is organized into folders by document type:
 | `essays/` | `ESSAY-*`, `INTERPRETATIONS-*`, `fully-wound-world.html` — narrative/plain-language versions |
 | `outreach/` | `PACKET-outreach-v*.md`, `SIGNATURE-block-template.md` — correspondence infrastructure |
 | `scripts/` | `*_calc.py` — every computation, reproducible |
-| `papers/` | `*.pdf` — source papers cited throughout (BHMM *Gravitizing the Quantum* 2203.17137; Asselmeyer-Maluga–Król; and others) |
+| `papers/` | reference index ([`papers/README.md`](papers/README.md)) with full citations and arXiv/DOI links to the source papers cited throughout — the papers themselves are linked, not redistributed |
 | `status/` | `STATUS-*` — status and plain-English summaries |
 | `planning/` | `TIER-2-KICKOFF.md`, `TIER-3-PLAN.md`, `RESEARCH-PLAN.md`, `research-map-*`, `PREDICTIONS-LEDGER-*` — the plans (all executed) and the phase index |
 
@@ -100,7 +100,7 @@ This repository is dual-licensed:
 - **Written content** — all Markdown documents, notes, essays, data tables, and the `.pdf` write-ups authored here — is licensed under [**Creative Commons Attribution 4.0 International (CC-BY-4.0)**](LICENSE-CC-BY-4.0.txt). You may share and adapt it, including commercially, with attribution.
 - **Code** — everything under `scripts/` — is licensed under the [**MIT License**](LICENSE).
 
-Third-party PDFs under `papers/` are the property of their respective authors and publishers; they are included under fair-use/fair-dealing for citation and are **not** covered by the licenses above. To cite this work, see [`CITATION.cff`](CITATION.cff).
+Third-party source papers are **not redistributed** here; `papers/` contains only a citation index with links to the originals, which remain the property of their respective authors and publishers and are **not** covered by the licenses above. To cite this work, see [`CITATION.cff`](CITATION.cff).
 
 ## A note on what this repository is for
 
