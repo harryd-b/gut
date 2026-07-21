@@ -14,7 +14,13 @@ authors:
   - name: "Harry (github.com/harryd-b)"
 repository-code: "https://github.com/harryd-b/gut"
 url: "https://github.com/harryd-b/gut"
+doi: "10.5281/zenodo.21475209"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21475209"
+    description: "Concept DOI (always resolves to the latest release)"
 license: CC-BY-4.0
+version: "1.0.0"
 date-released: 2026-07-21
 keywords:
   - mathematical physics

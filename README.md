@@ -1,5 +1,7 @@
 # gut — a geometry-first physics research program
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21475209.svg)](https://doi.org/10.5281/zenodo.21475209)
+
 *The complete working record of a personal research program: the bet that physics is, at bottom, the geometry of a manifold — and the honest account of how far that bet got.*
 
 **Status: the record is closed at phase 103 (2026-07-19).** The framework's deepest gate — the join — was answered in the negative for everything constructible, and a pre-registered kill fired. What survives is stated in §"What stands" below.
