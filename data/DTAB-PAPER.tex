@@ -1,0 +1,162 @@
+\documentclass[11pt,reqno]{amsart}
+
+% ---------------------------------------------------------------------------
+% The Heegaard Floer d-invariants of circle bundles over surfaces
+% arXiv source, converted from data/DTAB-PAPER.md (draft 1).
+% Compile with: pdflatex DTAB-PAPER.tex  (twice)
+% ---------------------------------------------------------------------------
+
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+% --- shorthands ---
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\HFp}{\mathit{HF}^{+}}
+\newcommand{\HFinf}{\mathit{HF}^{\infty}}
+\newcommand{\HFred}{\mathit{HF}^{+}_{\mathrm{red}}}
+\newcommand{\Sig}{\Sigma}
+\newcommand{\Lam}{\Lambda}
+\newcommand{\spinc}{\mathfrak{s}}
+\newcommand{\Ymg}{Y(g,n)}
+\DeclareMathOperator{\Ext}{\Lambda}
+
+% --- named (unnumbered) theorems, matching the letters used in the paper ---
+\theoremstyle{plain}
+\newtheorem*{thmA}{Theorem A (standardness)}
+\newtheorem*{thmB}{Theorem B (the closed form)}
+\newtheorem*{thmC}{Theorem C (tied classes; the displaced tower)}
+\newtheorem*{corD}{Corollary D (extremality)}
+\newtheorem*{lemma*}{Lemma}
+
+\begin{document}
+
+\title[Heegaard Floer $d$-invariants of circle bundles]{The Heegaard Floer $d$-invariants of circle bundles over surfaces}
+
+\author{[Author name --- to be completed by the signatory]}
+\address{[Affiliation]}
+\email{[email]}
+
+\date{Draft 1, \today}
+
+\subjclass[2020]{Primary 57K18; Secondary 57R57, 57K31, 53D10}
+\keywords{Heegaard Floer homology, $d$-invariants, circle bundles, integer surgery formula, unit tangent bundle, foliations}
+
+\begin{abstract}
+Let $\Ymg$ be the circle bundle of Euler number $n>0$ over a closed oriented surface of genus $g\ge 2$. We determine the graded $\F[U]$-module structure of $\HFp(\Ymg,\spinc)$ for every torsion $\mathrm{spin}^c$ structure --- the tower-bottom profile (generalized $d$-invariants) together with the reduced part --- in closed form where the surgery cone retracts to a single truncation, and by an exact finite cone computation otherwise. Three structural results organize the answer.
+(1) The integral triple cup product of $\Ymg$ vanishes, so $\HFinf$ is standard in every torsion class (over $\F$ by Lidman, over $\Z$ by Levine--Ruberman) despite $b_1=2g$; among circle bundles over $\Sig_g$ the \emph{trivial} bundle is the pathological one.
+(2) On every class whose non-minimal representatives lie outside the Alexander window, the tower bottoms follow a single closed formula,
+\[
+ d_m = d(n,i) + (m-g) + 2\min(0,\,g+j-m) - 2\min(0,\,j),
+\]
+a tent-shaped binomial profile anchored by the lens-space correction terms; the truncation is exact because the eliminated zig-zag maps are isomorphisms.
+(3) At the extremal Euler number $n=2g-2$ --- the unit tangent bundle --- the unique doubly-hit self-conjugate class exhibits a \emph{displaced-tower} phenomenon: the profile is binomial except that the top exterior-power tower sits two below its expected grading, degenerate with the rank-one reduced class at $(4g-9)/4$; we prove this via an exact three-term cone (a no-corrections lemma plus Jabuka--Mark's identification of the filtration flip as the exact duality star) and verify it by direct computation at $g=2,3,4$. Complete tables for $g\le 4$ accompany the paper; the methods extend verbatim to any $(g,n)$.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction and statements}
+
+Fix $g\ge 2$ and $n>0$; $\Ymg$ denotes the Euler-number-$n$ circle bundle over $\Sig_g$, realized as $n$-surgery on the genus-$g$ Borromean knot $B\subset \#^{2g}(S^1\times S^2)$ \cite[\S5]{OS08}. Torsion $\mathrm{spin}^c$ structures form a $\Z/n$-torsor; by adjunction over the vertical tori, all Floer homology is supported there. We write $j=j(n,i)$ for a minimal-$|\cdot|$-representative of the class $[i]$,
+\[
+ X(g,d) \;=\; \bigoplus_{k=0}^{d} \Lam^{2g-k}H^1(\Sig)\otimes \Z[U]/U^{\,d-k+1}
+\]
+for the Ozsv\'ath--Szab\'o module, and $d(n,i)$ for the lens-space correction terms.
+
+\begin{thmA}
+The integral triple cup product form of $\Ymg$ vanishes identically; hence $\HFinf(\Ymg,\spinc)$ is standard --- $\Lam^{*}(H^1(Y;\Z)\otimes\F)\otimes\F[U,U^{-1}]$ over $\F$, and integrally --- for every torsion $\spinc$.
+\end{thmA}
+\noindent(Proof: one line via the Gysin sequence, \S3; the standardness is Lidman's theorem over $\F$ and Levine--Ruberman's Theorem 3.2 over $\Z$. Contrast: $\Sig_g\times S^1$ has nonstandard $\HFinf$ with integral $2$-torsion, Jabuka--Mark.)
+
+\begin{thmB}
+Let $[i]$ be a torsion class all of whose non-minimal representatives $s$ satisfy $|s|\ge g$. Then $\HFp(\Ymg,[i])$ is the direct sum, over $m=0,\dots,2g$ with multiplicity $\binom{2g}{m}$, of towers $\mathcal T^{+}$ with bottom gradings
+\[
+ d_m(\Ymg,[i]) = d(n,i) + (m-g) + 2\min(0,\,g+j-m) - 2\min(0,\,j),
+\]
+plus the reduced module $\bigoplus_{s\equiv i,\ s\ne j} X_{c(i,s)}(g,\,g-1-|s|)$ of \cite[Thm~5.6]{OS08}. The hypothesis holds for every class when $n\ge 2g-2$, and for the stated classes at every $n$.
+\end{thmB}
+\noindent(\S5. The absolute normalization is fixed by the $g=0$ specialization, which must return $\HFp(L(n,1),i)=\mathcal T^{+}_{d(n,i)}$; the shift is knot-independent because it lives on the surgery cobordism. The formula passes the conjugation test $d_m([i])=d_{2g-m}([-i])$ at every applicable class, with no tuning.)
+
+\begin{thmC}
+Let $n=2k$ and consider the tied class $[k]$.
+\begin{itemize}
+ \item[(i)] If $k\ge g$, the profile is exactly binomial --- $\binom{2g}{m}$ bottoms at $d(n,k)$-anchored gradings $m-g$ --- palindromic, with vanishing reduced part.
+ \item[(ii)] If $k=g-1$ (the extremal bundle $n=2g-2$, i.e.\ the unit tangent bundle up to orientation), the profile is binomial except that the $\Lam^{2g}$ tower's bottom is displaced two below its binomial position, into the grading $(4g-9)/4$ of the rank-one reduced class.
+\end{itemize}
+\end{thmC}
+\noindent(\S6. The computation reduces to an exact three-term cone $A_{-k}\oplus A_k\to B$: a \emph{no-corrections lemma} --- the Gaussian-elimination zig-zags of the bi-infinite cone propagate strictly outward, so the truncation acquires no induced terms --- together with the identification of the filtration flip as Jabuka--Mark's $B^{+}$, which is the duality star with sign $-1$ and forced $U$-reindexing, \emph{with no lower-order terms} \cite[Lemmas 3.1, 3.2, 3.5]{JM}. Verified by independent machine computation at $g=2,3,4$.)
+
+\begin{corD}
+$\HFred(\Ymg)=0$ for $n\ge 2g-1$ (recorded for completeness; stated and used in \cite{MT}), while at $n=2g-2$ the total reduced rank is $1$, in the unique doubly-hit self-conjugate class, forced there by conjugation invariance. The unit tangent bundle is thus extremal: the largest Euler number with any reduced Floer homology, carrying exactly one class --- at the Milnor--Wood line, where horizontal foliations end and Fuchsian rigidity begins (\S7, Question 3).
+\end{corD}
+
+Complete tables (all torsion classes, $g\le 4$, $n\le 2g+2$; $70$ rows; every row's reduced part matching \cite[Thm~5.6]{OS08} with a constant anchoring shift) accompany the paper as a data section.
+
+\section{Background and conventions}
+
+We use the integer-surgeries mapping cone of \cite{OS08}: $X^{+}(n)=\bigoplus_s A_s^{+}\to\bigoplus B_s^{+}$ over representatives $s\equiv i\ (\mathrm{mod}\ n)$, with $A_s^{+}=C\{\max(i,\,j-s)\ge 0\}$ for the Borromean complex $C\cong \Lam^{*}H^1(\Sig_g)\otimes \Z[U,U^{-1}]$ (all differentials vanish; $C\{i,j\}=U^{-i}\Lam^{g-i+j}$, supported in grading $i+j$), $v_s$ the $i$-projection, $h_s$ the $j$-projection composed with the flip. Over $\F$ the flip exchanges $C\{i,j\}$ and $C\{j,i\}$ \cite[Prop 5.2]{OS08}; over $\Z$ it is $B^{+}(\alpha_1\wedge\dots\wedge\alpha_k\otimes U^{\ell})=-\,\iota_{\alpha_1}\cdots\iota_{\alpha_k}\omega\otimes U^{g-k+\ell}$, $\omega$ the volume form \cite{JM}. Gradings on $X(g,d)$ follow \cite{OS08}'s centered convention (the summand $\Lam^{2g-d}$ in degree zero) --- a convention our computations confirm empirically against Theorem 5.5 (\S7).
+
+\section{Theorem A}
+
+$H^1(Y;\Z)=\pi^{*}H^1(\Sig;\Z)$ by Gysin ($n\ne 0$), so any triple product of one-classes is $\pi^{*}$ of a class in $H^3(\Sig;\Z)=0$. Lidman's theorem ($\HFinf$ at torsion $\spinc$ is the homology of $\Lam^{*}(\text{free }H^1)\otimes\F[U,U^{-1}]$ with differential the contraction by the integral triple cup form) gives $\F$-standardness; Levine--Ruberman Thm 3.2 gives it integrally. $\qed$
+
+\smallskip
+\noindent\emph{Caution:} ``standard'' refers to $\Lam^{*}$ of the free part $H^1(Y;\Z)\otimes\F\cong\F^{2g}$; for even $n$ the group $H^1(Y;\F)$ is $(2g+1)$-dimensional and would overstate the rank by a factor of two.
+
+\section{Corollary D's window argument}
+
+$X(g,\,g-1-|s|)=0$ unless $|s|\le g-1$; the window $[-(g-1),\,g-1]$ holds $2g-1$ integers. For $n\ge 2g-1$ each residue class meets it at most once, necessarily at $j$ --- the \cite[Thm~5.6]{OS08} sum is empty. For $n=2g-2$ exactly one class meets it twice, at $s=\pm(g-1)$ (tying for $j$); the survivor contributes $X(g,0)\cong\F$. Conjugation invariance plus total rank one forces self-conjugacy of the supporting class. $\qed$
+
+\section{Theorem B: bookkeeping and calibration}
+
+For $\omega\in\Lam^{m}$, the $A_s^{+}$ tower has $U$-floor $\min(0,\,g+s-m)$, hence relative bottom $2\min(0,\,g+s-m)+(m-g)$ --- the tent profile. Exactness of the single-$A$ truncation: eliminating $(A_s,B_s)$ via $v_s$ ($s>j$ side) and $(A_s,B_{s+n})$ via $h_s$ ($s<j$ side) uses isomorphisms precisely when the kernels $X(g,\,g-1-|s|)$ vanish, i.e.\ $|s|\ge g$ --- the hypothesis; induced corrections compose strictly outward (see \S6) and never return. The absolute shift attached to $A_j^{+}$ is a property of the surgery cobordism, independent of the knot; setting $g=0$ (the unknot; $Y(0,n)=L(n,1)$) forces $\text{shift}=d(n,i)-2\min(0,j)$. Both closure properties --- the $g=0$ anchor and the conjugation symmetry across all applicable $(g,n,i)$ --- were verified by machine with no free parameters. $\qed$
+
+\section{Theorem C: the exact three-term cone}
+
+\emph{(No-corrections lemma.)} In the bi-infinite cone for $[k]$, every out-map of an eliminated $A_s$ points away from the center ($v_s$ leftward maps into $B_s$ on the left tail; $h_s$ rightward into $B_{s+n}$ on the right tail), so Gaussian elimination induces terms only further outward: the surviving $A_{-k}\oplus A_k\to B$ acquires nothing.
+
+\emph{(The flip.)} By \cite{JM} the flip is the exact star (sign $-1$); the cone is thus completely explicit. For $k\ge g$ both projections are injective on the relevant ranges and the binomial profile is immediate; for $k=g-1$ the kernels $K_{\pm(g-1)}\cong X(g,0)$ interfere: an explicit $\F$-linear computation (per exterior-line pair, all differentials zero) yields the displaced-tower profile and the rank-one reduced class at the displaced grading. Machine verification at $g=2,3,4$ (tower plateaus $2^{2g}$; red parts matching Thm 5.6; anchoring constant) accompanies the scripts.
+
+\emph{A remark on extraction:} reduced classes whose top grading coincides with a tower bottom are invisible to dimension-counting alone; our extraction tracks the $U$-module structure (an early dimension-only pass undercounted one such class, caught by the acceptance suite --- we flag the pitfall for others computing from cones). $\qed$
+
+\section{Data, verification chain, and questions}
+
+\noindent\textbf{Verification chain (summary).} $g=0$ calibration exact by construction; conjugation symmetry across all applicable classes; Theorem 5.5 reproduced through three-$A$ and five-$A$ cones at $g=2$ and $3$ \emph{at full graded resolution} (red totals $2$ and $18$; distributions $\{2\}$ and $\{2,12,2\}+\{2\}$ with constant anchor shifts); tower plateaus $2^{2g}$ throughout; the tied-class computations reproduce the general engine; $70/70$ rows anchored.
+
+\medskip
+\noindent\textbf{Questions.}
+\begin{enumerate}
+ \item \emph{Integral lifts:} Theorem A holds over $\Z$; our cone computations are over $\F$ --- the integral tied-class profile (where \cite{JM}'s sign $-1$ lives) is open.
+ \item \emph{Naturality:} the mapping-class group acts on $\Ymg$ covering $\Sig_g$; the $d$-invariant profile is MCG-invariant by construction, but the finer equivariance of the tower decomposition (the $\Lam^{m}$-family structure under $\mathrm{Sp}(2g,\Z)$) and any projective phenomena in refined settings seem unexamined.
+ \item \emph{The extremal geometry:} $n=2g-2$ is the Milnor--Wood/Giroux line; at equality the horizontal foliation is rigid (Goldman; Matsumoto--Ghys). Is the surviving reduced class the (twisted) contact/Eliashberg--Thurston invariant of the perturbed Fuchsian foliation --- ``maximal $=$ rigid'' as a Floer statement?
+ \item \emph{$q$-series checkpoints:} extensions of homological-block/$\widehat{Z}$-type invariants to genus-decorated plumbings do not yet exist; these tables provide the complete target data for the first such extension on its simplest nontrivial family.
+\end{enumerate}
+
+% ---------------------------------------------------------------------------
+% Data section: paste the tables from data/DTAB-DATA-2026-07-19.md here, or
+% include them as an appendix / ancillary file at submission.
+% ---------------------------------------------------------------------------
+
+\begin{thebibliography}{99}
+
+\bibitem{OS08} P.~Ozsv\'ath and Z.~Szab\'o, \emph{Knot Floer homology and integer surgeries}, Algebr.\ Geom.\ Topol.\ \textbf{8} (2008), 101--154.
+
+\bibitem{JM} S.~Jabuka and T.~Mark, \emph{On the Heegaard Floer homology of a surface times a circle}, Adv.\ Math.\ \textbf{218} (2008).
+
+\bibitem{Lidman} T.~Lidman, \emph{On the infinity flavor of Heegaard Floer homology and the integral cohomology ring}, arXiv:1011.4277.
+
+\bibitem{LR} A.~Levine and D.~Ruberman, \emph{Generalized Heegaard Floer correction terms}, arXiv:1403.2464.
+
+\bibitem{MT} T.~Mark and B.~Tosun, arXiv:2512.04278.
+
+\bibitem{OSabs} P.~Ozsv\'ath and Z.~Szab\'o, \emph{Absolutely graded Floer homologies and intersection forms for four-manifolds with boundary}, Adv.\ Math.\ \textbf{173} (2003).
+
+\bibitem{MOY} T.~Mrowka, P.~Ozsv\'ath, and B.~Yu, \emph{Seiberg--Witten monopoles on Seifert fibered spaces}, Comm.\ Anal.\ Geom.\ \textbf{5} (1997).
+
+\end{thebibliography}
+
+\bigskip
+\noindent\emph{Method disclosure and signature.} Drafted with substantial AI assistance; all cited theorems verified against primary sources during the work; the two early computational errors this project made (a convention-mixing in a related spin-sum computation, and the dimension-only extraction pitfall of \S6) were caught by external review and by the acceptance suite respectively, and both instruments are described so the reader may distrust us efficiently. \textsc{[Signature block --- human signatory; graded verification statement.]}
+
+\end{document}
