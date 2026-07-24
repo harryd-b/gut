@@ -79,7 +79,7 @@ This is not a defeat of §2(c); it is its sharpening, and it lands exactly on th
 >
 > **JOIN-4b — the skew probe [posed; opened by 7.1].** Exhibit, or exclude, a faithful normal state on M_γ (then 𝒞) whose modular flow moves a derived leg-aligned subalgebra one-sidedly or skewly with continuous transverse content. This is the normal-state half of the phase-103 escape, now known to be genuinely open; no construction exists in either direction.
 >
-> **JOIN-4c — the amplified normalizer lemma [lemma-sized; closes C2].** Prove: every unitary of B(H) ⊗̄ (L∞(S¹)⋊Γ) normalizing 1⊗L∞ acts on it by an element of [R_Γ] (A-bimodule-support argument, B(H) carrying the trivial A-action). Firms the printed pedigree of the phase-103 kill.
+> **JOIN-4c — the amplified normalizer lemma [EXECUTED same session; derived, refereed].** Proved in `notes/NOTE-3-amplified-normalizer.md`; context-free referee verdict **LEMMA TRUE, PROOF CORRECT AFTER ONE REPAIR** (repair applied; referee additionally supplied the coefficient-determination proof and a strengthening dropping the separable-predual hypothesis — fiber arbitrary; report verbatim in `reviews/REPORTS-phase104-JOIN4c-referee-2026-07-24.md`). **C2 of §7.3 is closed:** the phase-103 kill's [R_Γ] step now rests on a printed refereed proof in place of the inapplicable Feldman–Moore citation.
 
 *Order of work: 4c (days, closes the record's citation hole), then 4a (the referee-specified computation, finitely many pages), with 4b attempted only if 4a's kill does not fire or its cocycle calculus suggests a skew mechanism. The sequencing checkpoint of §5 (Euclid DR1) stands.*
 
