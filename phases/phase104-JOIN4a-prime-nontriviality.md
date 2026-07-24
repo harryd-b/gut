@@ -59,3 +59,27 @@ L4 (Bookkeeping of the c′_t formula; difficulty: easy given the "established" 
 §4 Five-line honest summary
 
 The n ≠ 0 coefficient conditions are vacuous: E₀-bimodularity reduces (T) exactly to a fiber statement — no u ∈ A(I) with φ₂ = ω_I∘Ad(u) — so the "twist condition" is a modular consequence of fiber equality, not an extra hypothesis; this correction to the expected architecture is itself proven. Granting that, the proof is clean: geometric modular action turns the established defect cocycle into the unconditional identity c^{(n)}_t = σ_{nτ}(κ_t)κ_t*; coboundary substitution plus dilation mixing gives ω(c^{(n)}_t) → |ω(u*σ_t(u))|², while the linear divergence ‖ζ^{(n)}‖² ~ (Q²ℓ/2π)n forces ω(c^{(n)}_t) → 0, contradicting continuity of t ↦ ω(u*σ_t(u)) at t = 0. The single substantive gap is L1 — transferring the given linear divergence of ζ^{(n)} to its t-twisted image ρ^{(n)}_t — a one-particle H^{1/2} computation; L2–L4 are standard. Unconditionally, the argument already rules out all Weyl-type v (Theorem 3), and it degenerates exactly at Q = 0, where v = 1 works.
+
+---
+
+## Amendment (2026-07-24, same session) — combined referee verdict entered: L1 FALSE, theorem UNPROVEN
+
+*Report verbatim in `reviews/REPORTS-phase104-JOIN4a-prime-referee-2026-07-24.md`. The room's own D2-f concern — posed to the referee as the priority item before the verdict — was confirmed exactly.*
+
+**What was CONFIRMED [derived, refereed]:** Theorem 1's reduction in full (trivialization ⟺ fiber statement; the twist condition vacuous by E₀-bimodularity); the unconditional cocycle identity c^{(n)}_t = σ^ω_{nτ}(κ_t)κ_t* (with an independent crossed-product-free re-derivation supplied by the referee); the mixing lemma L2 and the factorization limit; Proposition 4's Q = 0 degeneration.
+
+**What FELL: L1 is FALSE — by an exact identity, not an estimate.** ρ^{(n)}_t = (1−δ_t)ζ^{(n)}_in = γⁿ_\*k_t − k_t: the twisting operator converts the divergent Birkhoff sum into a **coboundary of the bounded vector k_t**, so ‖ρ^{(n)}_t‖ ≤ 2‖k_t‖ for all n, and in fact ‖ρ^{(n)}_t‖² → 2‖k_t‖². The mixing functional converges to the strictly positive limit |ω(κ_t)|² = e^{−‖k_t‖²} unconditionally — **the mixing test can never produce an obstruction of this kind.** Consequently Theorem 2's contradiction and Theorem 3's proof both collapse.
+
+**What was SALVAGED:** Theorem 3's conclusion (no Weyl-type trivializer) is independently true by a two-line jump-obstruction argument (D1-d mechanism: a Weyl trivializer's symbol would need both endpoint jumps removed by one constant — impossible for Q ≠ 0). New unconditional identities entered: ρ^{(n)}_t = γⁿ_\*k_t − k_t; ‖ρ^{(n)}_t‖² → 2‖k_t‖²; lim_n ω(c^{(n)}_t) = e^{−‖k_t‖²}.
+
+**Status of (T), entered without softening: UNPROVEN, and at genuine risk of being FALSE.** The referee's caution is quoted in full in the report: Connes–Størmer transitivity makes approximate trivialization free on the hyperfinite III₁ factor, only an exact quantitatively-stable obstruction could work, the natural candidate (mixing) provably gives none — "I would not exclude that the theorem is simply false."
+
+**The residue, exported cleanly (JOIN-4a″):** by Theorem 1, (T) is exactly equivalent to:
+
+> **Is φ₂ = ω∘AdW(η)|_{A(I)} in the unitary orbit of ω|_{A(I)} within the hyperfinite III₁ factor A(I)?**
+
+— a crisp state-orbit question on R_∞, adjacent to the Connes–Størmer/Haagerup–Størmer homogeneity circle of results. If YES (orbit membership): the toy arena **cannot store the charge invariantly at the von Neumann level** — the defect coupling is unitarily equivalent to the vacuum coupling, the "matter as decoration" clause loses its toy example, and the charge's invariant home moves wholly to the C\*-sector level (consistent with the sector ceiling of §7.2, which located sector-ness in global gluing all along). If NO: (T) holds and the decoration clause has its theorem. **Either answer is a result; the question is now clean enough to put to a human operator algebraist.**
+
+**Errata absorbed:** e^{−¼‖·‖²} → e^{−½‖·‖²} under the stated convention; the log-frame spectral heuristic is invalid for the Möbius-invariant norm (the referee's line-frame computation replaces it).
+
+**Process note:** the D2-f suppression risk was identified by the room while briefing the referee — before the verdict, not after. Logged as the session's first instance of the room catching a load-bearing gap in its own commissioned work pre-verdict; the pre-verdict pass then did its job on the details.

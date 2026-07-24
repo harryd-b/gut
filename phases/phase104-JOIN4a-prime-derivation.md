@@ -1,4 +1,4 @@
-# Phase 104 — JOIN-4a′ (i)+(iii-adjacent): the explicit cocycle and the divergence-rate invariant D = Q²ℓ/2π (derivation record; referee pass pending; verdicts NOT entered)
+# Phase 104 — JOIN-4a′ (i)+(iii-adjacent): the explicit cocycle and the divergence-rate invariant D = Q²ℓ/2π (REFEREED — all four claim groups CORRECT; see Amendment at end)
 
 *Working session, 2026-07-24, continuing phase 104. **Status: [derived by a context-free derivation agent; NOT refereed; per standing policy no verdict is entered and nothing here carries a [refereed] tag until the pass completes].** This document preserves verbatim the derivation delivered for JOIN-4a′ task (i) — the explicit modular flow σ^{φ₂}, the explicit relative cocycle c′_t(γ), and the divergence-rate invariant of the telescoped trivializer. The derivation was produced context-free (pure operator algebras, no framework content) from the repaired setup of the JOIN-4a amendment. Six [GAP] flags are the agent's own; they are part of the record. The companion derivation (JOIN-4a′ (ii) nontriviality + B(3) closure) is running separately; the combined material goes to a fresh context-free referee before any verdict.*
 
@@ -134,3 +134,15 @@ Consistency of the transport identity with conventions: φ₂∘AdU(γ)(W(f)) = 
 ## Honest summary
 
 Proven at the level of rigorous computation (given the stated standard inputs): the automorphism identity β = AdW(η)|_{A(I)}, the closed form of σ^{φ₂}_t and its group law; the in-algebra formula for c′_t(γ) with explicit ρ_t and Θ_t and all of Task 4's checks; boundedness of the mean functional (χ_I ∈ H^{−1/2}); the nonexistence of a local coherent implementer (jump obstruction) and its precise reconciliation with real-Riesz representation (the i-rotation/iH(I) criterion); uniqueness of the coherent trivializer ζ^{(n)}_in in H(I); the exact model integral forcing linear-in-n growth; and the cutting-projection formula P = (1+Δ)^{−1}(1+Δ^{1/2}J) modulo domain statements. Asserted/standard-but-not-reproved: continuity extension of Weyl calculus to closed-subspace symbols ([GAP-1]), closability details for P ([GAP-2]), the exact scalar phase of the vacuum-relative cocycle [Dφ₂:Dω] — genuinely obstructed, with the boundary-vortex mechanism identified ([GAP-3]) but irrelevant to the boxed results — phase bookkeeping in the ℤ-cocycle identity beyond the abstract chain rule ([GAP-4]), uniform O(1) control in the asymptotics ([GAP-5]), and the entropy interpretation of D ([GAP-6]). The coefficient Q²ℓ/2π was obtained three ways (circle Fourier, Gagliardo cross-term with the exact Möbius model, spectral density of the dilation unitary) which agree; its normalization is convention-tied as stated.
+
+---
+
+## Amendment (2026-07-24, same session) — combined referee verdict entered
+
+*Report verbatim in `reviews/REPORTS-phase104-JOIN4a-prime-referee-2026-07-24.md`.*
+
+**All four claim groups CORRECT [now derived, refereed]:** (D1-a) the modular flow σ^{φ₂}_t = AdW(k_t)∘σ^ω_t with sign, direction, group law, and H(I)-membership all verified; (D1-b) the explicit cocycle c′_t(γ) = e^{iΘ_t}W(ρ_t) verified including the CCR phase collection; (D1-c) **the invariant D = Q²ℓ/2π confirmed with the constant independently re-derived in circle and line frames** (the referee specifically confirmed the single-near-jump structure that fixes the coefficient — a two-edge model would have doubled it); (D1-d) uniqueness of the coherent trivializer verified.
+
+**One scope demotion, entered honestly (from the same referee's D2-f finding):** D's advertised role as a *dynamical obstruction* is void — the twisted quantity ‖(1−δ_t)ζ^{(n)}_in‖² is bounded (exact coboundary identity; see the nontriviality document's amendment). **D survives as a refereed norm asymptotic — the growth rate of the coherent-erasure cost — not as an obstruction to general erasure.** The "charge × length" pairing is real mathematics; what it obstructs is coherent operations only.
+
+**Errata:** the companion document's e^{−¼‖·‖²} should be e^{−½‖·‖²} under the stated Weyl-state convention; the log-frame spectral heuristic used in places is invalid for the Möbius-invariant norm (log is not a Möbius chart) — the line-frame computation is the correct one and is what the referee verified.
