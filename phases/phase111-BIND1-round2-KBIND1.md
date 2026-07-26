@@ -87,4 +87,23 @@ E1 numbers (defect formula; script run and deleted): (ℓ₁,ℓ₂,θ) = (2,2,�
 
 ## Amendment section
 
-(Reserved for the referee verdict. Empty until the referee pass completes.)
+### A.1 Referee verdict (2026-07-26): KILL CONFIRMED-AS-DERIVABILITY-NO-GO
+
+Kill-claim referee report preserved verbatim in reviews/REPORTS-phase111-KBIND1-referee-2026-07-26.md. The referee's explicit mandate was to RESCUE BIND-1; every rescue attempt failed:
+
+- **Anchor-interlacing lemma: CONFIRMED and UPGRADED to theorem.** The referee supplied its own proof closing BOX-3 (endpoint strictness via one-step dynamics; the argument independently re-proves hyperbolicity of the crossing product). Independent numerics: 3,000/3,000 random configurations (one double-precision artifact resolved pro-lemma at 80 digits) plus 400/400 degenerate stress cases at 80-digit precision. Both channels give leg charge î(Q₂−Q₁); never Q₁+Q₂.
+- **Implementer rigidity: CONFIRMED, robust to the weakest reading.** Z(M_Λ) and C-J3 say exactly what the prong needs; even if the defect automorphism is pinned only on the fiber, essential freeness kills all group modes of the relative commutant — trivial group support either way.
+- **All four calibration gates: CONFIRMED** (E4 is not carrier-silent — G1α is a genuine contradiction, not an extension; G1β, G2 charge reading, G4 central-extension destruction, and the σ = Q₁Q₂î phase all verified analytically and numerically).
+- **Bookkeeping ruling (the decisive part):** the registered kill wording fires in SCOPED form. Proven: no refereed fusion rule derivable from the current record can ever select the concatenated carrier (under A1+A2, totals-only is a theorem; the unique implementer-borne alternative is a different automorphism and provably anti-calibrated). Not proven: that no future non-fusion "binding map" could assign the class P_g — but any such map is a NEW registration, not BIND-1, and is already gate-constrained (it cannot be implementer-borne in M_Λ).
+
+### A.2 Corrections ledger (referee's C-R1..C-R5, recorded as C-V1..C-V5 to avoid collision with the phase-109 C-R labels)
+
+- **C-V1 (verdict scoping).** The consultation's "BIND-1 dies as registered" is replaced by: K-BIND-1 fires as a derivability no-go; **BIND-1 status = DEAD-AS-DERIVABLE**; resurrection requires a new registration, already constrained by this round's gates.
+- **C-V2 (BOX-3 closed).** The anchor-interlacing lemma is theorem-grade; numerics corroborative only. No genuine degenerate regime exists (the lemma needs only strict cyclic order).
+- **C-V3 (G1α wording).** The same-axis dressed fiber profile is η₁+η₂∘γ₁⁻¹, E2-class-equal to η₁+η₂ (γ₁ fixes its own anchors); the class-level equality is now stated explicitly.
+- **C-V4 (BOX-5 caution, important).** The latent cross-axis rate shift's accumulation argument is HARDER than the "same shape as E4 split-independence" analogy: complementary-arc ramps generate O(n) Ḣ^{1/2} cross-pairings under iteration, not O(1); a registration round needs the two-arc line-frame computation, the E1 I-local truncation bookkeeping, and referee numerics of the actual growth rate. The combinatorial core (swept charge Q₁+îQ₂; exactly one partner anchor in the leg) is verified 3,000/3,000 + analytic.
+- **C-V5 (discrete formulation).** The registration's third arena ("the discrete formulation") is uninstantiated in the record; the A(I) + M_Λ audit is exhaustive over existing arenas.
+
+### A.3 Post-verdict status
+
+**K-BIND-1: FIRED (scoped). BIND-1: DEAD-AS-DERIVABLE.** Refereed survivors, independent of the kill: (1) the round-1 defect formula (pure hyperbolic geometry, already refereed); (2) the **anchor-interlacing lemma** (theorem-grade, referee-proved); (3) the **latent cross-axis rate shift D_{γ₁}(pair) = (Q₁+îQ₂)²ℓ₁/2π** — combinatorial core refereed, analytic coefficient OPEN per C-V4 — the record's first candidate length-carrying cross-axis coupling, feeding K-MASS-2's future (i) without carrier merger. Candidate next registration; not registered here (operator decision).
