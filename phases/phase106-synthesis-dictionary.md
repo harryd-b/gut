@@ -45,7 +45,7 @@ The arena throughout: the chiral U(1) current net A(I) on S¹ (Weyl calculus, ho
 **B2 — KNOT-Q (the geometry bridge).** [conjecture, registered with kill — phases/phase105-SPAN1-knot-charge.md] The dictionary's left column is defect profiles, not knots. KNOT-Q conjectures the functor from Seifert genus to charge that would make it genuinely geometry → matter. Untested; the phase-57 contact machinery (Bennequin, twist defects) is not yet connected to the defect calculus. Not to be attacked before the literature search (adopted plan, reasons recorded).
 
 **Physics columns with no entry (all honest, none hidden):**
-- **Mass** [absent]: no candidate. ℓ is a property of the geodesic, not the defect.
+- **Mass** [conjecture registered 2026-07-26]: MASS-1 (phases/phase106-MASS1-conjecture.md) — mass = monotone function of carrier length ℓ; generations = distinct geodesics in a common homology class (turning E7's homological blindness into the generations mechanism). Registered with kills K-MASS-1/2/3; NOT derived, NOT refereed; the column is filled only if it survives.
 - **Motion/energy/lifetime** [blocked]: removed by the refereed kills (base-inertness + [R_Γ] rigidity). Revival only via JOIN-4b / K-DATA (skew modular flows) — which remains the **standing falsifier** of the adopted thesis: a nontrivial skew flow would restore dynamics and refute "data, not dynamics" in its strong form.
 - **Non-abelian charge** [absent]: needs WZW-level current algebras; fusion with multiplicities. A real extension, not a patch.
 - **Generations** [absent]: nothing repeats; no mechanism conjectured.
