@@ -49,3 +49,23 @@ The derivation S1 lives entirely on the boundary-algebra side; KNOT-Q needs the 
 ---
 
 *Status line: the dictionary's first number said what a particle costs; this span says where a particle is allowed to live. In the toy world the answer is now sharp — charge cannot float free, cannot sit on a shrinkable loop, and has exactly one kind of home: the fixed points of an essential geodesic, whose length is the same ℓ the cost formula charges for. Light is what a trivial loop can hold; matter is what only topology can pin down. The genus refinement is registered, armed, and waiting for the functor that would test it.*
+
+---
+
+## Amendment (2026-07-24, same session) — referee verdicts entered: S1 re-scoped to the locality theorem
+
+*Report verbatim in `reviews/REPORTS-phase105-SPAN1-referee-2026-07-24.md`.*
+
+**Confirmed [derived, refereed]:** S1-i (chargeless smooth compact defects are inner — implemented by a genuinely local Weyl operator; the light-like class) and S1-ii (charge forces jump anchors; total jump Q, splittable over finitely many points — a freedom the room's draft ignored and the corrected statements must carry, including the legitimate split q₊ + q₋ = Q between the two fixed points).
+
+**Corrected — two room errors, both caught:**
+- **C-S3 (the loophole the room flagged pre-verdict, confirmed exactly):** "anchors ⊂ fix(γ)" is WRONG — γ preserves *both* arcs, so a defect anchored entirely in the complementary arc I′ is admissible with arbitrary Q ≠ 0; but it is smooth near Ī and hence **invisible to M_γ** (vacuum-like from the I-side). The refereed trichotomy: anchors in open I — inadmissible (divergent); anchors at fix(γ) — admissible and visible; anchors in I′ — admissible and invisible. **Corrected S1-iii: the charge *visible to the coupling* must be anchored on fix(γ).**
+- **C-S4 (a genuine room error):** "contractible ⟹ Q = 0" was a non sequitur — for the trivial class there is *no coupling at all* (no axis, no arc, no M_γ), so nothing forces Q = 0; a charged defect simply isn't coupled. The toy proves where charge can live *relative to a chosen γ*, not which γ a defect "chooses" — the bulk notion of a defect *loop* is not defined in the toy, and the draft conflated it with the algebraic input γ. The topology-selects-charge clause remains entirely at the KNOT-Q conjecture level.
+
+**The theorem as it now stands [derived, refereed] — the LOCALITY theorem:**
+
+> For each essential free homotopy class (equivalently each hyperbolic γ, via its unique geodesic of length ℓ(γ)): the coupling M_γ admits charged defects only with the coupling-visible charge anchored on fix(γ), making (Q_visible, ℓ(γ)) — hence D = Q²ℓ/2π — well-defined invariants of the coupled system. Charge anchored elsewhere is either inadmissible (inside the arc) or invisible (in the complementary arc). Chargeless smooth defects are locally erasable everywhere.
+
+Physical reading, tagged [interpretation]: **each geodesic sees exactly the matter pinned to its own endpoints and prices it by its own length** — the dictionary is local, geodesic by geodesic. The room's grander reading ("charge requires essential topology") is NOT proven and is demoted into KNOT-Q, whose registration and kill are unchanged.
+
+**Process note:** one loophole flagged by the room pre-verdict and confirmed; one error caught by the referee outright. The session's running totals: the pre-verdict pass has now corrected the room in six distinct instances across four documents; none reached the record as a claim.
