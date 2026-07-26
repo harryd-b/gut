@@ -75,4 +75,20 @@ So the branching is v ↦ (su(3)₁ sector of triality t, u(1) sector q_b = Q/�
 
 ## Amendment section
 
-(Reserved for the referee verdict. Empty until the referee pass completes.)
+### A.1 Referee verdict (2026-07-26)
+
+Report preserved verbatim in reviews/REPORTS-phase113-NONAB-kills-referee-2026-07-26.md. **No arithmetic error found anywhere — every number independently re-derived and agreeing.** Verdicts:
+
+- **K-NONAB-1 survival: REFEREED**, scoped exactly as stated — a level-1 formula-consistency check (the Casimir transplantation's first gate passes; no genuinely non-abelian rate computed, GAP-N1 untouched; GAP-N8 deflation ruled fair, no overclaim).
+- **K-FRAC-1: arithmetic CONFIRMED; PARTIAL as registered (C-Z1).** The registered kill wording is literally satisfiable (in raw fermion units every charge is an integer), making the kill vacuous as worded. The survival is refereed ONLY as the normalization-independent statement: **charge(fermion)/charge(minimal triality-0 singlet) = 1/3 is forced** (Schur pins the u(1) up to scale; ratios are scale-free; the index-3 of 3ℤ in ℤ is the theorem). NONAB-FRAC must be re-registered with the singlet-unit normalization pinned or as the pure index/ratio statement before any adoption decision.
+- **GAP-N7: CONFIRMED in substance** — the bridge misses every nonzero sector of the self-dual arena ((1/√2)ℤ ∩ ℤ = {0}); the fork (arena-dependent unit, D = n²ℓ/4π, vs bulk blindness) stands.
+
+### A.2 Corrections ledger
+
+- **C-Z1 (substantive).** NONAB-FRAC/K-FRAC-1 re-registration required: pin the u(1) unit to the minimal triality-0 singlet charge, or state the kill as the index/ratio claim. Entered as the binding form; the original wording is superseded.
+- **C-Z2 (editorial).** GAP-N7's garbled clauses restated: (1/√2)ℤ ∩ ℤ·1 = {0}; the local (root/even-lattice) sectors are the even integers in generator units with D = m²ℓ/π (not "the even-sublattice statement" of n²ℓ/2π).
+- **C-Z3 (wording).** Convention stability restated as κ-invariance of the ratio D/(2h); Q = ∫η′ itself is coordinate-invariant and does not rescale.
+
+### A.3 Post-verdict status
+
+The non-abelian program's two entry gates are now refereed-passed: the Casimir transplantation survives its first (weak) kill, and the fractional-charge mechanism is a refereed lattice theorem in its corrected (index-3) form. NONAB-1 registration remains gated on K-NONAB-2 (vacuum-channel erasability) and on the operator's decision; NONAB-FRAC awaits its corrected re-registration and the operator's decision. The first discriminating computation is SU(2)₂ (roadmap item 4). GAP-N7 (the bridge-unit fork) joins the open registry alongside GAP-N6.
