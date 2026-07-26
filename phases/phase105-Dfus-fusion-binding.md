@@ -86,3 +86,27 @@ Precision about configurations: this is an identity of *forms*, i.e., of the fun
 3. Charge–anticharge pairs are inner (vacuum class, finite erasure cost), via a compact-support representative licensed by locality — stronger than rate-zero, modulo the flagged S1-i hypothesis-transfer caveat.
 4. D_spin is the quadratic refinement of the one-crossing mutual pairing, ∓Q₁Q₂; on the lattice, spin parity (−1)^q; Arf census is conjecture-level only.
 5. All "binding/annihilation" language is arithmetic of erasure-cost rates on static states; no dynamics, no potential, no winding sectors.
+
+---
+
+## Amendment (2026-07-24, same session) — referee verdict entered: D_fus CONFIRMED with three repairs and one scope discovery
+
+*Report verbatim in `reviews/REPORTS-phase105-Dfus-referee-2026-07-24.md` (numerically verified; discrete Möbius invariance to 15 digits).*
+
+**Confirmed [now derived, refereed]:** fusion additivity and split-independence — with the flagged remainder gap **closed by the referee itself** (first occurrence this session): ψ := combined profile minus Q_tot·(reference) is a fixed chargeless H^{1/2} function, Möbius invariance gives ‖ψ − ψ∘γⁿ‖ ≤ 2‖ψ‖ uniformly, and the error improves from O(√n) to **O(1)**; rate confirmed numerically for two different splits (0.1801 → 0.17905 predicted). Binding = polarization confirmed (with the factor-2 convention now named: ΔD = 2B, B the bilinear form). Refinement identity confirmed at zero framing; lattice descent confirmed with the (−1)^{2q} caveat.
+
+**Repairs entered:**
+- **C-F1 (the collar loophole — annihilation reformulated).** The room's "vacuum class via a unitary in a slightly larger algebra" was VACUOUS: collar compensation implements the I-restriction of *every* charge from A(I_ε). The refereed sharp dichotomy replaces it: **the defect's I-data are those of a charge-zero local Weyl unitary in A(I) itself ⟺ Q₁ + Q₂ = 0.** Annihilation stands in the strongest local sense (implementer strictly inside I, global state identity, D = 0); the converse direction now genuinely detects charge.
+- **C-F2 (framing constraint on the refinement identity, previously unstated).** The identity D_spin(Q₁+Q₂) − D_spin(Q₁) − D_spin(Q₂) = ∓Q₁Q₂ holds at framings n₁ = n₂ = n_pair = 0; at common framing n it refines the shifted pairing (n∓1)Q₁Q₂; the naive additive framing rule does NOT satisfy it. Stated henceforth as part of the entry.
+- **C-F3 (open check recorded).** The branch–crossing sign correlation (the ∓ of D-MS versus the orientation of î) is an independent convention/datum, not derivable from C-D5 + D-MS; outstanding.
+
+**The scope discovery (referee item 5), entered as a refinement of the FIRST entry's meaning:** the referee proved a one-line theorem — every single-valued globally-compensated profile has D = 0 (Möbius invariance bounds the global difference by 2‖η‖; numerically confirmed, saturation at 2‖η‖²) — so **E1's rate Q²ℓ/2π is, and always was, the I-LOCAL (truncated-cocycle) erasure rate**: the cost of erasing the defect *by operations inside the geodesic's own region*. A globally-assisted eraser (using the complementary arc) is always cheap. This is consistent with everything refereed (the JOIN-4a′ computation was the truncated object throughout) and sharpens the dictionary's first line: **permanence is local** — the record's price is charged for local erasure; the openness of JOIN-4a″ (global exotic erasers) is exactly the global side of the same distinction. The phase-105 entry table should read D as "local erasure rate."
+
+**Dictionary status after this amendment — four refereed entries:**
+
+> **Existence (metric, LOCAL): D = Q²ℓ/2π** — the I-local erasure rate.
+> **Relationship (topological): D₁₂ = Q₁Q₂·î.**
+> **Spin/statistics (framed): D_spin = ∓Q²/2 + n·Q²/2 [D-MS]; lattice parity (−1)^q.**
+> **Fusion (quadratic): D(pair) = (Q₁+Q₂)²ℓ/2π split-independent; binding = polarization = 2Q₁Q₂·ℓ/2π; annihilation dichotomy: erasable-within-I ⟺ Q_tot = 0; spin refines statistics (framing-0).**
+
+The four entries interlock: monodromy = spin²; binding = polarization of existence; spin = quadratic refinement of relationship; annihilation = the zero of all four. One algebraic object — a framed quadratic refinement of a charge lattice fibered over the geodesics — seen from four sides.
