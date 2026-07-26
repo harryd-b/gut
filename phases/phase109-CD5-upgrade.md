@@ -1,4 +1,4 @@
-# Phase 109 — convention upgrades, part 3: C-D5 (derivation record; referee pass pending; verdicts NOT entered)
+# Phase 109 — convention upgrades, part 3: C-D5 (REFEREED 2026-07-26; UPGRADED to value-theorem under H1+H2 — see Amendment)
 
 *Working session, 2026-07-26, executing the operator's instruction to attempt convention upgrades. **Status: [derived by a context-free derivation agent; NOT refereed; no verdict entered; C-D5 remains an adopted convention until a referee rules].***
 
@@ -76,3 +76,23 @@ Take s₁ = Q₁1_{(a,b₁)}, s₂ = Q₂1_{(a,b₂)}, b₁ ≠ b₂ (impossible
 3. **Single shared anchor:** undecided by equivariance alone (no configuration-preserving reflection; the canonical swap reflection ρ gives only a consistency identity). With anchor locality (H3) added: w = 1/2 at every shared anchor, σ_reg = ±Q₁Q₂/2, and E2's crossing number extends half-integrally (î ∈ ½ℤ).
 
 **Recommended dictionary update:** replace "C-D5 (convention)" by "C-D5 (theorem under H1+H2 for shared axes; convention only through the choice of H3 for exotic single-shared-anchor configurations, which do not occur for discrete groups)."
+
+---
+
+## AMENDMENT — referee verdicts entered (2026-07-26)
+
+*Context-free adversarial referee pass completed 2026-07-26; report verbatim in `reviews/REPORTS-phase109-CD5-referee-2026-07-26.md`. The referee rederived the formula and theorem by hand, reimplemented all numerics independently (≤10⁻⁷ agreement), and REPAIRED the counterexample rather than rejecting it. Standing AI-referee caveat applies.*
+
+### A.1 Overall ruling — **C-D5 IS UPGRADED [refereed]**
+
+> **C-D5 (theorem, superseding the 2026-07-24 convention).** For shared-axis configurations: under (H1) charge-independence and (H2) J-equivariance of the regularization scheme, every collar satisfies h∘r = 1 − h, forcing w_a = w_b = 1/2 and the same-axis value σ = 0 exactly at every ε. The VALUE and the collar r-antisymmetry are forced; the common shape is not (the equivariant schemes form a class containing the midpoint convention). H1 is genuinely load-bearing: the repaired charge-dependent scheme (referee's r-image-branch construction — exactly equivariant, admissible) achieves σ = |Q₁|Q₂ ≠ 0 under H2 alone. For single-shared-anchor configurations (which cannot occur for distinct axes of a discrete group): undecided by equivariance; resolved to ±Q₁Q₂/2 (î ∈ ½ℤ) only under the additional axiom (H3) anchor locality — which the referee notes subsumes H2's role for the same-axis value.
+
+### A.2 Corrections adopted
+
+- **C-R1 (bookkeeping):** the −1 in the value formula comes from the non-vanishing cross term ∫A₁B₂′ = 1, not from collar disjointness; stated correctly henceforth. Strengthening adopted: w(δ)+w(−δ) = 1 for arbitrary common shapes.
+- **C-R2 (counterexample re-stated):** the original S* was inadmissible (3ε displacement exits the window) and only approximately equivariant (Möbius r ≠ rigid reflection; O(δ²) mismatch measured). The record's official counterexample is the referee's repaired version: negative-charge branch := r-image of the positive branch (exact equivariance by construction, verified to 10⁻¹⁷), in-window displacement, σ = sgn(Q₁)Q₁Q₂ exactly. The refutation of "H2 alone suffices" stands.
+- **C-R3:** label-symmetry flagged as an axiom in the single-anchor analysis; the "+½ − ½ = 0" diagonal is exact as a per-anchor decomposition, heuristic as a b₂ → b₁ limit (discontinuity noted); Qᵢ = 0 footnote added.
+
+### A.3 Consequence for the dictionary
+
+The E2 registration's C-D5 clause is upgraded from convention to theorem-under-hypotheses (addendum entered in phases/phase105-D12-cross-invariant.md). Score for the phase-109 upgrade program: C-D5 fully upgraded; D-MS reduced to a binary decided by M-FRAME; C-BRIDGE reduced to faithfulness + parity-theorem + unit normalization.
