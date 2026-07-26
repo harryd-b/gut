@@ -1,0 +1,53 @@
+# Phase 112 — BIND-2 (bound-not-merged binding) and SPACE-1 (matter-from-space thesis): registrations, 2026-07-26
+
+**Status: REGISTERED. BIND-2 is a testable conjecture with pre-registered kills. SPACE-1 is a program-level thesis whose testable content routes through BIND-2, MASS-1, and the (empty) calibration column. Nothing here is derived or refereed.**
+
+## 0. Provenance correction (record honesty)
+
+The BIND-1 registration (phase 111) attributed to the operator the proposal that bound composites ride a merged/concatenated carrier. The operator has now clarified: **merger was never intended — it was the assistant's reformulation** ("that was a red herring"). The operator's actual picture: *the particles remain themselves, bound together; two knots meeting, the string beneath them winding into a twist; the extra length wound up under the knots is the extra mass; the stiffness of the string bounds how many winds, hence how much mass.* BIND-1's death (K-BIND-1, scoped: DEAD-AS-DERIVABLE) therefore killed the assistant's formalization, not the operator's intuition. This registration records the operator's intended mechanism in the form the phase-111 results now make precise. The corrected attribution is entered here rather than by editing phase 111 (verbatim records are never edited).
+
+## 1. BIND-2 — statement
+
+Binding of two charged carriers c₁, c₂ (charges Q₁, Q₂, crossing data î) consists of, with **no carrier merger** (consistent with — indeed protected by — the phase-111 totals-only theorem):
+
+**(B2-a) Persistence.** Both constituents retain their carriers, charges, and identities. [Already theorem-grade: implementer rigidity, phase 111 round 2.]
+
+**(B2-b) Rate-shift binding (the load-bearing testable claim).** The bound pair's per-carrier existence cost is shifted by the partner's charge through the crossing: the E1-type rate of carrier 1 under its own transport is
+
+D_{γ₁}(pair) = (Q₁ + îQ₂)²ℓ₁/2π   (and symmetrically for carrier 2),
+
+so composite energy ≠ sum of parts without any carrier changing. Sign structure (unlike dead BIND-1, which was charge-blind and defect-only): coherent like-charge crossings give EXCESS (e.g. Q₁=Q₂=1, î=+1: rate ×4 — the operator's wound-string mass surplus); opposite charges give DEFECT (down to zero at Q₂=−Q₁). Status at registration: combinatorial core REFEREED (phase-111 kill referee: exactly one partner anchor in the leg; swept charge Q₁+îQ₂; 3,000/3,000 + analytic); **analytic coefficient OPEN** — C-V4 established that the naive iteration produces O(n) cross-pairings and the (Q₁+îQ₂)² coefficient must be earned through the two-arc line-frame computation with E1's I-local truncation bookkeeping.
+
+**(B2-c) Winding energy (the twist).** The discrete winding number of the bound configuration contributes pair energy through the framing sector: the candidate term is the framing cross term n·Q₁Q₂ of the mutual phase (M-FRAME material). Whether it exists is EXACTLY the open M-FRAME2 binary (D-MS scheme ⟹ term present; framing-deleted ⟹ absent). BIND-2 does not prejudge it; it registers the identification *operator's twist count = framing sector n* and inherits M-FRAME2 as its decider for this component.
+
+**(B2-d) The stiffness bound [GAP, named].** The operator's mechanism requires something to BOUND the winding number (stiffness: energy cost per wind that eventually forbids further winding). Nothing in the record bounds n ∈ ℤ, and stiffness is dynamics — outside the record by the successor thesis. Registered as BIND2-GAP-1: either a kinematic bound on admissible framing sectors is derived, or this component remains a named blank. (Noted echo: KNOT-Q's Giroux torsion is also an unbounded ℤ; two unbounded integers that the physics wants bounded.)
+
+**Addendum (2026-07-26, operator-approved attack route for BIND2-GAP-1).** The pre-103 record contains surviving KINEMATIC caps on winding-type integers, never killed and orphaned at the phase-105 arena pivot: the Godbillon–Vey stiffness ("survived phase 103 untouched" — phase-104 insight ledger item 1), the Milnor–Wood cliff (all slack vanishes at n = 2g−2; Goldman, Matsumoto–Ghys, Wood; ledger item 3 — the carrier sits exactly at the maximum), and the Bennequin cap on defects (ledger item 4). All are topological inequalities — data, not dynamics — hence admissible under the successor thesis. Registered question BIND2-GAP-1-Q: does any of these bound the framing sector n of the boundary dictionary (E3/D-MS data) once carried across the bridge? A round is queued (to run after the K-BIND2-1 two-arc round completes). If it succeeds, the operator's stiffness is re-identified with the program's original protective rigidity, closing the gap kinematically.
+
+## 2. BIND-2 — pre-registered kills
+
+- **K-BIND2-1 (the sharp one, immediately attackable).** BIND-2's binding mechanism dies if the two-arc computation refutes the rate shift: if, with E1's I-local truncation done honestly, the divergent cross-pairings do NOT cancel and no well-defined per-carrier rate exists for the pair, or the coefficient comes out (Q₁)² (partner-blind — no coupling), the rate shift is an artifact and (B2-b) is dead. [The computation is genuinely hard per C-V4; an honest AMBIGUOUS with the obstruction located is an allowed intermediate outcome, but the kill condition is a refereed negative.]
+- **K-BIND2-2 (erasability).** (B2-b) dies if the rate shift is not state-level: if the shifted rate can be transformed away by a local/inner operation (the pair state is in the erasure orbit of the unshifted product state), it is bookkeeping, not binding. The JOIN-4a″ machinery (phase 108) is the template for testing this.
+- **K-BIND2-3 (winding component).** (B2-c) dies if M-FRAME2 selects the framing-deleted scheme (no nQ₁Q₂ pair term). BIND-2 then survives as rate-shift-only, with the twist picture demoted.
+- **Standing oddity (not a kill, must be watched):** the rate shift is crossing-topological — it does not fall off with separation along the carriers, whereas physical binding weakens with distance. If calibration ever exists, this is where BIND-2 will be most exposed.
+
+## 3. SPACE-1 — the thesis
+
+**Operator's statement (registered verbatim in substance):** matter is composed of space; therefore space has energy; the questions are (Q1) how much, and (Q2) how that energy can be converted into matter.
+
+**Sharpened against the record (the honest mapping):**
+
+- What the record supports: every attribute of a particle in this program IS geometric data — mass a length (MASS-1), charge a winding/parity datum over a geodesic (C-BRIDGE), spin a framing datum, binding now conjecturally lengths-and-windings (BIND-2). In that sense matter = configured space, and the successor thesis ("geometry is data, not dynamics") sharpens to: **geometry is the substance, charge is the activation.**
+- The honest tension: the record does NOT say bare space has energy. Refereed: Q = 0 ⟹ D = 0 — uncharged geometry carries no existence cost; neutral defects have no MASS-1 mass; energy appears only where charge rides geometry. So SPACE-1's "space has energy" is, record-internally, "**charged** configurations of space have energy; the energy of empty space is exactly zero as currently refereed." Whether that zero is a theorem about nature or an artifact of the erasure-based definition of D is SPACE1-GAP-1.
+- **Q1 (how much)** = the calibration column, still empty. What would fill it: one physical unit tying length to energy (candidates already in the record: dM/dℓ as string tension; the systole as the length floor; the saturation constant 4 ln cos(θ/2) — all uncalibrated). Registered as the reformulation: *Q1 is not answerable before calibration; any numeric answer now would be numerology and is forbidden.*
+- **Q2 (conversion, space → matter)** = a creation process — dynamics, which the record deliberately excludes and the phase-103/104 kills block. The record's only conversion-adjacent fact is kinematic annihilation (Q_tot = 0 composites are erasable — matter → nothing is licensed; nothing → matter is not derivable). Registered as the program's LONG-HORIZON question: it cannot be attacked until either the dynamics ban is lifted by a new refereed entry or a kinematic surrogate (e.g. a state-level inequality showing which defect configurations are reachable from the vacuum sector) is found. SPACE1-GAP-2.
+
+SPACE-1 carries no kills (it is a thesis, not a conjecture); its falsifiable content lives entirely in BIND-2, MASS-1, and any future calibration entry, and it dies with them if they all die.
+
+## 3a. Status update (2026-07-26, post round-1 referee) — K-BIND2-1 does not fire; (B2-b) coefficient REFEREED
+
+Round 1 (phases/phase112-BIND2-round1-two-arc-rate.md) executed and adversarially refereed (reviews/REPORTS-phase112-BIND2-referee-2026-07-26.md); corrections C-W1..C-W4 entered. **The rate-shift coefficient is refereed: D_{γ₁}(pair) = (Q₁+îQ₂)²ℓ₁/2π in both crossing channels** — derived with E1's own forced truncation (iterate-then-truncate, unique coherent trivializer), the C-V4 divergence disease shown real pre-truncation and annihilated identically for all n, and confirmed by two independent numerical implementations at different moduli/grids/fit windows (coefficients to 5 decimals, no superlinear drift). [BOX-B] canonical-representative convention RATIFIED (derivable from the refereed charge reading; E1 uninfected). The dictionary now possesses its first refereed length-carrying cross-axis coupling; composite energies are no longer forced-additive. Open on BIND-2: K-BIND2-2 (erasability — [SKETCH] favorable, full orbit round pending), K-BIND2-3 (rides on M-FRAME2), BIND2-GAP-1 (stiffness bound — round queued/dispatched), and the separation-independence oddity (standing watch item).
+
+## 4. Relation to the standing program
+
+BIND-2 supersedes BIND-1 as the binding registration (BIND-1 remains in the record as a completed, honestly-killed test). It composes with MASS-1 (rates are the mass-adjacent quantity), inherits M-FRAME2 as the decider of its winding component, and — via K-BIND2-2 — puts the JOIN-4a″ machinery to new work. SPACE-1 subsumes nothing and forbids nothing; it names the program's direction and its two ultimate questions, with the record's current answer to "how much energy does empty space have" being exactly zero, flagged as possibly definitional.
