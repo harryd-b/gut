@@ -1,4 +1,4 @@
-# Phase 109 — convention upgrades, part 1: D-MS (derivation record; referee pass pending; verdicts NOT entered)
+# Phase 109 — convention upgrades, part 1: D-MS (REFEREED 2026-07-26; scheme-uniqueness CONFIRMED; identity with D-MS pends M-FRAME — see Amendment)
 
 *Working session, 2026-07-26, executing the operator's instruction to attempt functor/derivation upgrades of the adopted conventions. **Status: [derived by a context-free derivation agent; NOT refereed; no verdict entered; D-MS remains an adopted convention until a referee rules].***
 
@@ -127,3 +127,27 @@ MS itself satisfies this with M = −Q₁Q₂ (the cross term of −Q²/2). Any 
 3. J-equivariance forces F to be J-odd, killing half the scheme space but sparing branch/framing-odd terms — and the rival uniform-background closure is J-equivariant, so J alone cannot decide (BOX 4).
 4. Fusion naturality (mutual phase UV-finite ⟹ scheme-independent; verified numerically that the divergence is a shape-dependent self-effect, a = ∫ρ̃² to 6 digits, while cross terms are finite and shape-independent) forces F additive in Q; charge conjugation forces F even; additive + even ⟹ F ≡ 0 (BOX 5).
 5. **D-MS UPGRADED** on hypotheses {locality, shape-independence, C-equivariance, fusion naturality} — not the hypotheses conjectured; the uniform-background closure fails exactly fusion (spin–statistics), and the honest load-bearing assumptions are flagged as GAP-3/GAP-4 (BOX 6, BOX 7).
+
+---
+
+## AMENDMENT — referee verdicts entered (2026-07-26)
+
+*Context-free adversarial referee pass completed 2026-07-26; report verbatim in `reviews/REPORTS-phase109-DMS-referee-2026-07-26.md`. The referee independently reran the locality numerics (three profile families, coefficient = ∫ρ̃² to 8 digits). Standing AI-referee caveat applies.*
+
+### A.1 Confirmed [refereed]
+
+- The theorem's skeleton: scheme space = one function F (with repairs: schemes defined via the ε→0 limit; geodesic-transitivity and g ~ g⁻¹ closures written out; per-defect restriction attributed to S1); covariance-only REFUTED (the λQ²ℓ counterexample stands — the mirror law is a property of D-MS, not an a priori scheme constraint); J-only insufficient (parity classification verified; sign/framing bookkeeping of F_unif fixed per referee); the pointwise algebra SIMPLIFIED by the referee: additive ⟹ odd, C-even + odd ⟹ 2F = 0 — no Cauchy/measurability needed.
+- **The flagged potential error is resolved in the derivation's favor**: linear C (f ↦ −f) is a genuine unitary symmetry of the chiral theory — symplectic, norm-preserving, commuting with the complex structure, fixing the Sugawara stress tensor; chirality untouched; it coexists with and differs from the record's antiunitary J. Formula-evenness alone would NOT have sufficed; the argument stands because C is a symmetry.
+- Fusion naturality ruled NOT circular; the uniform-background closure's diagnosis (violates exactly S4 / abelian spin–statistics) CONFIRMED at the refereed n = 0 level.
+
+### A.2 Correction C-P1 (major) — what is proven is uniqueness of the S4-scheme; identity with D-MS pends one computation
+
+The counterterm μnQ² survives every axiom except S4-at-n≠0. There, "MS satisfies S4" requires the mutual phase to contain the framing cross term nQ₁Q₂ — which the refereed pair entry does NOT certify (it certifies only −Q₁Q₂). If the physical mutual phase lacks the framing cross, the axioms uniquely select the framing-DELETED scheme D = ∓Q²/2 instead. **Registered as the deciding open computation M-FRAME:** *compute the mutual phase of two same-axis defects in a framing sector n ≠ 0 from the transport construction — M = (n∓1)Q₁Q₂ confirms D-MS; M = ∓Q₁Q₂ selects the framing-deleted scheme.* Until M-FRAME is done: **the refereed theorem is "the fusion-consistent scheme is unique"; D-MS remains the adopted convention identifying WHICH one it is** — with the ambiguity now reduced from an infinite-dimensional scheme space to a binary choice decided by one computation.
+
+### A.3 Minor repairs adopted
+
+Quadraticity of the transport functional stated as the explicit bridge hypothesis for the locality inference (GAP-2); uniformity of the E3 expansion over Möbius-distorted profile families flagged as an unproven analytic premise (the O(ε)·1/ε = O(1) subtlety); F_unif bookkeeping corrected to (n∓1)Q²/2.
+
+### A.4 Status
+
+**D-MS: convention, with a refereed uniqueness theorem behind it.** The scheme space is provably a two-point set {D-MS, framing-deleted} under the axioms (from the full function space under covariance alone); M-FRAME decides. C-D5-style full upgrade deferred to M-FRAME's outcome.

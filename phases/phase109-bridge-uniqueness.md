@@ -1,4 +1,4 @@
-# Phase 109 — convention upgrades, part 2: C-BRIDGE uniqueness and the quadratic bulk invariant (derivation record; referee pass pending; verdicts NOT entered)
+# Phase 109 — convention upgrades, part 2: C-BRIDGE uniqueness and the quadratic bulk invariant (REFEREED 2026-07-26; rigidity + e-odd CONFIRMED; W ruled reverse-engineered; |e| = 1 stays a postulate — see Amendment)
 
 *Working session, 2026-07-26, executing the operator's instruction to reduce the postulate content of C-BRIDGE. **Status: [derived by a context-free derivation agent; NOT refereed; no verdict entered; C-BRIDGE stands as adopted until a referee rules].***
 
@@ -76,3 +76,28 @@ The ½-endpoint weight is the standard interval-boundary (Maslov endpoint) conve
 3. Along the wall, every rotation-type quantity is zero or linear in n (shear −2πnℓ; helicity ∝ n): naive spin candidates fail, and mod-1 spin matching provably forces only *e odd* (e = 3 survives), correcting the hoped-for claim.
 4. The quadratic datum exists as a self-pairing: the endpoint-half-weighted sum of ξ-framings over the layer's tower of σ-Reeb tori equals exactly n²/2; matching it to the real-valued lowest weight (en)²/2 forces e² = 1.
 5. Net result: (N) is replaced by parity-preservation (giving e odd, unconditionally) plus one checkable geometric hypothesis — H-QUAD, canonicity of the n²/2 orbit-tower invariant under the symmetric endpoint convention — with faithfulness intact; the sole residual referee burden is [GAP-4]/[GAP-5].
+
+---
+
+## AMENDMENT — referee verdicts entered (2026-07-26)
+
+*Context-free adversarial referee pass completed 2026-07-26; report verbatim in `reviews/REPORTS-phase109-bridge-referee-2026-07-26.md`. The referee verified all differential geometry symbolically and ran the tower arithmetic in every convention — including the trap set in the brief, which fired. Standing AI-referee caveat applies.*
+
+### A.1 Confirmed [refereed]
+
+- **Theorem 1 (rigidity) with repair C-Q1**: the equivariance axiom must include "+id on oriented-curve stabilizers" (otherwise a −id implementation on a curve-preserving mapping class would force e = 0); with it, the bridge is one integer per MCG-orbit, **1 + ⌊g/2⌋ independent constants** [refereed].
+- **Braiding closure** [refereed]: no canonical bulk crossing phase exists; a phase axiom would be circular. Deflation adopted: **P′ ≡ mod-1 spin matching** — one constraint, not two independent corroborations.
+- **All B3 computations** verified symbolically (rotation 0; shear −2πnℓ; helicity ∝ n).
+- **Unconditional refereed gain: each e_orbit is ODD, hence nonzero — the bridge is injective.** This survives everything.
+
+### A.2 Correction C-Q2 — the tower was misstated; the arithmetic is stronger than claimed
+
+The true Reeb-parallel tower has **2n+1 tori at t = k/(2n)** (the trap in the brief, confirmed). The restriction to the +∂_σ sub-tower is orientation-canonical, and — the referee's strengthening — **both** oriented sub-towers independently give n²/2, the −tower with *no endpoint convention at all*. The claimed reflection-symmetry justification of the ½-convention is WRONG (both symmetric conventions are already reflection-invariant); the genuine selector, verified by the referee, is **concatenation additivity** (only the trapezoid weighting satisfies S(n)+S(m) = (n+m)² /2 under layer stacking). Adopted with these repairs: the oriented Reeb-tower trapezoid sum = n²/2 is genuine geometry.
+
+### A.3 Correction C-Q3 (decisive) — axiom W is reverse-engineered; |e| = 1 remains a postulate
+
+The referee's killing test: the equally-canonical FULL tower gives S = n², under which W forces e² = 2 — no integer solution. That an unresolved normalization choice decides between "|e| = 1" and "inconsistency" proves W's entire content is the normalization, i.e. the conclusion. **H-QUAD-as-normalized-invariant: UNPROVEN. The conditional theorem is formally valid but epistemically empty beyond the e-odd part.**
+
+### A.4 C-BRIDGE status after this phase
+
+Postulate content, final refereed form: **faithfulness + P′ (theorem-grade consequence: e odd per orbit, nonzero, injective) + the residual normalization |e| = 1 per orbit** — which is now understood as a pure choice of charge unit (equivalently: which lattice extension the bulk selects), the mildest kind of postulate, but a postulate. The adopted C-BRIDGE convention stands unchanged in force, with its disclosure updated to this sharper decomposition. [Interpretation, tagged: an odd e ≠ ±1 would mean the bulk generates only a sublattice of charges — the normalization postulate asserts the bulk sees the full lattice.]
