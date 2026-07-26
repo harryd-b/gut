@@ -44,6 +44,10 @@ so composite energy ≠ sum of parts without any carrier changing. Sign structur
 
 SPACE-1 carries no kills (it is a thesis, not a conjecture); its falsifiable content lives entirely in BIND-2, MASS-1, and any future calibration entry, and it dies with them if they all die.
 
+## 3a. Status update (2026-07-26, post round-1 referee) — K-BIND2-1 does not fire; (B2-b) coefficient REFEREED
+
+Round 1 (phases/phase112-BIND2-round1-two-arc-rate.md) executed and adversarially refereed (reviews/REPORTS-phase112-BIND2-referee-2026-07-26.md); corrections C-W1..C-W4 entered. **The rate-shift coefficient is refereed: D_{γ₁}(pair) = (Q₁+îQ₂)²ℓ₁/2π in both crossing channels** — derived with E1's own forced truncation (iterate-then-truncate, unique coherent trivializer), the C-V4 divergence disease shown real pre-truncation and annihilated identically for all n, and confirmed by two independent numerical implementations at different moduli/grids/fit windows (coefficients to 5 decimals, no superlinear drift). [BOX-B] canonical-representative convention RATIFIED (derivable from the refereed charge reading; E1 uninfected). The dictionary now possesses its first refereed length-carrying cross-axis coupling; composite energies are no longer forced-additive. Open on BIND-2: K-BIND2-2 (erasability — [SKETCH] favorable, full orbit round pending), K-BIND2-3 (rides on M-FRAME2), BIND2-GAP-1 (stiffness bound — round queued/dispatched), and the separation-independence oddity (standing watch item).
+
 ## 4. Relation to the standing program
 
 BIND-2 supersedes BIND-1 as the binding registration (BIND-1 remains in the record as a completed, honestly-killed test). It composes with MASS-1 (rates are the mass-adjacent quantity), inherits M-FRAME2 as the decider of its winding component, and — via K-BIND2-2 — puts the JOIN-4a″ machinery to new work. SPACE-1 subsumes nothing and forbids nothing; it names the program's direction and its two ultimate questions, with the record's current answer to "how much energy does empty space have" being exactly zero, flagged as possibly definitional.

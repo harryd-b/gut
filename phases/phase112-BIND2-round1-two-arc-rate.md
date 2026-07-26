@@ -101,4 +101,21 @@ On A(I₁), the pair state ω∘Ad W(η₁+η₂) and the unshifted reference ω
 
 ## Amendment section
 
-(Reserved for the referee verdict. Empty until the referee pass completes.)
+### A.1 Referee verdict (2026-07-26): K-BIND2-1 CONFIRMED-DOES-NOT-FIRE; [BOX-B] RATIFIED
+
+Adversarial referee report preserved verbatim in reviews/REPORTS-phase112-BIND2-referee-2026-07-26.md. Every E1 attribution audited line-by-line against phase104-JOIN4a-prime-derivation.md and found correct (functional, normalization, truncation definition with the kink precondition, Task-3 uniqueness, iterate-then-truncate as the forced order, the line-frame erratum, the compensated-profile D = 0 line, C-D5 midpoint scope). The C-V4 demand ruled MET, not dodged. The referee's main assault — a truncation-boundary divergence where the inner edges accumulate at the cut point — was repelled analytically (exact cross-boundary identity 2∫f²du; independent re-derivation of the overlap identity) and numerically (the same-side sinh kernel carries zero growth: fitted slope 0.000000). Independent numerics at different modulus (ℓ₁ = 0.7), grid, edge model, and fit window reproduce every coefficient to 5 decimals with increments constant to 6 decimals; the superlinear-drift hunt was negative.
+
+**Refereed and entered:** Lemma A (stated hypotheses); the forced iterate-then-truncate reading; **D_{γ₁}(pair) = (Q₁+îQ₂)²ℓ₁/2π in both channels**, including the exact zero at Q₂ = −îQ₁ (bounded norm, rate 0 — not ill-defined); the pre-truncation O(n) disease as real-but-globally-cancelling and never entering the I-local functional; the [BOX-B] canonical-representative convention — RATIFIED, with the referee's strengthening that it is DERIVABLE from the record's refereed charge reading Q = ∫_I η′ (phase 104 §0), so the ambiguity does not infect E1.
+
+**Not refereed (stay as tagged):** §(d)'s K-BIND2-2 sketch; [BOX-A]/[BOX-D] uniformity (inherit E1's GAP-5, unchanged); [GAP-1] physical reading.
+
+### A.2 Corrections ledger
+
+- **C-W1.** The Task-3 quote is σ(g − ζ^{(n)}_in, f) per phase 104 §3 (equivalent for supp f ⊂ I by the record's ζ_out-pairs-trivially check; quotes must be exact).
+- **C-W2.** The §(d) criterion citation conflated two statements: C-N1 proper gives sup_t‖k_t‖ = ∞ ⟹ ĥ ∉ L² NEAR 0 (one implication); the full Q = 0 ⟺ orbit-membership equivalence is phase 108's mechanism line. Split accordingly; "near 0" restored.
+- **C-W3.** The global-run opposite-side pairing slope −0.31821 is single-quadrant normalized; the full opposite-side contribution is 2× (referee measurement: −0.891268 = −2(Q₁+Q₂)²ℓ₁/2π at ℓ₁ = 0.7). Quadrant convention now stated.
+- **C-W4.** The [BOX-B] ratification records the derivability note (refereed charge reading + calibration, not calibration alone).
+
+### A.3 Post-verdict status
+
+**B2-b's analytic coefficient is REFEREED. The dictionary's first length-carrying cross-axis coupling stands:** a carrier's I-local rate in the presence of a crossing partner is (Q₁+îQ₂)²ℓ₁/2π — partner-sensitive, sign-structured (like charges excess, opposite charges defect to exactly zero at Q₂ = −îQ₁), linear, and produced by the record's own forced machinery. Next registered work: K-BIND2-2 (full erasability/orbit round, building on the [SKETCH]); the queued BIND2-GAP-1 stiffness round; K-BIND2-3 rides on M-FRAME2.
