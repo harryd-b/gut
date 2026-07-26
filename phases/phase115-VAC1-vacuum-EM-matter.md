@@ -74,4 +74,22 @@ Every refereed functional is relative: D and D_{γ}(pair) are growth rates of �
 
 ## Amendment section
 
-(Reserved for the referee verdict. Empty until the referee pass completes.)
+### A.1 Referee verdict (2026-07-26): headline CONFIRMED; enters SPACE-1 at refereed scope
+
+Report preserved verbatim in reviews/REPORTS-phase115-VAC1-referee-2026-07-26.md. The referee attacked the two-way corollary hardest and failed to break it: C-F1's refereed statement is a GLOBAL state identity with the implementer strictly in A(I), so the creation reading inherits C-F1's grade exactly — "the same refereed theorem read backwards." D(pair) = 0 verified as refereed content (not mere composition). CAS-1 fairly posed after the C-Y6 repair; EM table accurate modulo C-Y7; the −1/24 arithmetic and the BCN/Affleck attributions web-verified.
+
+**Entered into SPACE-1 (phase-112 registration §3, amended per C-Y5):** within the smooth same-axis class with Q_tot = 0 and compact support, vacuum → pair is refereed-licensed (existence of W(ĥ) ∈ A(I) with φ = ω∘Ad W(ĥ) as a global state; orbit membership only — no rate, no process, no event); vacuum → net charge is forbidden in the EXACT unitary/isometry orbit (JOIN-4a″), with the approximate-transitivity caveat carried (Connes–Størmer: charged states are norm-limits of vacuum-orbit states). Invariant form per C-Y3: *the vacuum's exact local orbit contains all smooth same-axis neutral dressings; "pair creation" is the representative-level gloss.*
+
+### A.2 Corrections ledger
+
+- **C-Y1.** W(ĥ)Ω's vector state is the CHARGE-FLIPPED pair (ω∘Ad W(ĥ)*), not the same state — same class, different state; parenthesis corrected.
+- **C-Y2.** The prohibition carries the exact-orbit/local-implementer qualifier; approximate transitivity (phase 108 R4) survives for III₁.
+- **C-Y3.** The corollary is registered invariantly (above); constituent charges of a neutral pair are representative data, not state data — the same refereed fact behind the photon row.
+- **C-Y4.** The C-F1 recap corrected to the repaired form (ĥ′ required to vanish outside Ī — no net collar charge).
+- **C-Y5.** SPACE-1's Q2 sentence "nothing → matter is not derivable" superseded by explicit amendment (done in the phase-112 registration).
+- **C-Y6.** CAS-1's kill restated: the conversion is the lattice normalization Q = q√(2π) plus the modular-time 2π factor AND the branch convention (not phase-104's κ, which acts on the norm-based D, not the scheme-fixed D_spin); the −1/24 clause must pin the frame.
+- **C-Y7.** The EM table's "propagation killed" row carries the registered revival falsifier (JOIN-4b / K-DATA). C-L4 explicitly dismissed as a neutral-state invariant (unsigned counts attach to carrier cosets; neutral states have no refereed anchoring).
+
+### A.3 Post-verdict status
+
+SPACE-1's Q2 has its first refereed content: creation and annihilation are one theorem; the vacuum is pair-degenerate (invariantly: neutrally-dressable) and net-charge-rigid. CAS-1 (the absolute Sugawara column, vacuum −1/24) stands as the posed candidate uniting Q1's calibration anchor with the radiation sector's missing content — awaiting an operator registration decision and then its kill computation. GAP-a1 (the vertex-operator overlap power law) stays candidate. GAP-a2 (winding sectors) and GAP-a3 (cross-axis orbit = K-BIND2-2) remain the excluded frontiers.
