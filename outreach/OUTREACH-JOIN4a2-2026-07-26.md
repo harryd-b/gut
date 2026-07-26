@@ -1,5 +1,7 @@
 # OUTREACH NOTE — JOIN-4a″: exact unitary orbit of the vacuum under a BMT automorphism (2026-07-26)
 
+> **STATUS UPDATE (2026-07-26, later same day):** the question below has since been RESOLVED IN THE NEGATIVE within the record (phases/phase108-JOIN4a2-resolution.md, AI-refereed with independent numerics: reviews/REPORTS-phase108-JOIN4a2-referee-2026-07-26.md) — φ ∉ exact orbit, sharp criterion orbit ⟺ bounded cocycle norm, via an infrared phase-rigidity argument. This note should be reframed before circulation as a THEOREM-VERIFICATION request rather than an open question: the ask is for a human operator algebraist to check the ~2-page proof (van Hove-type; the referee's repaired version needs only sup_t‖(Dφ:Dω)_t-norm‖ = ∞). All other rules unchanged: unsigned = internal-only.
+
 *Prepared per the adopted plan and the operator's instruction. Intended audience: an operator algebraist familiar with type III factors and/or algebraic QFT. Self-contained; no framework content. Status of the question: exported open problem of the record (JOIN-4a″), adjudicated genuinely open by a literature pass on 2026-07-26 (notes/LITSEARCH-2026-07-26-T1-T2.md). Per the record's outreach rule, nothing mails without a human signature; this note may be consulted internally without one.*
 
 ## The question
