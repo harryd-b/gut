@@ -57,3 +57,18 @@ Round 1 (phases/phase111-BIND1-round1-length-defect.md) executed and adversarial
 - **K-BIND-1 is now the single load-bearing open question:** the arena is SILENT on cross-axis fusion (E4's native composition is additive — the exact root of the phase-110 no-go; E6's concatenation echo is charge-free and Λ-scoped per C-U2). BIND-1 lives or dies on whether a refereed fusion rule ever selects the concatenated carrier.
 
 **BIND-1 remains a registered conjecture** — its kinematics are now refereed-real and close over existing dictionary data, but carrier status for the composite is underived, and the mechanism is attractive-binding-only in 2D.
+
+## 8. FINAL STATUS (2026-07-26, post K-BIND-1 referee): K-BIND-1 FIRED (scoped) — BIND-1 DEAD-AS-DERIVABLE
+
+K-BIND-1 was executed (phases/phase111-BIND1-round2-KBIND1.md) and the kill claim adversarially refereed with explicit rescue mandates (reviews/REPORTS-phase111-KBIND1-referee-2026-07-26.md). Referee ruling: **KILL CONFIRMED-AS-DERIVABILITY-NO-GO.**
+
+What is proven (refereed): within the record's fusion concept (composition of refereed defect automorphisms — E4's own operation — with carrier data read from M_Λ-internal implementers), cross-axis fusion is provably totals-only with implementer rigidity (C-J3); and the unique implementer-borne concatenating alternative (the dressed calculus) is a different automorphism that provably anti-calibrates: same-axis it doubles the carrier against refereed E4; cross-axis the concatenated carrier's leg sweeps charge î(Q₂−Q₁) — never Q₁+Q₂ (anchor-interlacing lemma, theorem-grade) — inverting the like/unlike-charge pattern; and it destroys E6's refereed central-extension recovery of D₁₂. **No refereed fusion rule derivable from the current record can ever select the concatenated carrier.**
+
+What is not proven: that no future refereed structure of NON-fusion type could assign a composite the concatenated class. Any such "binding map" is a new registration, not BIND-1, and is already gate-constrained: it cannot be implementer-borne in M_Λ.
+
+**Refereed survivors of the program (BIND-1-independent):**
+1. The round-1 length-defect formula — stands as pure hyperbolic geometry.
+2. The anchor-interlacing lemma — theorem-grade (referee-proved endpoint strictness; independently re-proves hyperbolicity of crossing products).
+3. **The latent cross-axis rate shift D_{γ₁}(pair) = (Q₁+îQ₂)²ℓ₁/2π** — the record's first candidate length-carrying cross-axis coupling, found inside the refereed calculus during the kill. Combinatorial core refereed (exactly one partner anchor lies in the carrier's leg; swept charge Q₁+îQ₂); the analytic coefficient is OPEN (C-V4: O(n) cross-pairings must be controlled by the E1 truncation bookkeeping — genuinely harder than E4's split-independence). Feeds K-MASS-2's future (i) without carrier merger. Awaiting registration decision.
+
+Epitaph, in house style: the conjecture was falsifiable, was tested against its own pre-registered kill, and died honestly — leaving behind two theorems and the binding-energy candidate the dictionary had been missing.
