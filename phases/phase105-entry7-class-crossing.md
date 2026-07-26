@@ -1,4 +1,4 @@
-# Phase 105 — entry 7 candidate: the conjugacy-class crossing invariant D̄₁₂ (derivation record; referee pass pending; verdicts NOT entered)
+# Phase 105 — entry 7: the conjugacy-class crossing invariant D̄₁₂ (REFEREED 2026-07-26; CONFIRMED WITH REPAIRS — see Amendment)
 
 *Working session, 2026-07-26, continuing per the adopted plan (notes/PLAN-2026-07-26-dictionary-completion.md). **Status: [derived by a context-free derivation agent; NOT refereed; no verdict entered].** Editorial note on labels: the derivation agent self-titled its document "SPAN-2", colliding with the record's existing SPAN-2 label (phases/phase105-D12-cross-invariant.md); text preserved verbatim including that title; registered in the record as **entry 7 / CLASS-1**.*
 
@@ -91,3 +91,31 @@ finite; antisymmetric under 1↔2; bilinear in charges; **multiplicity law** m�
 3. Multiplicity m₁m₂ on powers, inverse law, antisymmetry, and summand-wise mirror all hold; the diagonal off-identity sum vanishes identically because double cosets count each self-crossing twice with opposite signs (Box 3).
 4. The "surface defect" divergence concern dissolves: the profile sum diverges absolutely and, by boundary ergodicity, no nonzero Γ-invariant profile exists — the entry is **data** (a pairing of charge-decorated H₁-classes), not a state.
 5. Gaps flagged: standard-fact imports [others'], summand-wise mirror as definition, open-surface homology invariance, and numerics as finite-length evidence.
+
+---
+
+## AMENDMENT — referee verdicts entered (2026-07-26)
+
+*Context-free adversarial referee pass completed 2026-07-26; report verbatim in `reviews/REPORTS-phase105-entry7-referee-2026-07-26.md`. The referee reimplemented the numerics from scratch by a methodologically different route (exact integer arithmetic; two independent double-coset identifications) and reproduced the derivation's entire table with zero discrepancies. Standing AI-referee caveat applies.*
+
+### A.1 Overall ruling
+
+**Entry 7 ENTERS the dictionary: CONFIRMED WITH REPAIRS.** All five boxes stand. The double-coset↔crossing bijection (GAP-1) is verified in full and CLOSED (uniqueness of the crossing point; the right coset factor acts trivially on the summand geodesic; injectivity via primitivity and the oriented-stabilizer argument; branch multiplicity automatic in the non-simple case; cusps harmless). The homological descent D̄₁₂ = ⟨Q₁[c₁], Q₂[c₂]⟩ is CONFIRMED (GAP-4 closed: singular 2-chains are automatically compactly supported, so the pairing is well-defined on any oriented boundaryless surface; what fails on open surfaces is nondegeneracy — exactly the acknowledged homological blindness). Multiplicity m₁m₂, inverse law, antisymmetry, and the diagonal cancellation all CORRECT, with the mirror law adjudicated as *the inverse law restated* (definitional aggregation, honestly flagged — r₁ ∉ Γ generally, so no genuine class-level mirror theorem exists and none is claimed).
+
+### A.2 Correction C-L1 — the real error: §5(ii) ergodicity argument WRONG AS STATED; repaired via double ergodicity
+
+The pre-flagged concern confirmed exactly: invariance of a profile class mod constants gives η∘g = η + c_g with c: Γ → ℝ an additive character, and Γᵃᵇ = ℤ² supplies nonzero characters — "ergodic ⇒ a.e. constant" does not apply to η, and GAP-6's "routine bookkeeping" label concealed a genuine ergodic-cocycle rigidity question. **Repair (referee-supplied, adopted):** F(x,y) = η(x) − η(y) on S¹×S¹ is diagonal-Γ-invariant (characters cancel); for **divergence-type** Fuchsian groups the diagonal boundary action is Lebesgue-ergodic (Hopf), so F is a.e. constant; antisymmetry forces the constant to 0; Fubini makes η a.e. constant and c ≡ 0. **No measurable solution with nonzero character exists — in the divergence-type scope**, which includes all lattices and in particular the §6 group. Scope correction adopted: the dissolution's citation "first-kind ⇒ ergodic [Hopf]" is imprecise — Hopf's theorem is about divergence type, and the argument genuinely needs DOUBLE ergodicity (S¹×S¹), not single. Box 5's "no state" clause now carries this scope.
+
+### A.3 Corrections C-L2/C-L3/C-L4 — repairs adopted
+
+- **C-L2 (shared single endpoint):** §1 silently assumed no summand axis shares exactly one endpoint with axis γ₁. Discharged: two hyperbolics in a discrete group sharing exactly one fixed point generate a non-discrete group; the hypothesis of E2 (four distinct anchors) holds for every summand. Added to the imports.
+- **C-L3 (sign lemma completion):** Möbius invariance alone does not reduce the general crossing to the model (PSL(2,ℝ) is not transitive on crossings — the angle is an invariant); completed by connectedness of the space of crossing configurations with fixed endpoint cyclic-order type, on which both ε and î are locally constant.
+- **C-L4 (unsigned count accessible):** the referee's addendum against over-reading Box 3 — while the signed diagonal sum is identically 0 and the writhe-like single-count is genuinely undefined (no canonical branch ordering; minimal-length representatives tie), the UNSIGNED self-intersection count IS accessible to the formalism as (number of crossing cosets)/2. Recorded.
+
+### A.4 Numerics
+
+Fully reproduced independently (exact integer matrices, two coset-identification methods, two word-length cutoffs; the group verified as a once-punctured-torus lattice — tr[A,B] = −2, no relations to length 16, no elliptics; divergence type, so C-L1's repaired argument applies to it). Zero discrepancies with the derivation's table on any entry, including the fine-coset multiplicity check Î([A²],[B²]) = −4 and the exact ι-pairing on the non-simple diagonal.
+
+### A.5 Dictionary status after this entry — THE PLANNED DICTIONARY IS COMPLETE
+
+Seven refereed items standing: **D** (existence/erasure, metric) · **D₁₂** (pair crossing, topological) · **D_spin** (framed self-phase; statistics) · **D_fus** (fusion/binding/annihilation) · **Dconj** (J-mirror antimatter; Box 4a restored via L-MIRROR) · **JOINT-1** (universal no-go + M_Λ + internal recovery of D₁₂) · **CLASS-1** (D̄₁₂ = ⟨Q₁[c₁], Q₂[c₂]⟩ — the cross-invariant is a homological pairing; homologically blind; diagonal splits as identity-coset E1 + vanishing signed remainder). Open registry: JOIN-4a″ (completeness), Q-FIB, Q-WIND, C-F3, KNOT-Q, JOIN-4b/K-DATA (standing falsifier), GAP-7 (nested/disjoint joint fibers), writhe non-definability (with C-L4's unsigned-count accessibility). Next per the adopted plan: the phase-106 synthesis, then the literature search.
