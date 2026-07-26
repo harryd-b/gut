@@ -116,6 +116,8 @@ This is the standard mutual-statistics (half-monodromy/braiding) phase of charge
 
 **One gap, closed by adopting a convention (C-D5):** "same axis ⟹ σ = 0" is regularization-dependent at common atoms (the referee exhibited offset smoothings giving −Q₁Q₂). **Adopted henceforth: the symmetric (midpoint) regularization convention at shared anchors**, under which the diagonal vanishes; equivalently, commonly-smoothed profiles. Logged as a convention of the dictionary, not a theorem.
 
+*Addendum (2026-07-26): C-D5 UPGRADED to a theorem — under charge-independence (H1) and J-equivariance (H2) of the scheme, the same-axis value 0 and collar r-antisymmetry are FORCED, exactly at every ε (phases/phase109-CD5-upgrade.md, refereed; report in reviews/REPORTS-phase109-CD5-referee-2026-07-26.md). H2 alone is insufficient (repaired charge-dependent equivariant counterexample achieves |Q₁|Q₂). The convention label is retained only for the H3-dependent single-shared-anchor extension, which cannot occur for distinct axes of a discrete group.*
+
 **Erratum (briefing, not document):** the refereeing brief dropped the |k| weight in the norm formula; the derivation document's H^{1/2} norm is correct as printed. Logged for the process ledger.
 
 **Dictionary status after this amendment — two refereed entries:**
