@@ -105,3 +105,22 @@ This is the standard mutual-statistics (half-monodromy/braiding) phase of charge
 3. Triple equivalence proved (given the refereed trichotomy): crossing ⟺ mutual single-arena inadmissibility ⟺ σ ≠ 0; caveat — the *phase* trivializes on Q₁Q₂ ∈ 2πℤ, and "joint-ledger breakdown" beyond per-arena inadmissibility is [GAP].
 4. Dictionary entry: D₁₂ = Q₁Q₂î (signed, antisymmetric; magnitude symmetric), topological in kind — deliberately unlike the metric diagonal entry Q²ℓ/2π; the phase is the standard chiral-boson mutual statistics (others'), novelty only in the geodesic-interlacing indexation.
 5. No dynamics, no force, no scattering; conjugacy-class (multi-crossing) extension flagged as a double-coset sum, not computed [GAP].
+
+---
+
+## Amendment (2026-07-24, same session) — referee verdict entered: D₁₂ CONFIRMED with one convention adopted
+
+*Report verbatim in `reviews/REPORTS-phase105-D12-referee-2026-07-24.md`.*
+
+**Confirmed [now derived, refereed]:** the exact evaluation σ(η₁,η₂) = Q₁Q₂·î(γ₁,γ₂) for ramp-disjoint profiles (Theorem 1, with δ read as the minimum over all four anchors and the plateau-matching hypothesis made explicit); the error bound (provable with constant 1); the Weyl commutator phase and its invariances; the group fact (four distinct endpoints — discreteness alone suffices); and the triple equivalence — with the referee's sharpening that **"mutual" is load-bearing**: the non-crossing case splits into *disjoint* (mutual invisibility, σ = 0) and **nested** (one-sided inadmissibility — the inner defect breaks the outer geodesic's ledger while remaining invisible to it in return — and still σ = 0). The relationship taxonomy is therefore **three-fold: disjoint (mutual ignorance), nested (one-sided disturbance without phase), crossing (mutual breakdown with phase Q₁Q₂)**. Calibration and novelty framing ruled honest.
+
+**One gap, closed by adopting a convention (C-D5):** "same axis ⟹ σ = 0" is regularization-dependent at common atoms (the referee exhibited offset smoothings giving −Q₁Q₂). **Adopted henceforth: the symmetric (midpoint) regularization convention at shared anchors**, under which the diagonal vanishes; equivalently, commonly-smoothed profiles. Logged as a convention of the dictionary, not a theorem.
+
+**Erratum (briefing, not document):** the refereeing brief dropped the |k| weight in the norm formula; the derivation document's H^{1/2} norm is correct as printed. Logged for the process ledger.
+
+**Dictionary status after this amendment — two refereed entries:**
+
+> **Existence (diagonal, metric): D = Q²ℓ/2π.** A defect's charge paired with its own geodesic's length — the coherent-erasure rate.
+> **Relationship (off-diagonal, topological): D₁₂ = Q₁Q₂·î(γ₁,γ₂).** Two defects' charges paired with their axes' signed crossing — the order-of-creation phase, with the three-fold visibility taxonomy (disjoint/nested/crossing) matching the refereed locality trichotomy exactly.
+
+Open, flagged, unchanged: the joint two-geodesic arena [GAP]; the conjugacy-class extension (Q₁Q₂ × total intersection number, via double cosets) [GAP]; no dynamics anywhere.
