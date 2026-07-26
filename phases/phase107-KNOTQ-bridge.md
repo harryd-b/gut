@@ -1,4 +1,4 @@
-# Phase 107 — KNOT-Q campaign, round 1: the bridge construction and kill adjudication (derivation record; referee pass pending; verdicts NOT entered)
+# Phase 107 — KNOT-Q campaign, round 1: the bridge construction and kill adjudication (REFEREED 2026-07-26; destructive core CONFIRMED; Boxes 2/4 re-scoped; KNOT-Q re-registered as v2 — see Amendment)
 
 *Working session, 2026-07-26, executing the operator's instruction "Kick off KNOT-Q." **Status: [derived by a context-free derivation agent; NOT refereed; no verdict entered; the KNOT-Q registration in phases/phase105-SPAN1-knot-charge.md §4 is UNCHANGED until a referee pass].***
 
@@ -106,3 +106,31 @@ BOX 2 forces charge to be supported only on **simple** closed geodesics (non-sim
 3. Genus-0 knots get Q = 0 by locality + tightness — clause (a)'s conclusion survives with a replaced, forced mechanism; the genus-0 kill cannot fire.
 4. Trefoil-minimality and Arf↦statistics are numerology (the parity is torsion parity, not Arf; sign(Q) is convention up to orientation data).
 5. VERDICT: INCONCLUSIVE — the kill fires iff the torsion insertion acts trivially on the boundary net (e = 0); proving e ≠ 0 (or = 0) for one torsion unit along one T_γ is the single missing object.
+
+---
+
+## AMENDMENT — referee verdicts entered (2026-07-26)
+
+*Context-free contact-topology referee pass completed 2026-07-26; report verbatim in `reviews/REPORTS-phase107-KNOTQ-referee-2026-07-26.md` (note: the referee mislabeled its report "JOIN-4b" — it concerns this phase only). Standing AI-referee caveat applies.*
+
+### A.1 Confirmed [refereed]
+
+- **F1, F2, Box 1**: Lutz twists are unrestricted along any transverse knot and always overtwist (half and full); the Bennequin-budget mechanism of KNOT-Q clause (a) is a category error; the literal decoration dichotomy is airtight; the kill HANGS on the literal reading. Bonus referee facts adopted: no tight Lutz twist exists in dimension 3; the S¹-fibers of T¹Σ_g are Legendrian (not transverse) for ξ_can; the half twist changes the plane-field homotopy class, the full does not.
+- **F3 (repaired)**: Colin 2001 (universal tightness preserved; attribution to Colin using Giroux's torsion invariant); g ≥ 2 stated; vertical tori must be isotoped to pre-Lagrangian/convex position first. GAP-1 closes in our favor.
+- **F4**: every incompressible torus is vertical — two independent exclusions of horizontal tori (Euler number 2g−2 ≠ 0; χ < 0 branched covers); embeddedness forces simplicity. GAP-2 closes.
+- **F5**: compressible-torus torsion (even half) overtwists. GAP-3 closes.
+- **Box 3 (repaired)**: genus-0 ⟹ Q_visible = 0 stands via the locality mechanism, on the null-homologous domain where Seifert genus is defined (H₁(T¹Σ_g) = ℤ^{2g} ⊕ ℤ/(2g−2) verified; most knots are not null-homologous, so clause (a) was silently domain-restricted as registered). The genus-0 kill cannot fire.
+- **Clauses (b) trefoil and (c) Arf: WRONG AS REGISTERED [refereed]** — Ghys attribution verified (modular orbifold ↔ trefoil complement; wrong carrier); Arf ill-typed (torsion parity is a twist invariant, not a knot invariant).
+- **§5 simplicity prediction: CORRECT and genuinely discriminating.**
+
+### A.2 Correction C-K1 — Box 2 re-scoped: forcing holds only within the operation class
+
+The Honda/Giroux classification of tight structures on circle bundles contains tight structures on T¹Σ_g NOT obtained from ξ_can by torsion insertion. "Forced" is proved for the menu {knot-Lutz, torus-torsion} only; universal forcing over all conceivable tightness-compatible decorations is UNPROVEN. Box 2 stands as re-scoped.
+
+### A.3 Correction C-K2 — Box 4 re-scoped: the missing object is a modeling task, and the kill needed re-registration
+
+"The boundary-net action of a Giroux-torsion insertion" is not a defined object in any existing framework — the holonomy principle (GAP-4) is a postulate, and "compute e" is well-posed only relative to it. Further, the registered kill quantifies over KNOT classes, which the repaired bridge no longer decorates — so "fires iff e = 0" presupposed an unregistered re-reading. Adopted: the kill is re-registered (see the SPAN-1 amendment, KNOT-Q v2) over essential-simple-curve classes, with the operation-class restriction admitted, and the e-question stated as the bridge-definition task it is.
+
+### A.4 Outcome for the registration
+
+KNOT-Q as registered 2026-07-24 is superseded by **KNOT-Q v2** (registered in the SPAN-1 amendment of even date, with full disclosure): clause (a)'s conclusion retained under the locality mechanism; clauses (b-trefoil) and (c-Arf) STRUCK as refuted; realizability clause reduced to the e ≠ 0 question; the simplicity prediction added as a registered discriminating test. The original kill never fired (it hung — undefined, not zero); the re-registration is referee-ordered re-scoping, not a fitting escape, and the disclosure of what was struck and why is part of the record.
