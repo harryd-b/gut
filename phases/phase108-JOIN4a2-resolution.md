@@ -1,4 +1,4 @@
-# Phase 108 — JOIN-4a″ consultation: claimed resolution in the NEGATIVE (consultation record; referee pass pending; verdicts NOT entered)
+# Phase 108 — JOIN-4a″ RESOLVED IN THE NEGATIVE (REFEREED 2026-07-26; theorem STANDS with repairs — see Amendment)
 
 *Working session, 2026-07-26. An expert-persona operator-algebraist agent was consulted on the outreach note (outreach/OUTREACH-JOIN4a2-2026-07-26.md). **Status: [claimed theorem by consultant agent; NOT refereed; no verdict entered].***
 
@@ -66,3 +66,32 @@
 4. Optional strengthening: the same argument excludes ξ = wΩ for any isometry/partial isometry w, i.e. φ is not even of the form ω(w·w*) with w an isometry in A; and it localizes the failure as an infrared theorem: **the invariant D is precisely the obstruction density** — D > 0 ⟺ φ ∉ orbit. This makes D an honest invariant of the pair (ω, φ), which is presumably what SPAN-1/KNOT-Q wants.
 
 **Overall labels:** Theorem and Propositions — [proved here] modulo [client-verified] cocycle formula and [standard] items G1, Reeh–Schlieder, BW second quantization, strong continuity of Weyl systems. Refutation of naive 2b — [proved here]. Flow-of-weights remark — [standard, not re-fetched]. Nothing in this report is [open]: JOIN-4a″ is, in my judgment, closed in the negative once G1–G4 are written out, an afternoon's work for the client.
+
+---
+
+## AMENDMENT — referee verdicts entered (2026-07-26)
+
+*Context-free adversarial referee pass completed 2026-07-26; report verbatim in `reviews/REPORTS-phase108-JOIN4a2-referee-2026-07-26.md`. The referee attacked every step, verified the fatal-if-wrong sign structure, and ran the mandated numerics at the crux. Standing AI-referee caveat applies — and given the result's weight, this phase is flagged as the record's TOP PRIORITY for human-mathematician verification.*
+
+### A.1 THE THEOREM STANDS [refereed: CORRECT WITH REPAIR]
+
+> **Theorem (JOIN-4a″, negative; repaired form).** Let A = A(I), ω the vacuum, α = α_η a BMT charged automorphism whose Connes cocycle (Dω∘α : Dω)_t = e^{iΘ_t}W(k_t) satisfies sup_t ‖k_t‖ = ∞ (equivalently ĥ ∉ L² near ν = 0 in the spectral representation k̂_t = ĥ(1−e^{iνt}); for our class, ⟺ Q ≠ 0). Then ω∘α is not in the exact unitary orbit of ω — indeed no isometry w ∈ A gives ω(w·w*) = ω∘α. Sharp criterion: **orbit membership ⟺ ĥ ∈ L² ⟺ sup_t‖k_t‖ < ∞** (on the smooth BMT class: ⟺ Q = 0). Corollaries: α ∉ Inn(A)·Mod(A) (via the III₁ reduction Inn·Mod = Inn·{σ^ω}); α is not pointwise inner, with (ω, ω∘α) an EXPLICIT witness pair — produced directly by this theorem, which Isono (Compositio 2024) then situates as the first explicit Haagerup–Størmer-type witness on a trivial-bicentralizer III₁ factor.
+
+Confirmed in full: Prop 1 (and the refutation of the session's naive weak-nullity route), Step 1 bookkeeping (group law decorative), Steps 3–4 (with a bonus rigidity: phase convergence is automatic), Step 6 (airtight; no exchange-of-limits fallacy), the sanity check, and — the referee's named fatal risk — the sign structure at the crux (the cocycle's spectral flow and the conjugation flow coincide by construction through the chain rule).
+
+### A.2 Corrections C-N1/C-N2 — the two Step-5 errors, repaired (theorem STRENGTHENED)
+
+- **C-N1 (Tauberian gap):** "linear growth forces |η̂|² ~ (D/2π)ν⁻² pointwise" is FALSE as stated (averaged growth pins no pointwise asymptotics). Repair: only ĥ ∉ L² near 0 is needed, which follows from sup_t‖k_t‖ = ∞ (if ĥ ∈ L² then ‖k_t‖ ≤ 2‖ĥ‖). Adopted.
+- **C-N2 (shell arithmetic):** the submitted dyadic-shell computation was wrong for the linear-growth case — per-shell mass is ~D/(4πε), divergent, not constant (the submitted arithmetic solves the log-growth case). Referee numerics: single-shell test functions achieve ℓ(f_n) = π exactly with ‖f_n‖ = π/√M → 0 (values 1.21 → 1.1×10⁻³ across ε = 2⁻⁴…2⁻²⁴). **One shell suffices; the construction is easier than claimed.** Adopted.
+- **Scope sharpened [refereed]:** the linear law and the value D = Q²ℓ/2π are NEVER used — even logarithmic cocycle growth kills orbit membership. Θ_t is irrelevant beyond c_t being the true cocycle.
+
+### A.3 Correction C-N3 — corollary reframings adopted
+
+(i) The III₁ reduction Inn·Mod = Inn·{σ^ω_t} (trivial flow of weights; cocycles in A) is now stated. (ii) Isono framing inverted: the witness is produced DIRECTLY by the theorem; Isono's positive resolution of Haagerup–Størmer is what certifies it as an explicit witness of the abstractly-guaranteed failure — the theorem does not depend on Isono. (iii) The slogan "D is the obstruction" corrected: **D quantifies the obstruction; the obstruction itself is ĥ ∉ L²** (equivalently unbounded cocycle norm). The biconditional "orbit ⟺ Q = 0" holds on the smooth BMT class; the sharp class-free statement is orbit ⟺ ĥ ∈ L².
+
+### A.4 Consequences for the record
+
+1. **The dictionary's completeness question is CLOSED (in the strong direction).** The defect state is objectively distinct from the vacuum on A(I) itself: no local unitary (or isometry) fakes it, and no local operation erases it exactly. E1's D is thereby backed by a state-level theorem — permanence upgraded from "erasure has a cost rate" to "exact erasure is impossible," with D the quantitative measure of the impossibility.
+2. **New-mathematics claim (per the 2026-07-26 novelty assessment):** the explicit witness pair sits precisely in the open gap identified by the literature search (Connes–Størmer density / Haagerup–Størmer exactness / Isono 2024). The outreach note (outreach/OUTREACH-JOIN4a2-2026-07-26.md) should be reframed from open-question to theorem-verification request; still unsigned = internal-only.
+3. **Bearing on KNOT-Q v2:** boundary charge is now a certified state-level invariant, not bookkeeping — the target of the bulk-to-boundary bridge is physically meaningful, which is material context for the operator's pending decision on the bridge postulates (phase-107 round-2 amendment A.5).
+4. **Caveat, standing:** every verdict in this phase is AI-refereed. This result, if it holds under human scrutiny, is the program's headline theorem — it should be the FIRST item shown to a human operator algebraist.
