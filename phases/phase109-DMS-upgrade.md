@@ -151,3 +151,13 @@ Quadraticity of the transport functional stated as the explicit bridge hypothesi
 ### A.4 Status
 
 **D-MS: convention, with a refereed uniqueness theorem behind it.** The scheme space is provably a two-point set {D-MS, framing-deleted} under the axioms (from the full function space under covariance alone); M-FRAME decides. C-D5-style full upgrade deferred to M-FRAME's outcome.
+
+### A.5 Addendum (2026-07-26, post M-FRAME referee) — M-FRAME executed; binary NOT closed; M-FRAME2 registered
+
+M-FRAME was executed (phases/phase109-MFRAME-decider.md) and adversarially refereed (reviews/REPORTS-phase109-MFRAME-referee-2026-07-26.md). Referee verdict: **CONFIRMED-WITHIN-SCHEME.** The computation's oscillator sector is refereed exact (gate finite part; pair mutual term M₀ = ∓Q₁Q₂ at n = 0, now independently verified twice), and a new conditional theorem is refereed: any ZERO-MODE realization of framing forces the cross term nQ₁Q₂ (constant sections pair linearly with total monodromy). But the framing mechanism used (branch-section deck winding) is not a consequence of the stated Weyl calculus — in the refereed vacuum representation constants are null and Φ_zm ≡ 0 — and the refereed record's own origin of n (E3's per-defect crossing-offset prescriptions) provides a finite-ε realization of the FRAMING-DELETED scheme that the crossing-free rotation family cannot see. The refereed dichotomy is now sharp and symmetric:
+
+> framing = global zero-mode/branch-section winding ⟹ M = (n∓1)Q₁Q₂ (D-MS);
+> framing = per-defect crossing prescription ⟹ M = ∓Q₁Q₂ (framing-deleted).
+> Both finite-ε-realizable; the single-defect gate is degenerate between them.
+
+**Status unchanged: D-MS remains the adopted convention** identifying which of the two axiom-consistent schemes is physical. **M-FRAME2 registered as the replacement decider:** (a) construct the compactified zero-mode representation and DERIVE the currently gate-calibrated pairing normalization; or (b) compute the E3 crossing family at n ≠ 0 for a pair — if gate-consistent multiply-wound passages necessarily couple the mutual crossings, D-MS wins; if the per-defect offset totalization violates S1–S4, the framing-deleted scheme is eliminated; if it is fully consistent, the framing-deleted scheme is selected. Per-particle windings n₁ ≠ n₂ (C-S5) are outside both schemes in the rotation construction and remain an open scope note.
