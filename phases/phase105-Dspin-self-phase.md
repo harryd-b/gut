@@ -97,3 +97,25 @@ On the lattice Q = q√(2π), q ∈ ℤ:
 3. Spin = exchange = e^{∓iQ²/2}, monodromy = spin² — spin–statistics holds in-model; the single-crossing count adjudicates the loop as the 2π self-rotation.
 4. Calibration Q = q√(2π): |D_spin|/2π = q²/2 = h exactly; on the lattice e^{iD_spin} = (−1)^q — odd q fermion, even q boson (ℤ/2 grading); Arf and Bennequin readings flagged as conjecture-only.
 5. Scope: a coherent-state (vacuum-folium) realization of the sector phase, with framing dependence explicit; fixed-anchor position immaterial.
+
+---
+
+## Amendment (2026-07-24, same session) — referee verdict entered: D_spin SURVIVES with the minimal-subtraction definition adopted
+
+*Report verbatim in `reviews/REPORTS-phase105-Dspin-referee-2026-07-24.md` — the first referee pass of the session verified numerically as well as analytically (finite part confirmed to ~4×10⁻⁷; rigid-rotation framing to 10⁻⁹).*
+
+**Confirmed [now derived, refereed]:** the transport family and its derivative (with one required clarification adopted: the family is defined by the periodized two-step formula — the "plateau" description is false after the crossing); the zero-mode bookkeeping; the product formula (the flagged Trotter gap is in fact two lines — the product is exactly a phase times a fixed Weyl operator at every finite partition); the full evaluation Φ = πc_ρQ²/ε − Q²/2 with every sign verified twice; the crossing-count hierarchy (rigid rotation = pure framing, zero finite part; one crossing = spin; two = monodromy = spin², consistent with the refereed D₁₂); and the calibration (|D_spin|/2π = q²/2 = h exactly; lattice statistics bit (−1)^q).
+
+**The gap, exactly where pre-flagged, repaired by adopted definition (D-MS):** the "free holonomy" counterterm was undefined as stated — a lone ramp is not a loop in phase space — and the referee exhibited two legitimate closures disagreeing by exactly the finite part (comoving compensator: D_spin = −Q²/2; uniform-background compensator: D_spin = 0; both numerically confirmed). The rescue is canonical: **the divergence/finite split is unambiguous** — the finite part is ramp-shape-independent (∫G = 1 for every shape) while the divergence carries all shape dependence (c_ρ) — so **D_spin is henceforth DEFINED by minimal subtraction of the universal divergence πc_ρQ²/ε** (equivalently, by the comoving-compensator framing; the uniform-background scheme's zero is understood physically: its compensating background itself carries charge past the mover once per loop — it is not free transport). Scheme-dependence of the constant is recorded as part of the entry, exactly as framing-dependence should be.
+
+> **D_spin = ∓Q²/2 + n·Q²/2 (n the framing integer; minimal-subtraction scheme, definition D-MS) [derived, refereed under D-MS]**
+
+**Standing [GAP], honestly carried:** the identification of this transport holonomy with the conformal spin (L₀-eigenvalue) of a genuine charged sector rests on the crossing-count consistency and the exact calibration match, not on an independent rotation-generator argument. The entry is a coherent-state realization of the spin phase; the sector statement remains established-others'.
+
+**Dictionary status after this amendment — three refereed entries:**
+
+> **Existence (metric): D = Q²ℓ/2π.**
+> **Relationship (topological): D₁₂ = Q₁Q₂·î.**
+> **Spin/statistics (framed): D_spin = ∓Q²/2 + n·Q²/2 [D-MS], with the lattice grading (−1)^q — odd charge fermion, even boson.**
+
+Internal consistency across entries, refereed: monodromy = spin²; the framing unit = the twist e^{2πih}; and the same-axis convention C-D5 of the D₁₂ pass = the framing dependence of D_spin — one structure seen three ways.
