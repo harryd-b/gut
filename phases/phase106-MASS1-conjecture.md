@@ -31,14 +31,15 @@
 
 **K-MASS-3 (assignment kill).** If a refereed dynamical or calibration result fills the mass column with a quantity provably not monotone in ℓ, MASS-1 is dead.
 
-## 5. Literature verification targets (flagged from memory — NOT verified; dispatched to the running literature search)
+## 5. Literature context (VERIFIED 2026-07-26 — scout report verbatim in notes/LITSEARCH-2026-07-26-MASS1-verification.md)
 
-- Buniy–Kephart: glueball masses modeled as proportional to knot lengths/complexities of tightened flux knots (Phys. Lett. B, ~2003) — if verified, prior art for "mass = knot complexity" in a different framework.
-- Faddeev–Niemi knot solitons; Vakulenko–Kapitanskii bound E ≥ c·|Q|^{3/4} (energy grows with topological charge/complexity).
-- Ropelength/tight-knot energy literature (mass-like functionals on knot types).
-- Bilson-Thompson braid models: twists encode *charge* (consistency check for our assignment winds/twists = charge/framing, complexity = mass).
+All four flagged citations verified; none is load-bearing for the registration, but the picture they paint:
 
-All four are memory-based citations pending verification; none is load-bearing for the registration.
+- **Buniy–Kephart** [verified]: "A model of glueballs," Phys. Lett. B 576 (2003) 127–134, arXiv:hep-ph/0209339, + follow-ups (IJMPA 2005; arXiv:2407.11731 review, 2024). Glueball mass ∝ ropelength of the tight knot/link of the QCD flux tube, one fitted parameter. **Direct prior art for "mass ∝ tight-knot length" in a different framework** — and apparently the only sustained such program.
+- **Faddeev–Niemi** [verified]: Nature 387 (1997) 58–61 (hopfions). **Vakulenko–Kapitanskii** [verified]: Sov. Phys. Dokl. 24 (1979) 433, E ≥ c|Q|^{3/4}, with matching upper bound (Lin–Yang). **Structural nuance adopted into the record: the growth there is SUBLINEAR in charge (power 3/4)** — a caution against assuming any particular functional form for M; MASS-1 deliberately conjectures only monotonicity.
+- **Cantarella–Kusner–Sullivan** [verified]: Invent. Math. 150 (2002) 257–286 — ropelength minimizers exist per knot type; the "mass-like functional on knot types" mathematics is solid.
+- **Bilson-Thompson** [verified]: arXiv:hep-ph/0503213 — twist = electric charge (±e/3 per ribbon twist); **mass is NOT addressed in the helon model**. Consistent with our assignment (winds/twists = charge/framing; the complexity dial left for mass).
+- **Sweep result**: no published proposal identifying particle mass with closed-geodesic length on a hyperbolic surface was found. Closest mainstream anchor: the AdS₃/CFT₂ heavy-operator relation Δ ↔ bulk geodesic length (conical defects; heavy-light Virasoro blocks, e.g. arXiv:1410.1392) — dimension-as-mass tied to geodesic length, the nearest established cousin of MASS-1's assignment. MASS-1's specific proposal appears unclaimed.
 
 ## 6. Relation to the standing program
 
