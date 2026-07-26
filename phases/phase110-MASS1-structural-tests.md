@@ -110,6 +110,29 @@ No other entry exists (the dictionary is complete as planned, entry7 Amendment A
 
 ## Amendment section
 
-(Reserved for the referee verdict. Empty until the referee pass completes.)
-
 Note on the ledger numbering: the agent's [GAP-7] (zero-class sterile carriers) is local to this note and distinct from the program-level GAP-7 in the open registry; disambiguate as MASS-GAP-7 if cross-referenced.
+
+### A.1 Referee verdict (2026-07-26)
+
+Adversarial referee report preserved verbatim in reviews/REPORTS-phase110-MASS1-referee-2026-07-26.md (independent verification of the geometry; web verification of all attributions). Per-mandate verdicts:
+
+- **(a) Generations toy theorem: CONFIRMED** as scoped. All four items are correct reads of refereed formulas; the four honesty caveats stand.
+- **(b) K-MASS-1 does not fire: CONFIRMED.** [BOX-1] upgraded to **CONFIRMED WITH REPAIRS** (see A.2). Class censorship (b1) and the sterile zero-class sector (b3) both correct.
+- **(c) Binding-energy no-go: CONFIRMED.** The sweep is exhaustive over E1–E7 and all amendments (E3/E5 inspected by the referee and confirmed single-axis). Within the refereed record, composite masses under any M(ℓ) are exactly additive; the three-futures K-MASS-2 analysis is faithful.
+- **(d) M(ℓ) constraints: PARTIAL.** (i) M ≠ f(D) CONFIRMED (both horns, plus the neutral-carrier corollary). (iv) δ^m conflation CONFIRMED (E1 is indexed by hyperbolic elements with no primitivity restriction; simple ⇒ primitive so clause (s) repairs it structurally). (v) stands. (iii) re-scoped per C-T3 below.
+
+### A.2 Corrections ledger
+
+- **C-T1 ([BOX-1] repair i).** The "genus-splitting curve crossed twice" justification was inadequate (that curve can be isotoped off c). Repaired: by change of coordinates take c = γ₂ in the standard chain; s = ∂N(γ₄∪γ₅) is separating with i(s,γ₃) ≥ 2; d := T_{γ₃}(s) is separating with i(d,γ₂) ≥ 2 > 0 by the FLP inequality. g ≥ 2 genuinely needed.
+- **C-T2 ([BOX-1] repair iii).** Pairwise non-isotopy needs MCG-invariance of i: i(T_d^k(c), T_d^j(c)) = i(T_d^{k−j}(c), c) = |k−j|·i(c,d)² > 0 for j ≠ k (FLP in fact gives equality). The note's displayed inequality covered only j = 0.
+- **C-T3 (re-scope of the exclusivity claim, §d iii).** The mutual-exclusivity statement holds for *energy minimization over the registered invariants* (where minimization at fixed (Q, class, framing) selects a unique length, making ℓ a function of registered data — K-MASS-1 fires). It does NOT extend to tight-knot mechanisms in general: tightness locks ℓ to full topological type, and many knot types share a charge, so generations could survive in a general V–K-type model as distinct knot types of equal charge. Corrected statement: **MASS-1 is incompatible with any future dynamical entry that minimizes energy over the program's registered state space; it is not incompatible with tight-knot mechanisms per se.**
+- **C-T4 (wording).** "Mostowesque rigidity" struck — dimension 2 has no Mostow rigidity. Correct statement: a fixed hyperbolic structure has a fixed length spectrum, a function of the 6g−6 moduli. GAP-6 content unchanged.
+- **C-T5 (kill disambiguation).** K-MASS-2's registered "inconsistent with any monotone M(ℓ)" is read as "inconsistent with EVERY monotone M" — the only nonvacuous reading. Recorded as the binding interpretation.
+
+### A.3 Literature ledger — [GAP-1] CLOSED
+
+All five attributions verified by the referee (web-checked): Phillips–Sarnak, Duke Math. J. 55 (1987) 287–297; Katsuda–Sunada, "Homology and closed geodesics in a compact Riemann surface," Amer. J. Math. 110 (1988) 145–156; FLP, Travaux de Thurston, Astérisque 66–67 (1979), Exposé 4 appendix (also Farb–Margalit, Primer, Prop. 3.2/3.4); Mirzakhani, Ann. of Math. 168 (2008) 97–125; the surface-topology facts standard (Primer §1.3.1, Prop. 6.2). Added: Horowitz/Randol for length-spectrum multiplicity (unbounded on every hyperbolic surface) — supports §(d)(ii)'s multiplicity caveat.
+
+### A.4 Post-verdict status
+
+Refereed and eligible to enter the MASS-1 registration: the generations toy theorem (a); the K-MASS-1 non-firing verdict (b) with the clause-(s) census (censorship to primitive classes ∪ {0}; sterile zero-class sector; infinitude via the repaired Dehn-twist family); the exact-additivity no-go (c) with the three-futures K-MASS-2 analysis; (d)(i) M ≠ f(D); (d)(iv) the δ^m conflation and its clause-(s) repair. Still open/flagged: MASS-GAP-3 (generations overshoot — nothing selects three), MASS-GAP-5 (binding carrier absent — MASS-1's sharpest falsifiable consequence), MASS-GAP-6 (moduli rigidity of mass ratios), MASS-GAP-7 (sterile zero-class carriers).

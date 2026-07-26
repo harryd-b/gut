@@ -44,3 +44,14 @@ All four flagged citations verified; none is load-bearing for the registration, 
 ## 6. Relation to the standing program
 
 MASS-1 does not touch the kills (no dynamics is claimed; M(ℓ) is data). It composes with KNOT-Q as the complementary half of the geometry bridge: KNOT-Q proposes complexity-as-genus → charge; MASS-1 proposes complexity-as-length → mass; K-MASS-1 records that they must be independent to coexist. The phase-106 synthesis's mass blank is now annotated with this registration; the blank is filled only if MASS-1 survives testing and refereeing, which has not happened.
+
+## 7. Status update (2026-07-26, post phase-110 referee) — first structural test round REFEREED
+
+The four registered test mandates were executed (phases/phase110-MASS1-structural-tests.md) and adversarially refereed (reviews/REPORTS-phase110-MASS1-referee-2026-07-26.md). Refereed results now attached to this registration:
+
+- **Generations toy theorem: CONFIRMED.** Distinct primitive closed geodesics in a common homology class carry identical charge/spin/statistics/class-pairing data while E1's D = Q²ℓ/2π separates them through ℓ. Each nonzero class contains infinitely many primitive geodesics with unbounded lengths (Phillips–Sarnak, Duke 55 (1987); Katsuda–Sunada, Amer. J. Math. 110 (1988) — citations verified). Caveats recorded: unsigned crossing counts (C-L4) are not class-blind; no dynamics; overshoot (MASS-GAP-3: nothing selects three generations).
+- **K-MASS-1: TESTED, DOES NOT FIRE.** ℓ varies over an infinite unbounded set at fixed (Q, homology class), including under KNOT-Q clause (s), via the refereed Dehn-twist family (BOX-1 confirmed with repairs C-T1/C-T2). Clause (s) censors carriers to primitive classes ∪ {0} and creates a sterile zero-class sector (MASS-GAP-7); on a fixed surface lengths are menu-selected by the moduli, not tunable (MASS-GAP-6).
+- **Binding-energy no-go: CONFIRMED (refereed as exhaustive).** No length-carrying cross-axis coupling exists anywhere in E1–E7 or amendments. Within the refereed record, composite masses under any M(ℓ) are exactly additive — MASS-1's sharpest falsifiable consequence (MASS-GAP-5). K-MASS-2 disambiguated (C-T5): fires only if a future refereed cross-axis length coupling is inconsistent with EVERY monotone M.
+- **Functional-form constraints (refereed):** M cannot be a function of D alone — mass must read the pair (D, Q) via ℓ = 2πD/Q²; neutral defects carry no MASS-1 mass. The δ^m winding conflation is real and is repaired structurally only by clause (s) (simple ⇒ primitive). Exclusivity re-scope (C-T3): MASS-1 is incompatible with any future dynamical entry minimizing energy over the registered invariants; it is NOT incompatible with tight-knot mechanisms in general.
+
+**MASS-1 remains a registered conjecture** — strengthened (survived its first kill; mechanism refereed-real inside the dictionary) but uncalibrated, with the binding-energy blank as its known largest exposure.

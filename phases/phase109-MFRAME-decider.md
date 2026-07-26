@@ -109,4 +109,35 @@ Five-line summary:
 
 ## Amendment section
 
-(Reserved for the referee verdict. Empty until the referee pass completes.)
+### A.1 Referee verdict (2026-07-26): CONFIRMED-WITHIN-SCHEME — the binary is NOT closed
+
+Adversarial referee report preserved verbatim in reviews/REPORTS-phase109-MFRAME-referee-2026-07-26.md. Independent re-derivation and independent FFT numerics performed. Summary verdict: **the computation is correct where it computes, but it decides only the global-framing scheme; the D-MS / framing-deleted binary registered in phase109-DMS-upgrade A.2 stands open.** The VERDICT BOX of the consultation above is accordingly OVERRIDDEN: its own [GAP-2] concession was the correct statement of what was established, and the referee sharpened it into a symmetric dichotomy.
+
+### A.2 What survives (refereed)
+
+- **Oscillator sector: VERIFIED exactly.** Berry formula, Parseval identity Φ_osc = πE − Q²/2 (zero remainder for smooth scaling shapes), and the pair cross term −Q₁Q₂ (exact, δ/ε-independent) all confirmed analytically and numerically to 6–7 digits by the referee's independent script. The n = 0 mutual term M₀ = ∓Q₁Q₂ is now refereed twice over.
+- **Conditional theorem (new, refereed):** *any* zero-mode realization of framing forces the cross term nQ₁Q₂ — the structural invariant is that a constant section pairs linearly with total monodromy Q_tot, so gate calibration at a single defect propagates to n(Q₁+Q₂)²/2 for the pair. Conditional on framing being zero-mode winding, D-MS is forced.
+- The rejected fixed-period zero-mode candidate (linear-in-Q frame phase fails the quadratic gate) is a correct selection among zero-mode realizations.
+- The gate quotation and conventions match the registration (calibration not spurious) — with the noted caveat that the M-FRAME family passes the gate by a different mechanism (chiral k=0 bookkeeping) than the one refereed in E3 (crossing event).
+
+### A.3 Corrections ledger
+
+- **C-S1 (error, sign/definedness).** σ(c,η) = +cQ under the stated form, not −cQ; on multivalued profiles the symplectic pairing of constants against winding profiles is genuinely UNDEFINED (antisymmetry fails by the monodromy boundary term) without an extension choice. Deeper than the [GAP-1] sign flag.
+- **C-S2 (major).** In the refereed vacuum representation constants are null (phase105-Dspin conventions), so W(η_t + a(t)) = W(η_t): the n ≠ 0 family is unitarily identical to n = 0 and Φ_zm ≡ 0. The deck-winding mechanism corresponds to NO family of unitaries in the stated calculus; it lives in the compactified/dynamical zero-mode extension flagged (not analyzed) in phase105-Dspin §5, which remains unconstructed. Sign, factor ½, and the ∓ assignment are all gate-calibrated; only Q_tot-linearity is structural.
+- **C-S3 (major — step 4 refuted).** The claim that per-defect framing has no finite-ε realization is contradicted by the refereed record: E3's n originates as per-defect crossing-offset prescriptions (finite at finite ε, no renormalization). In the E3 pair family, per-defect self-offsets with rigid mutual crossings pass the gate per defect and yield M = ∓Q₁Q₂ — the framing-deleted scheme has a finite-ε realization of refereed pedigree. The submission's rigid-rotation family has no crossings and is structurally blind to it.
+- **C-S4 (overstatement).** "The ∓ chirality branch is derived, not inserted" — false: the antichiral value πE + Q²/2 requires a k=0 ownership convention (k≤0 vs k≥1), not a projection theorem. For real η′ both chiral sums give πE − Q²/2.
+- **C-S5 (scope).** Per-particle windings n₁ ≠ n₂ have no coherent realization in this construction; the naive per-defect deck assignment gives ½(n₁+n₂)Q₁Q₂, outside BOTH rival schemes. The registration is posed at common n; the submission answers exactly that question and no more.
+
+### A.4 Post-verdict status and the re-registered decider
+
+**D-MS remains an adopted convention.** The refereed dichotomy is now sharp and symmetric:
+
+> framing = global branch-section / zero-mode winding ⟹ M = (n∓1)Q₁Q₂ (D-MS);
+> framing = per-defect crossing prescription ⟹ M = ∓Q₁Q₂ (framing-deleted).
+> Both are finite-ε-realizable; the single-defect gate is degenerate between them.
+
+**M-FRAME2 registered** (the actual remaining decider, per the referee's minimal repair — a re-scoping, not a fit): either
+(a) construct the compactified zero-mode representation and DERIVE the pairing normalization that is currently gate-calibrated; or
+(b) compute the E3 crossing family at n ≠ 0 for a pair, and either show that gate-consistent multiply-wound passages necessarily couple the mutual crossings (tying self- and mutual-prescriptions — D-MS wins), or show the per-defect offset totalization violates one of S1–S4 (framing-deleted eliminated); a fully consistent per-defect totalization would instead select the framing-deleted scheme.
+
+Until M-FRAME2 rules, the phase109-DMS-upgrade A.4 status line is unchanged: uniqueness theorem refereed; identity of the unique scheme = convention.
