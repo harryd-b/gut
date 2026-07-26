@@ -107,4 +107,18 @@ Three independent closures, the second already refereed:
 
 ## Amendment section
 
-(Reserved for the referee verdict. Empty until the referee pass completes.)
+### A.1 Referee verdict (2026-07-26)
+
+Report preserved verbatim in reviews/REPORTS-phase114-stiffness-referee-2026-07-26.md. Verdicts: **MW route CONFIRMED dead** (airtight — every MW-shaped functional factors through homotopy-level data that torsion cannot move); **GV route CONFIRMED dead** (a probe for unconsidered contact/bi-contact GV analogues found only new mathematics of GV-T's own shape); **Bennequin route PARTIAL** — the verdict class (NEEDS-POSTULATE, unique live route, legitimate re-aim surviving the phase-107 category-error ruling) is confirmed, but the advertised bound is badly overstated: (C-X1) the rational self-linking tool provably does NOT exist for nonseparating carriers (infinite-order homology class — no rational Seifert surface), so the C-SL bound applies ONLY to separating carriers, while KNOT-Q v2's charge lives generically on nonseparating ones; (C-X2, the missed check) transverse self-linking is parity-constrained (odd, in the flagship case), so C-SL as drafted excludes the refereed n = 0 rigid-transport default — a genuine inconsistency, worse than the flagged J-mirror tension (which is actually fine). The **structural finding SURVIVES** adversarial search: the framing sector n has no bulk pre-image anywhere in the refereed record.
+
+### A.2 Corrections ledger
+
+- **C-X1 (major).** Rational sl undefined for nonseparating carriers; "rational version for most carriers" is FALSE — bound (modulo C-SL) only for separating carriers; nonseparating carriers currently unboundable by any Bennequin technology.
+- **C-X2 (major).** sl-parity: C-SL confines n to one parity class, excluding the refereed n = 0 default. New gap **GAP-F** entered. "Consistent with every refereed n-dependent formula" is withdrawn.
+- **C-X3.** The watch-item dichotomy is a TRICHOTOMY: the weak-fillability branch (intermediate protection level) is OPEN — whether torsion insertion on T¹Σ_g preserves weak fillability is nowhere in the record.
+- **C-X4.** Milnor's linear bound is g−1; 2g−2 is the PSL(2,ℝ)/Wood bound (group-dependence, not convention).
+- **C-X5.** "No postulate can reopen MW" softened to inventory-relative: no identification of n with any object in the record's inventory gives MW a grip.
+
+### A.3 Post-verdict status
+
+**BIND2-GAP-1 remains OPEN.** Refereed: the framing sector cannot be bounded by Milnor–Wood or Godbillon–Vey, and has no bulk pre-image. The single candidate closure, C-SL, is registrable only after amendment (domain restricted to separating carriers; the GAP-F parity clash resolved or accepted as a physical selection); as drafted it conflicts with the refereed n = 0 sector and is NOT registered. The operator's stiffness therefore remains unexpressed in the record — the honest current answer to (B2-d) is: *no kinematic winding bound exists for the generic carrier; the one candidate covers a measure-zero corner and fights the refereed default.*
