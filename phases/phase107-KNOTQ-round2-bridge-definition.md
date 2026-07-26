@@ -1,4 +1,4 @@
-# Phase 107 — KNOT-Q campaign, round 2: the bridge at one torsion insertion (derivation record; referee pass pending; verdicts NOT entered)
+# Phase 107 — KNOT-Q campaign, round 2: the bridge at one torsion insertion (REFEREED 2026-07-26; geometric core CONFIRMED; three repairs — see Amendment)
 
 *Working session, 2026-07-26, executing the operator's instruction to complete the remaining KNOT-Q work. **Status: [derived by a context-free derivation agent; NOT refereed; no verdict entered; KNOT-Q v2 registration unchanged until referee].***
 
@@ -92,3 +92,33 @@ Bulk side, within the operation class {knot-Lutz, torus-torsion}: torsion insert
 3. **The bridge is underdetermined; the determining choice is named:** homotopy-factoring ⟹ e = 0 (kill fires); faithfulness + sector-surjectivity (N) ⟹ e = ±1, Q = ±n, D = n²ℓ/2π; additivity alone leaves e ∈ ℤ.
 4. Kill verdict: **INCONCLUSIVE**, with a principled pre-kill argument (torsion is the refereed bulk datum and is homotopy-invisible) against the e = 0 route, but that argument is definitional, not a theorem ([GAP-6]).
 5. Prediction (s) stands: within {knot-Lutz, torus-torsion}, quantized bulk data attaches only over simple closed geodesics (embedded incompressible tori are vertical-over-simple), while the boundary admits defects for all hyperbolic γ — the discriminating tension is real.
+
+---
+
+## AMENDMENT — referee verdicts entered (2026-07-26)
+
+*Context-free referee pass completed 2026-07-26; report verbatim in `reviews/REPORTS-phase107-round2-referee-2026-07-26.md` (the referee's title mislabels the phase; content is this round). The referee independently ran the sl₂ matrix computations and the layer symbolic checks. Standing AI-referee caveat applies.*
+
+### A.1 Confirmed [refereed]
+
+- **C1–C3**: local geometry (α_can|_{T_γ} = cos θ ds; tangency circles θ = ±π/2; non-pre-Lagrangian as-sits; GAP-1 appropriate), transversality, and layer data all verified — with a referee-supplied STRONGER transversality proof adopted: V ∉ TW everywhere (weak-stable tangent is span(X, U⁺) in the left-invariant frame; det[X, U⁺, V] = 1), so transversality holds at every point with no case analysis. The stable direction really is U± = Θ ± V.
+- **The anchor argument (Route 1 (iii)) FULLY VERIFIED**: disjoint cylinder lifts for simple γ; W_ξ meets the cylinder in a single properly embedded transverse arc for every ξ ∉ {ξ±}; degeneration locus exactly fix(γ). Anchors forced.
+- **Kill honesty**: no hidden fitting; the contractible-projection clause is safe unconditionally (every nontrivial element of a cocompact Fuchsian group is hyperbolic).
+- **Simplicity prediction (s)**: nonvacuous, as far as checkable (no immersed-torus torsion operation exists in the literature).
+- **C8**: consistency checks sound; the n-vs-n² scaling mismatch is a real, rightly disclosed strike against any volume-based derivation of D.
+
+### A.2 Correction C-M1 — Route 2's blanket conclusion weakened
+
+The ℤ/(2g−2) argument excludes only pairings through the FIBER class, not through [c_γ] ∈ ℤ^{2g} — a partial strawman. The honest Route-2 conclusion, carried by the Euler-class and obstruction computations alone (modulo GAP-2): **torsion is invisible to plane-field homotopy, so any charge that factors through homotopy is independent of n** (hence constant, hence 0 in the graded sense needed). The blanket "e cannot be a homotopy pairing" is struck and replaced by this n-independence statement.
+
+### A.3 Correction C-M2 — the horns are not symmetric
+
+The "underdetermination with a named determining choice" framing understated a real asymmetry, now adopted into the record: **the e = 0 horn is a conditional theorem** (mathematics, modulo GAP-2), while **the e = ±1 horn rests on two stacked postulates** (the GAP-4 winding↦charge homomorphism plus normalization axiom (N)), with no derivation from the net axioms. A homotopy-factoring dictionary is not internally contradictory — merely trivializing. Any future adoption of the faithfulness + (N) axioms must be recorded as the adoption of physical postulates against a mathematically available trivial bridge, not as a choice between equals.
+
+### A.4 Correction C-M3 — GAP-3 elevated from footnote to structural caveat
+
+Post-insertion there is no canonical weak-stable foliation, hence NO canonical leaf space: the boundary circle on which Route 1 reads the defect is the PRE-INSERTION leaf space, carried over by fiat. Route 1 is therefore a statement about the old foliation decorated by new contact data. This is now a structural caveat of the bridge, stated wherever the bridge is stated.
+
+### A.5 KNOT-Q v2 status after round 2
+
+Kill: **INCONCLUSIVE stands** [refereed]. What is now refereed positively: anchors forced onto fix(γ); winding canonical; quantization-shape forced (homomorphism); contractible classes safe; simplicity tension real. What stands between the conjecture and a verdict: the bridge postulates (faithfulness + (N)) versus the homotopy-trivial bridge — an adoption decision for the operator, now with the asymmetry of A.3 on the table — and GAP-2 (the rel-boundary secondary obstruction) as the one remaining mathematical loose end of the e = 0 horn. The n-vs-n² scaling mismatch stands as an open tension against any volume-based route to D.
