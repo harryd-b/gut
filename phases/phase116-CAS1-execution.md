@@ -90,4 +90,19 @@ With (b)'s answer, the collision largely dissolves rather than detonates.
 
 ## Amendment section
 
-(Reserved for the referee verdict. Empty until the referee pass completes.)
+### A.1 Referee verdict (2026-07-26): KILL CONFIRMED
+
+Report preserved verbatim in reviews/REPORTS-phase116-CAS1-referee-2026-07-26.md. The referee attempted four rescue routes (alternative subtraction schemes; the zero-mode locus; a frame rescue for the −1/24; a hyper-literal registered-wording ruling) — all failed, and two strengthened the kill:
+
+- **C-AA1 (strengthening).** For the registered dipole states the divergence is the ENTIRE energy — the finite remainder is machine-zero for every shape, so all candidate subtraction schemes coincide, and fusion-naturality alone forces the remainder to zero. The kill is scheme-argument-free.
+- **C-AA2 (missed structure, kill-supporting).** The referee exhibited the one vacuum-folium profile with a shape-independent finite Q² remainder — the winding-compensated profile — and found its remainder is EXACTLY the negated zero-mode energy (−q²/2, verified to 8–10 digits), wrong-signed and unregistered (refereed-rejected as fusion-anomalous in phase 109 BOX 6). The zero-mode mechanism is thereby confirmed from the rescue side: the sector energy sits one representation away, precisely where the record cannot reach.
+- **C-AA3.** The strict reading kills twice over: the computed vacuum constant in the pinned frame is 0 ≠ −1/24, firing K-CAS-1's first disjunct independently.
+- **C-AA4 (precision).** The M-FRAME analogy is asymmetric in the kill's favor: framing had a finite-ε crossing realization keeping its binary open; an energy expectation has no crossing event — the CAS kill is strictly stronger than M-FRAME's undecidedness.
+- **C-AA5.** All conventions and quotations verified verbatim; independent numerics on two shapes (cubic and quintic smoothstep — neither used by the submission) agree to 10⁻¹⁰–10⁻¹⁵.
+- **Registered-wording ruling (R4):** the submission's hyper-literal reading is correct — "the record's states" are the vacuum-folium states, and the sector rescue trips K-CAS-2 by its registered terms. The pincer is in the registration's own text.
+
+**COLLIDE-1 = O3 CONFIRMED, both layers** (the F1 inventory argument verified by grep — the record affirmatively states no Hausdorff quotient exists; the charge-only contradiction with refereed phase-110 constraints sound). **K-MASS-3 correctly unfired; MASS-1 untouched.** The [BOX-C] identity VERIFIED independently (coefficients exact to 10⁻⁹–10⁻¹²) and ruled registrable as a consistency identity.
+
+### A.2 Post-verdict status
+
+**CAS-1: DEAD (K-CAS-1 fired; the sector rescue trips K-CAS-2; kill referee-confirmed).** Entered in the phase-116 registration. What survives: the exact pincer; the E3-divergence = Sugawara-energy consistency identity (registrable); the honest −1/24 disclosure; and the reopening route — **the compactified zero-mode representation (= M-FRAME2 route (a))**, now the named gate for THREE registered questions: the spin scheme, the winding pair-energy (BIND-2(c)), and any future absolute energy column. Calibration step 1 concludes: the energy column is empty by refereed no-go; mass remains a function of (D, Q); the calibration plan's remaining live routes are step 2 (moduli) and step 3 (the charge-lattice unit), both unblocked by this outcome.
