@@ -122,3 +122,11 @@ Post-insertion there is no canonical weak-stable foliation, hence NO canonical l
 ### A.5 KNOT-Q v2 status after round 2
 
 Kill: **INCONCLUSIVE stands** [refereed]. What is now refereed positively: anchors forced onto fix(γ); winding canonical; quantization-shape forced (homomorphism); contractible classes safe; simplicity tension real. What stands between the conjecture and a verdict: the bridge postulates (faithfulness + (N)) versus the homotopy-trivial bridge — an adoption decision for the operator, now with the asymmetry of A.3 on the table — and GAP-2 (the rel-boundary secondary obstruction) as the one remaining mathematical loose end of the e = 0 horn. The n-vs-n² scaling mismatch stands as an open tension against any volume-based route to D.
+
+### A.6 ADOPTION (2026-07-26, operator instruction) — convention C-BRIDGE registered
+
+**The operator adopted the bridge postulates as a registered convention of the dictionary:**
+
+> **C-BRIDGE (adopted convention, 2026-07-26).** The bulk-to-boundary bridge is defined by the holonomy postulates: (faithfulness) the bridge is defined on contact data, not plane-field homotopy data; (N, sector-surjectivity) the torsion generator maps to a charge generator. Hence **one unit of Giroux torsion along the vertical torus over a simple essential closed geodesic γ produces one unit of charge at fix(γ): Q = ±n, D = n²ℓ(γ)/2π.**
+
+**Mandatory disclosure (per C-M2, carried wherever C-BRIDGE is used):** this is the adoption of two physical postulates against a mathematically available trivial bridge (the homotopy-factoring e = 0 reading, which is a conditional theorem, not an inconsistency). KNOT-Q v2's clauses (a)/(b′) are henceforth **verified conditional on C-BRIDGE**. C-BRIDGE has the same epistemic rank as C-D5 and D-MS (convention, not theorem), is retractable, and is automatically superseded by any genuine derivation of the bridge in either direction. The v2 kill remains armed against any future *forced* construction. Context noted at adoption: the phase-108 theorem certifies the boundary charge as a state-level invariant, so C-BRIDGE wires a real geometric quantity to a certified physical one.
