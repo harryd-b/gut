@@ -102,4 +102,19 @@ One sharpening the record should have: the same trace algebra DOES contain an ex
 
 ## Amendment section
 
-(Reserved for the referee verdict. Empty until the referee pass completes.)
+### A.1 Referee verdict (2026-07-26): all four mandates CONFIRMED
+
+Adversarial referee report preserved verbatim in reviews/REPORTS-phase111-BIND1-referee-2026-07-26.md (independent re-derivation; independent numerics on the referee's own grid; by-hand coset algebra; file-level arena audits; web verification of the speculative attributions). Verdicts: **(a) CONFIRMED** (formula, angle convention verified against the factor-2 attack, strictness, monotonicity, bounds, saturation, systole argument); **(b) CONFIRMED** (double-coset algebra, both directions of the biconditional, primitivity hypothesis available); **(c) CONFIRMED as the stated conditional** (invertibility; [BOX-C2] airtight given caveats α, β, γ; arena-SILENT verdict on K-BIND-1 correct and reinforced by C-U2); **(d) CONFIRMED** (excess only over non-crossing cosets; anti-coherent ellipticity matrix-verified; Ghys and Birman–Williams attributions both web-VERIFIED, retained as [SPECULATIVE] as tagged).
+
+The referee's sharpest attack strengthened the result: tr(AB) > 2 at EVERY crossing angle — the composite can never be elliptic or parabolic, with no exceptions in the open interval.
+
+### A.2 Corrections ledger
+
+- **C-U1.** The clause "hyperbolic for every θ ∈ (0,π) except the degenerate ℓ₁ = ℓ₂, θ → π endpoint" is deleted as misleadingly weak: RHS = cosh((ℓ₁−ℓ₂)/2) + (1+cos θ)S > 1 strictly, so AB is hyperbolic at every crossing angle with NO exception; the degeneration lies on the boundary θ = π, outside the crossing regime.
+- **C-U2.** E6 echo scope: U(gγ₂g⁻¹) ∈ M_Λ only for g ∈ Λ = ⟨γ₁,γ₂⟩, while E7's crossing cosets range over g ∈ Γ — the concatenation echo exists only on Λ-representable crossings. Weakens nothing (the echo was used negatively); reinforces the arena-SILENT verdict.
+- **C-U3.** K-BIND-3 scoping: the kill has two disjuncts. The unboundedness/consistency disjunct does NOT fire, unconditionally (bounds + systole + finiteness). The determinacy disjunct ("defect not determined by data the record can see") is the BIND-GAP-1 dissolution and is cleared only CONDITIONALLY (on K-BIND-1 and Q₁+Q₂ ≠ 0). The round's flat "does not fire" over-claimed by one clause.
+- **C-U4.** Saturation: "constituent-independent" holds only in the double limit ℓ₁, ℓ₂ → ∞. One-sided growth gives Δℓ → 2 ln[cosh(ℓ₂/2) + cos θ·sinh(ℓ₂/2)] − ℓ₂, which retains ℓ₂-dependence.
+
+### A.3 Post-verdict status
+
+Refereed and entered in the BIND-1 registration: the exact defect formula [BOX-A] and its corollaries (strict binding at every crossing; Δℓ ∈ (−2min(ℓ₁,ℓ₂), 0); saturation per C-U4; hyperbolicity with no exceptions per C-U1); per-crossing well-definedness and the ℓ_min pair invariant ([BOX-B1], [BOX-B3]); the conditional closure over three E1 lengths ([BOX-C1], [BOX-C2]); the never-excess sharpening of K-BIND-2; the charge-blind/sign-blind decoupling flags; the non-crossing-coset excess observation [BOX-D1]. Open: **K-BIND-1 (the arena is silent on cross-axis fusion — now the single load-bearing open question of BIND-1)**; BIND-GAP-3 (3D excess; UT(X)/linking route speculative but attributions verified); [BOX-B2]; the excited-spectrum reading; the neutral-composite sector. Standing AI-referee caveat applies throughout.

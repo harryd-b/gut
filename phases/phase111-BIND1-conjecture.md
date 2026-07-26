@@ -43,3 +43,17 @@ The refereed record's fusion entry (E4) is same-axis only: both charges on ONE g
 BIND-1 composes with MASS-1 (it is the binding column MASS-1 lacks) and with E2 (metric shadow of î). It inherits MASS-1's calibration blank. Named gaps at registration: (BIND-GAP-1) the crossing ANGLE is not a refereed invariant — the record sees crossing count (î, C-L4 cosets) but not angles; if Δℓ depends on angle, either the angle must become derivable data or the defect must be shown to descend to registered data. (BIND-GAP-2) which crossing is the concatenation point when carriers cross more than once — is the class of c₁·c₂ even well-defined independent of the chosen crossing? (It is not, in general: different crossing points can give different product classes — the derivation must confront this.) (BIND-GAP-3) the two-signs problem of §1.
 
 The phase-110 no-go stands unamended: within the REFEREED record, composite masses remain exactly additive. BIND-1 is the registered candidate for changing that, and nothing more, until derived and refereed.
+
+## 7. Status update (2026-07-26, post round-1 referee) — mechanism refereed-real; K-BIND-1 the single load-bearing open question
+
+Round 1 (phases/phase111-BIND1-round1-length-defect.md) executed and adversarially refereed (reviews/REPORTS-phase111-BIND1-referee-2026-07-26.md); all four mandates CONFIRMED with corrections C-U1..C-U4. Refereed results now attached:
+
+- **Defect formula (exact):** cosh(ℓ₁₂/2) = cosh(ℓ₁/2)cosh(ℓ₂/2) + cos θ·sinh(ℓ₁/2)sinh(ℓ₂/2). Every crossing binds strictly at every angle; the composite is hyperbolic with no exceptions (C-U1); Δℓ ∈ (−2min(ℓ₁,ℓ₂), 0) with a systole floor; binding saturates at 4 ln cos(θ/2) in the double large-length limit (C-U4).
+- **K-BIND-3:** unboundedness disjunct does NOT fire (unconditional); determinacy disjunct conditionally cleared (C-U3).
+- **BIND-GAP-1:** conditionally DISSOLVED — the trace identity is invertible, so the crossing angle is a function of the length triple; the defect closes over three E1-type invariants (no new registered datum) provided the product class has carrier status and Q₁+Q₂ ≠ 0.
+- **BIND-GAP-2:** resolved-with-choice — one well-defined product class per crossing double coset; ℓ_min over the finite canonical set is a pair invariant; the crossing multiplicity is a possible excited-bound-state spectrum (possibility, not asserted).
+- **K-BIND-2 sharpened:** the crossing mechanism can NEVER deliver length excess (QCD-style mass surplus) — refereed theorem. Excess exists in the trace algebra only over non-crossing cosets, mechanism-free. The 3D route (linking of geodesic-flow orbits in UT(X); Ghys, Birman–Williams — attributions web-verified) remains [SPECULATIVE], feeding BIND-GAP-3.
+- **New refereed flags:** Δℓ is charge-blind and crossing-sign-blind — binding strength and E2's interaction sign are decoupled; neutral composites are E1-invisible (consistent with E4 annihilation).
+- **K-BIND-1 is now the single load-bearing open question:** the arena is SILENT on cross-axis fusion (E4's native composition is additive — the exact root of the phase-110 no-go; E6's concatenation echo is charge-free and Λ-scoped per C-U2). BIND-1 lives or dies on whether a refereed fusion rule ever selects the concatenated carrier.
+
+**BIND-1 remains a registered conjecture** — its kinematics are now refereed-real and close over existing dictionary data, but carrier status for the composite is underived, and the mechanism is attractive-binding-only in 2D.
