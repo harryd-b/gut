@@ -1,6 +1,6 @@
-# Phase 105 — fifth entry candidate: conjugation — antimatter as the modular mirror (derivation record; referee pass pending; verdicts NOT entered)
+# Phase 105 — fifth entry: conjugation — antimatter as the modular mirror (REFEREED 2026-07-26; core CONFIRMED; Box 4a demoted to open lemma — see Amendment)
 
-*Working session, 2026-07-24, continuing the phase-105 successor program. **Status: [derived by a context-free derivation agent; NOT refereed; no verdict entered].** The proposed fifth entry: the action of the modular conjugation J on defects. Headline claims (pre-verdict): J acts as the orientation-reversing reflection fixing the geodesic's endpoints, JW(f)J = W(f∘r) (with the residual sign imported from free-field PCT — GAP-1, load-bearing: it decides the charge flip); the modular mirror of a charge-Q defect is a charge-(−Q) defect on the SAME geodesic, reflected to the complementary side, admissible-but-invisible per the refereed trichotomy; the transformation laws of all four prior entries close consistently (D invariant side-swapped; spin phase conjugated — by antilinearity AND independently by orientation reversal, agreeing; statistics parity invariant; D₁₂ sign-flipped via two distinct mechanisms with the same result); and the defect-plus-mirror vector is exactly the POSITIVE-CONE STANDARD-FORM PURIFICATION — J-invariant, defect on one side, charge-conjugate on the other, globally neutral yet locally un-annihilable — the thermofield-double shape, with the NOTE-1 record-tie flagged conjecture-level. Toy-PCT reading tagged; no dynamics. Goes to a context-free referee before any verdict.*
+*Working session, 2026-07-24, continuing the phase-105 successor program. **Status: [refereed 2026-07-26 — core CONFIRMED with repairs; GAP-1 CLOSED (J flips charge); Box 4a UNPROVEN, demoted to the open lemma L-MIRROR; Box 5 repaired to the positive-cone definition. See Amendment §6.]** The proposed fifth entry: the action of the modular conjugation J on defects. Headline claims (pre-verdict): J acts as the orientation-reversing reflection fixing the geodesic's endpoints, JW(f)J = W(f∘r) (with the residual sign imported from free-field PCT — GAP-1, load-bearing: it decides the charge flip); the modular mirror of a charge-Q defect is a charge-(−Q) defect on the SAME geodesic, reflected to the complementary side, admissible-but-invisible per the refereed trichotomy; the transformation laws of all four prior entries close consistently (D invariant side-swapped; spin phase conjugated — by antilinearity AND independently by orientation reversal, agreeing; statistics parity invariant; D₁₂ sign-flipped via two distinct mechanisms with the same result); and the defect-plus-mirror vector is exactly the POSITIVE-CONE STANDARD-FORM PURIFICATION — J-invariant, defect on one side, charge-conjugate on the other, globally neutral yet locally un-annihilable — the thermofield-double shape, with the NOTE-1 record-tie flagged conjecture-level. Toy-PCT reading tagged; no dynamics. Goes to a context-free referee before any verdict.*
 
 ---
 
@@ -92,10 +92,58 @@ In this toy, tasks 1–2 establish: J = (reflection r fixing the axis) × (charg
 - **Visibility**: the mirror defect is invisible to M_γ's ledger (density in I′) — "antimatter" here is a statement about the global algebra and the standard form, not a second visible particle.
 - **Zero modes**: all Q ≠ 0 statements live at the automorphism/cocycle level ([GAP-3]).
 
-## Five-line summary
+## Five-line summary (pre-verdict; superseded where the Amendment says so)
 
 1. J acts as the orientation-reversing reflection r fixing the axis endpoints; JW(f)J = W(f∘r), with antilinearity and current parity signs cancelling ([GAP-1] on the residual sign).
 2. The modular mirror of a charge-Q defect is a charge-(−Q) defect on the same geodesic, reflected to I′ — admissible but invisible per the trichotomy.
-3. Entry laws: D invariant (side-swapped); spin phase conjugates, e^{iD_spin} → e^{−iD_spin}, consistently by antilinearity or orientation flip; statistics invariant; D₁₂ → −D₁₂ both for one-sided mirroring (charge) and full conjugation (orientation) — distinct mechanisms, same sign.
-4. ξ_η = W(η)*JW(η)*JΩ is the J-invariant positive-cone purification: defect on A(I), antimirror on A(I′), globally neutral yet locally un-annihilable — the thermofield-double shape; NOTE-1 record-tie flagged as conjecture.
+3. Entry laws: D invariant (side-swapped); spin phase conjugates, e^{iD_spin} → e^{−iD_spin}, consistently by antilinearity or orientation flip; statistics invariant; D₁₂ → −D₁₂ both for one-sided mirroring (charge) and full conjugation (orientation) — distinct mechanisms, same sign. *(Amendment: the one-sided claim is UNPROVEN — see §6.3.)*
+4. ξ_η = W(η)*JW(η)*JΩ is the J-invariant positive-cone purification: defect on A(I), antimirror on A(I′), globally neutral yet locally un-annihilable — the thermofield-double shape; NOTE-1 record-tie flagged as conjecture. *(Amendment: formula literal only at Q = 0 — see §6.4.)*
 5. This is toy-PCT (reflection × charge conjugation × antilinearity) with no time and no dynamics; the general chiral PCT theorem is others' and attributed.
+
+---
+
+## 6. AMENDMENT — referee verdicts entered (2026-07-26)
+
+*Context-free adversarial referee pass completed 2026-07-26 (first dispatch 2026-07-24 was stopped mid-flight by session compaction and re-run with the same brief; report preserved verbatim in `reviews/REPORTS-phase105-Dconj-referee-2026-07-26.md`). The referee ran numerics for the Box 4a mandate (2^18-point grid, smoothed ramps, three branch conventions, six configurations), with the exact anti-symplecticity identity confirmed to machine precision as a code check. Verdicts and adopted corrections follow. Standing AI-referee caveat applies.*
+
+### 6.1 Overall ruling
+
+**The fifth entry ENTERS the dictionary: the conjugation entry is CONFIRMED in its core** — J is the orientation-reversing reflection fixing the axis, **it genuinely flips charge** (GAP-1 closed, see 6.2), the mirror of a charge-Q defect is a charge-(−Q) defect on the same geodesic reflected to I′ (admissible-but-invisible per the trichotomy), D and the statistics parity are invariant, the spin phase conjugates (both routes agree, exactly), full J-conjugation flips D₁₂ (exact theorem), and the mirror-pair purification stands in repaired form (6.4). **One headline claim is demoted:** the one-sided mirroring law D₁₂ → −D₁₂ (Box 4a) is UNPROVEN and is re-registered as the open lemma L-MIRROR (6.3), exported to the entry-6 arena build.
+
+### 6.2 GAP-1 CLOSED [refereed]: f^J = +f∘r — the modular mirror flips charge; "antimatter" is earned
+
+The referee closed the sign convention-free, replacing the free-field PCT import: Guido–Longo (modular covariance ⟹ the conjugate DHR sector is the J-reflected one, j∘ρ∘j) plus BMT sector composition (ρ_q∘ρ_{q′} ≃ ρ_{q+q′}, pairwise inequivalent, so the conjugate of charge q is −q) forces f^J = +f∘r: the alternative sign would make the J-reflected sector have charge +Q, contradicting conjugacy for Q ≠ 0. The imports are established theorems of the same standing as the BW input the entry already assumes. The derivation's weight-tracking argument is ruled internally consistent but only a heuristic; the sector argument is what closes the gap. Residual caveat noted for the record: the derivation tacitly assumed f^J ∈ {±f∘r}; the sector argument fixes the action on charge classes regardless, so the conclusion is unaffected. **Boxes 1 and 2 [refereed]. Charge conjugation is now a theorem of the toy, not a convention.**
+
+### 6.3 Correction C-Dconj-1 — Box 4a demoted to UNPROVEN; open lemma L-MIRROR registered
+
+The pre-flagged double-flip risk is real. The referee's direct computation of σ(η₁∘r₁, η₂) (smoothed ramps, three branch-charge conventions, crossing/nested/disjoint configurations) shows the raw commutator phase does **not** robustly flip under mirroring one defect: in the reflection-symmetric configuration it flips cleanly, but in convention (i) it is unchanged (0 → 0 — the two flips cancel), and in generic position it is not even ±σ (e.g. −1/4 → +3/4). The exact identity that does hold is σ(η₁∘r₁, η₂) = −σ(η₁, η₂∘r₁), which reduces to the claimed flip only when r₁ maps the configuration to an equivalent one. What survives as theorem: **mirroring BOTH defects flips D₁₂ (Box 4b [refereed], machine-precision numerics).** What is open:
+
+> **L-MIRROR (open lemma).** Does the refereed E2 invariant D₁₂ = Q₁Q₂·î — defined through the C-D5 canonicalization — extend to profiles supported on the reflected side I₁′ with î unchanged? If yes, Box 4a's law D₁₂(mirror-1, 2) = −D₁₂ follows formally; if no, the one-sided law must be restated. The referee could not settle this without E2's exact bookkeeping (not transmitted in the context-free brief), and the raw σ of concrete profiles is genuinely not axes-and-charges-only.
+
+**Export:** L-MIRROR is added to the entry-6 (joint two-geodesic arena) mandate, where the C-D5 bookkeeping will be on the table and D₁₂ is being re-derived internally anyway. GAP-2 is hereby ruled a real gap, not a formality; §5's classification of Box 4a among "theorems in the toy" is retracted.
+
+### 6.4 Correction C-Dconj-2 — Box 5 repaired: the positive-cone definition; explicit formula is Q = 0 only
+
+For Q ≠ 0 the defect automorphism α_η is **outer** on A(I) (the winding step has divergent H^{1/2} norm — no implementer exists in A(I)), so W(η)* ∉ A(I) and the literal formula ξ_η = A·JAJ·Ω with A = W(η)* ∈ A(I) is false for Q ≠ 0; GAP-3's gloss does not rescue it (the neutral-pair implementer does not factor through A(I)). **Repair (adopted):** define ξ_η as the unique natural-cone P^♮ representative of the normal state ω∘α_η|_{A(I)}. Every claimed property then survives and was verified by the referee: J-invariance (cone vectors are J-fixed), the A(I)-restriction is the defect state with the claimed ordering (AdW(η), not AdW(η)*), the A(I′)-restriction is the charge-(−Q) mirror state, uniqueness is Haagerup's theorem, and the global-neutrality/local-non-erasability discussion is consistent with E4. At Q = 0 the explicit formula is exactly right. The thermofield-double reading is ruled fair. **Box 5 [refereed, as repaired].** Pleasing consistency note from the report: the very outerness that breaks the naive formula is *why E1's erasure rate D > 0 is nontrivial* — the same divergence powers both.
+
+### 6.5 Correction C-Dconj-3 — statistics parity statement tightened
+
+"(−1)^{−q} = (−1)^q" is literal only for integer q. For anyonic q the correct statement: the statistics phase e^{iπq} conjugates to e^{−iπq}, which is the phase of charge −q — antiparticle statistics still match. Adopted.
+
+### 6.6 Verdict table
+
+| Item | Verdict |
+|---|---|
+| Box 1 (JW(f)J = W(f∘r); anti-symplecticity; isometry) | **CORRECT [refereed]**, GAP-1 **CLOSED** (6.2) |
+| Box 2 (mirror = charge −Q, same geodesic, side I′) + trichotomy adjudication | **CORRECT [refereed]** |
+| Box 3 (D invariant, side-swapped) | **CORRECT [refereed]** (given E1) |
+| §2(b) (spin conjugation; two routes agree; statistics invariant) | **CORRECT [refereed]** (C-Dconj-3 tightening) |
+| Box 4b (full conjugation: D₁₂ → −D₁₂) | **CORRECT [refereed]** — exact theorem, machine-precision numerics |
+| Box 4a (one-sided mirroring: D₁₂ → −D₁₂) | **UNPROVEN** — demoted to open lemma **L-MIRROR** (6.3), exported to entry 6 |
+| Box 5 (mirror-pair positive-cone purification) | **CORRECT WITH REPAIR [refereed, as repaired]** (6.4) |
+| §4 CPT reading | **CORRECT** as tagged |
+| §5 honest limits | **CORRECT WITH REPAIR** (Box 4a misclassification retracted; GAP-3 understatement noted) |
+
+### 6.7 Dictionary status after this entry
+
+Five entries refereed and standing: **D** (I-local erasure rate, Q²ℓ/2π) · **D₁₂** (crossing pairing, Q₁Q₂î) · **D_spin** (D-MS transport phase; statistics (−1)^q) · **D_fus** (totals-only fusion; binding = polarization; annihilation ⟺ Q_tot = 0 in A(I)) · **Dconj** (J-mirror: charge flips [refereed], same axis, reflected side, invisible; canonical purification pairs matter with its modular mirror). Open exports now standing: JOIN-4a″ (completeness), L-MIRROR (one-sided mirror law), C-F3 (branch–crossing sign correlation), KNOT-Q (geometry bridge), JOIN-4b/K-DATA (standing falsifier). Next per the adopted plan: entry 6, the joint two-geodesic arena, which inherits L-MIRROR and the internal re-derivation of D₁₂ as twin consistency mandates.
