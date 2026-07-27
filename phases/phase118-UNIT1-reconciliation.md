@@ -102,4 +102,21 @@ Word count: approximately 1480.
 
 ## Amendment section
 
-*(Reserved. To be filled only after the adversarial referee pass. No verdict is entered in the phase-118 registration until then.)*
+### A.1 Referee verdict (2026-07-27): CONFIRMED — pure relabeling; K-UNIT-1 does not fire
+
+Report preserved verbatim in reviews/REPORTS-phase118-UNIT1-referee-2026-07-27.md. Independent re-derivations of BOX-1 and all five conversions (hand + 200 randomized numeric trials, all passing); dedicated attack runs on the "pure relabeling" verdict, the SU(2)₁ stability logic, and the R-table. Verdicts:
+
+- **K-UNIT-1: DOES NOT FIRE (CONFIRMED).** All conversions exact; no refereed pair of numbers for the same quantity disagrees. The referee's strongest attack — equating the BIND-2 cross term îQ₁Q₂ℓ₁/π with the mutual rate D₁₂ = Q₁Q₂î, which would force ℓ₁/π = 1 — fails because the record's own typing distinguishes them: ℓ-carrying per-curve rates (entries 1, 4; 1/2π per squared charge) vs ℓ-free topological pairings (entries 2, 3; Q²/2 normalization). Two coherent type-families, consistently related.
+- **C-AB6 stability: CONFIRMED unit-covariant** by a ratio test (both routes purely quadratic in the same charge datum; masking would need a linear or additive term neither formula has) — and strengthened: h = 1/4 was independently Sugawara-sourced, so K-NONAB-1 is a genuine two-route agreement, not a tautology (C-UNIT-R3).
+- **GAP-1 hazard: UPHELD** with refinement; the re-tag **D_λ = 2h_λℓ** is mandatory and is the unique invariant-correct form.
+
+### A.2 Corrections ledger
+
+- **C-UNIT-R1 (refinement).** GAP-1's "correct in neither system" sharpened: the circulated formula is form-identical to entry 1 under the mis-instantiation Q→q; wrong by 2π as an absolute rate in every genuine frame (h_λ, ℓ, D are frame-invariants). Re-tag unchanged.
+- **C-UNIT-R2 (omission, entered as binding).** Entry 5 vs entry 1 is the decisive NEAR-FIRE for K-UNIT-1 — non-firing solely because entry 5's q ≡ Q provenance is part of the refereed record, making the repair a relabel. If any future circulation drops the provenance tag, the pair becomes a firing inconsistency.
+- **C-UNIT-R3 (strengthening).** As above under C-AB6.
+- **C-UNIT-R4 (bookkeeping, adopted).** The two type-families (ℓ-carrying rates with 1/2π per squared charge; ℓ-free topological pairings with Q²/2) are now an explicit dictionary tag, pre-empting future cross-type "inconsistency" claims.
+
+### A.3 Post-verdict status
+
+**UNIT-1 CLOSED.** Refereed into the record: primary unit system = record Q-units; the conversion rule (q → Q/√(2π); quadratics carry 1/2π per squared charge; linear pairings conversion-free); the reconciliation table; the two type-families (C-UNIT-R4); the mandatory re-tag D_λ = 2h_λℓ (entered as an amendment to phase 113 — see phase113-NONAB-kill-checks.md A.4); C-AB6's stability now refereed twice. GAP-N7 stands open in R-coordinates: C-BRIDGE pins R = √(2π), the q ≡ Q reading pins R = 1, self-dual √2 and u(3) √3 remain candidates; the three Q-lattices are pairwise incommensurable, so the fork is genuine. Resolution deferred to its own registration (the fine-structure locus, calibration step 3). The unit-reconciliation debt from C-AB6 is discharged.

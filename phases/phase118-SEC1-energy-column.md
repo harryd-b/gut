@@ -144,4 +144,23 @@ Word count: ~1980.
 
 ## Amendment section
 
-*(Reserved. To be filled only after the adversarial referee pass. No verdict is entered in the phase-118 registration until then.)*
+### A.1 Referee verdict (2026-07-27): CONFIRMED WITH CORRECTIONS — registration granted under AMENDED NAME (sector WEIGHT column)
+
+Report preserved verbatim in reviews/REPORTS-phase118-SEC1-referee-2026-07-27.md. Independent re-derivations and independent truncated-Fock numerics throughout; the O3 rescue mandate executed via the modular-Hamiltonian route (Bisognano–Wichmann/Hislop–Longo) and the rate route. Verdicts:
+
+- **K-SEC-1: DOES NOT FIRE** — the pass is valid, CONDITIONAL on explicit registration of the weight→phase conversion (factor 2π via e^{2πiL₀}, a kinematic spectral operation) as a third licensed conversion beyond BOX-1 and the branch convention (C-SEC-R2). The referee independently ruled the strict no-2π reading a category error (it would make the kill vacuous: D_spin's own framing quantum already equals 2π × weight). **The weight→phase conversion is hereby REGISTERED** per the referee's terms.
+- **K-SEC-2: FIRES ON THE REGISTRATION AS POSED** — an "energy column" that cannot in principle carry energy semantics within the data-only scope is not honestly registrable under that name. The identical mathematical object survives and is **RE-REGISTERED as the SECTOR WEIGHT COLUMN** (L₀/scaling-dimension column): dimensionless; frame-robust data = differences (shift-invariant) and ratios (fully invariant); degeneracy grading p(N); floor values h_q = q²/2; upgrade clause: it becomes an energy column upon exactly one refereed dynamical input (C-SEC-R3). The kill is honored as fired; the rename is entered in the phase-118 registration.
+- **COLLIDE-2: O3 CONFIRMED** — the modular rescue DEFEATS the round's diagnosis but not its ruling: canonical clocks exist for free (interval modular flows are Möbius flows, zero new input), but modular time is dimensionless and interval choice is a frame choice, so no canonical energy scale exists. Amended diagnosis (C-SEC-R6): what is missing is a canonical subalgebra/frame choice PLUS a scale (unit) — not a clock. **K-MASS-3: DOES NOT FIRE**; MASS-1 stands as M(D,Q).
+
+### A.2 Corrections ledger
+
+- **C-SEC-R1 (verification defect, upheld against the round).** The round's stated truncation (4 modes, occupation ≤ 3) cannot produce its reported degeneracies (yields 1,1,2,3,4 — the level-4 state (a₋₁)⁴|0⟩ is cut off). The p(N) law itself is CORRECT (referee verified independently at occupation ≥ 4: 1,1,2,3,5,7 through N = 5). The round's numerical record is misreported; the referee's independent run replaces it as the numerical evidence of record.
+- **C-SEC-R2.** Weight→phase conversion (2π, kinematic) registered explicitly — see A.1.
+- **C-SEC-R3.** K-SEC-2 fires on the name; column re-registered as sector weight column — see A.1.
+- **C-SEC-R4 (GAP-6 rescoped).** The dormant cylinder tension holds only for h_q + C_frame > 0; with the standard −1/24 it FAILS for Q² < π/6 ≈ 0.724 (including the round's own test point Q = 0.7, where E_ℓ is increasing — no tension with MASS-1 at all). The tension is Q- and C_frame-dependent.
+- **C-SEC-R5 (sign bookkeeping).** The record's literal commutator sign with standard annihilators gives negative norms; positivity of ω forces the +k relabeling the round silently used. Recorded as chirality-label bookkeeping (consistent with phase 117's C-AB1).
+- **C-SEC-R6 (diagnosis amended).** See A.1 (clocks are free; frame + scale are missing).
+
+### A.3 Post-verdict status
+
+**The SECTOR WEIGHT COLUMN is REGISTERED (refereed):** W(q, {n_k}) = q²/2 + Σ k·n_k (+ C_frame declared), on ZM-1 inventory, pure data. Refereed content: the three-way h_q coherence (rate D = 2h_qℓ, spin D_spin = 2πh_q(n∓1), weight floor h_q) — one identity under BOX-1 plus the now-registered 2π weight→phase conversion; the neutral-sector grading (level N, degeneracy p(N)) as the first non-vacuum datum for radiation states; the pair floor identity gap(q₁+q₂) − gap(q₁) − gap(q₂) = q₁q₂ (binding-shaped WEIGHT datum, not an interaction). Calibration consequence: step 1 of the calibration plan closes with a WEIGHT column, not an energy column — the absolute energy column remains unreachable within the data-only thesis, and the obstruction is now refereed-localized: one canonical frame choice + one scale. K-MASS-3 unfired; MASS-1 untouched; the mass question stays with the moduli/extremality route (calibration step 2). The upgrade clause stands as the registered successor hook.

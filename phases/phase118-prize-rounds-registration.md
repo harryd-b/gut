@@ -31,6 +31,12 @@ The owed round (C-AB6: "the reconciliation round is real work, owed"). Task: res
 
 **Pre-registered kill — K-UNIT-1 (the alarm).** Reconciliation must be pure relabeling: NO refereed number may change. If two refereed numbers prove genuinely inconsistent under forced conversion (not resolvable as relabeling), that is a record-level contradiction and must be reported as such, not repaired.
 
+## 3a. Status addendum (2026-07-27, post referees): SEC-1 → SECTOR WEIGHT COLUMN; UNIT-1 CLOSED
+
+- **Round B (SEC-1) refereed** (phases/phase118-SEC1-energy-column.md A.1–A.3; reviews/REPORTS-phase118-SEC1-referee-2026-07-27.md): **K-SEC-2 FIRED on the name** — "sector energy" is not honestly registrable within the data-only scope; the column is re-registered as the **SECTOR WEIGHT COLUMN** (identical object, honest name), with the upgrade clause (energy semantics upon exactly one refereed dynamical input: a canonical frame choice + a scale). K-SEC-1 does not fire (weight→phase 2π conversion now registered); COLLIDE-2 = O3 confirmed with amended diagnosis (clocks are free via modular flows; frame + scale are what's missing); K-MASS-3 unfired.
+- **Round C (UNIT-1) refereed and CLOSED** (phases/phase118-UNIT1-reconciliation.md A.1–A.3; reviews/REPORTS-phase118-UNIT1-referee-2026-07-27.md): pure relabeling confirmed; K-UNIT-1 does not fire; the phase-113 rate formula re-tagged D_λ = 2h_λℓ (binding, entered as phase 113 A.4); two type-families tagged (ℓ-carrying rates with 1/2π per squared charge vs ℓ-free topological pairings with Q²/2).
+- **Round A (M-FRAME2(b)) still in execution.**
+
 ## 4. House conditions (all three rounds)
 
 Context-free agents; word caps (A: 3000, B: 2500, C: 2000); mandatory [BOX]/[GAP-n]/[others'] flagging; numerics where possible; outputs preserved verbatim in phases/ with editorial headers and reserved Amendment sections; adversarial referees before any verdict enters a registration; kills honored as pre-registered. Standing AI-referee caveat applies.
