@@ -21,6 +21,13 @@ Registered per phase-113 roadmap item 4: SU(2)₂ (Ising-adjacent; sectors j = 0
 - **K-SU22-2 (the genuinely-non-abelian gate).** If the SU(2)₂ candidate entries secretly reduce to an abelian embedding (all sector weights of the form q²/2 on a rank-1 lattice, as happened benignly at SU(2)₁), the "first genuinely non-abelian computation" claim dies and the round is re-scoped as another abelian consistency check. The round must check h_{1/2} = 3/16 against lattice realizability explicitly.
 - **Step-3 mandate (data gathering, not resolution):** the round must record what SU(2)₂ demands of the compactification radius / charge-lattice unit (GAP-N7's fork in R-coordinates, per the refereed UNIT-1 table) — WITHOUT resolving the fork, which remains its own registration.
 
+## 2a. Status addendum (2026-07-27, post referees): all phase-119 rounds refereed
+
+- **CAL-2 route (a): ALIVE-WOUNDED (refereed).** K-CAL2-1 does not fire; K-CAL2-2 respected under adversarial audit; Bolza spectrum twice-computed exactly (round + referee, independent implementations); the survival case relocated to (B)-marginal (reading (C) ruled a loophole pending an occupancy rule); honesty finding completed with the exclusion-window content. See phases/phase119-CAL2-moduli-round1.md A.1–A.3.
+- **SU(2)₂: refereed-passed** — both kills survive (strengthened); channel-defect spectrum {−3ℓ/4, +ℓ/4} registered as candidate datum; eight corrections including the GAP-N7 incommensurability trap. See phases/phase119-SU22-channel-spectrum.md A.1–A.3.
+- **BIND-2(c) (dispatched after M-FRAME2 closure unblocked it): refereed-registered** with demotions (Weyl midpoint = convention; braiding interpretation = speculative). See phases/phase119-BIND2c-winding-data.md A.1–A.3.
+- Named successor rounds emerging from this wave: occupancy-rule registration (or strike reading (C)); multiplet-interpretation round (C-AF4 reading (E): multiplicity as internal quantum numbers); SU(2)₃ Fibonacci gate (C-AD6); exchange-homotopy/GAP-7 protocol round for the braid label; the GAP-N7 fork registration (now carrying the C-AD5 incommensurability trap).
+
 ## 3. House conditions (both rounds)
 
 Context-free agents; word caps 2500 each; mandatory [BOX]/[GAP-n]/[others'] flagging; numerics where possible; outputs preserved verbatim in phases/ with editorial headers and reserved Amendment sections; adversarial referees before any verdict enters a registration; kills honored as pre-registered; standing AI-referee caveat. The M-FRAME2(b) referee (phase 118, in flight) is independent of both rounds.

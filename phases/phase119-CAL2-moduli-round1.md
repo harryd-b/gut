@@ -111,4 +111,26 @@ Word count: 2282
 
 ## Amendment section
 
-*(Reserved. To be filled only after the adversarial referee pass. No verdict is entered in the phase-119 registration until then.)*
+### A.1 Referee verdict (2026-07-27): computations CONFIRMED exact; K-CAL2-1 does not fire (reading-(C) survival ruled a LOOPHOLE); K-CAL2-2 respected
+
+Report preserved verbatim in reviews/REPORTS-phase119-CAL2-referee-2026-07-27.md. The referee re-implemented the Bolza group FROM SCRATCH in exact arithmetic (own ring, own code), enumerated to depth 7 plus the full depth-8 shell on positive-trace levels, ran a homology-invariant audit certifying no over-merge, and audited literature anchors, kill rulings, and the honesty finding. Verdicts:
+
+- **Every mandated computational anchor CONFIRMED:** systole 3.05714 at trace ±(2+2√2), multiplicity 12; levels 2–3 at multiplicities 12/24; the 2ℓ₁ level's zero primitives (all 552 elements literal squares); all lengths and ratios exact to printed digits; trace pattern and stabilizer arithmetic verified. No computational error found anywhere. (The referee initially reproduced HALF the multiplicities via a single-sign trace collection bug, caught by its own homology audit — converted into replication warning C-AF6.)
+- **Literature anchors CONFIRMED** within the referee's knowledge (Jenni uniqueness; kissing 12; |Isom| = 96; Buser–Sarnak; Klein quartic; genus-3 systole-maximality genuinely open); published Bolza spectra agree (usually quoted oriented = double this table's unoriented column).
+- **K-CAL2-1: DOES NOT FIRE — with the survival case relocated.** Arm 1 clean (unique, robust, record-internal selection at g = 2). Arm 2: survival-via-reading-(C) is ruled a **LOOPHOLE, not substantive** — a reading with no occupancy rule "hosts" any structure vacuously; if (C) is retained, an occupancy rule MUST be registered next round or (C) struck. The load-bearing survival case is (B)-marginal. The round's refusal to sharpen the kill post hoc ruled procedurally correct in both directions. Status: **ALIVE-WOUNDED on (B)-marginal**, conditional on GAP-2/3/4.
+- **K-CAL2-2: RESPECTED** — no measured-mass comparison, fit, or tuning anywhere; the principles are pre-existing criteria, not reverse-engineered; two properly self-flagged qualitative near-misses (the number three from phenomenology; reading (A)'s qualitative mass-distinctness).
+- **Honesty finding CONFIRMED and completed (C-AF3):** (i) M unknown — ordinal/multiplicity/interleaving content only (correct as submitted); (ii) M pinned at two points — the ratios STILL do not become predictive (monotonicity does not interpolate), but genuine falsifiable content the round missed appears: EXCLUSION WINDOWS (no Bolza levels strictly between ℓ₁–ℓ₂ or ℓ₂–ℓ₃ ⟹ no states in the corresponding open mass windows) and window level-counting; (iii) M derived — full quantitative spectrum, immediate confrontation.
+
+### A.2 Corrections ledger
+
+- **C-AF1.** The 2ℓ₁ level's "24 squares" was an oriented count in an unoriented table; correct unoriented count 12.
+- **C-AF2.** Reading (A)'s exclusion is BOX-1 + minimal empirical input (observed generations differ in mass — qualitative, ordinal, no tripwire breach), not a purely internal contradiction.
+- **C-AF3.** Honesty finding completed as in A.1 (exclusion windows; anti-overclaim guard: pinning M at two points does NOT make ratios predictive).
+- **C-AF4.** Two unexamined readings surfaced: (D) iterates-as-generations — blocked solely by the record's primitivity clause (that clause is doing real work and is now explicitly load-bearing); (E) multiplicity-as-internal-quantum-numbers (e.g. 12 = 3 × 4) — a potential rescue of reading (B) requiring new record machinery; both logged as open candidates.
+- **C-AF5.** "Minimum multiplicity = 4" rescoped: an observation over ten converged rows, not a theorem about the infinite spectrum.
+- **C-AF6.** Replication warning (binding on future users of the table): the trace column reports |trace|; both signs occur in the +I lift and conjugacy preserves the SIGNED trace — single-sign collection halves multiplicities.
+- **C-AF7.** Word-count bookkeeping: 6,588,344 = the length-exactly-8 shell; cumulative is 7,686,401.
+
+### A.3 Post-verdict status
+
+**CAL-2 route (a) stands ALIVE-WOUNDED (refereed): calibration step 2 has its first refereed content.** Registered: the Bolza point as the robust record-internal selection at g = 2 (three coinciding principles); the exact primitive length spectrum (10 converged classes, twice-computed independently); BOX-1 (generations climb across length classes — with C-AF2's honest empirical-input tag); the ordinal/cross-sector characterization of the record's falsifiable content, completed by the exclusion-window finding. Conditions for route (a)'s continued life, now sharpened by the referee: (1) register an occupancy rule or strike reading (C); (2) the truncation blank (nothing marks "three") stands; (3) the genus blank stands; (4) the multiplet-interpretation question (GAP-5, with C-AF4's reading (E) as the named candidate) is the physics question the Bolza point forces. Route (b) (environment framing) remains the registered fallback. The K-CAL2-2 discipline held under adversarial audit — the calibration column's first computational round produced structure without numerology.
