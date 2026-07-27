@@ -24,6 +24,10 @@
 5. **Anchor amendment + spend:** the calibration plan's step-4 one-anchor rule is AMENDED by this mandate (operator-authorized): calibrating the derived M at TWO measured masses (m_e, m_μ) is licensed as function-calibration; everything else M produces is then prediction. The amendment must be registered explicitly at spend time; any third calibration point is numerology and auto-rejects.
 6. **Compute and pre-register the comparison** (m_τ and/or window counts) BEFORE looking up measured values. Then look. Enter the outcome either way.
 
+## Companion artifact
+
+**notes/LEDGER-2026-07-27-coincidences.md** — the coincidence ledger. Every coincidence-shaped finding is logged there INCLUDING deflations (opened with 10 entries: 9 deflated, 1 live-but-internal). Binding: every future round adds its coincidence-shaped findings before its verdict is entered; nothing graduates to LIVE without passing the three admission tests with the null's prediction recorded in advance. The ledger's Part II is the cheap hunting list; H1 (the ℚ(√2) collision) is the strongest unexamined Tier-A shape and the natural entry point to the partition-function/modular-invariance program.
+
 ## Standing items carried under the mandate
 
 - Deferred referees: DYN-1, OCC-1 (next usage cycle, before any step-3 work).
