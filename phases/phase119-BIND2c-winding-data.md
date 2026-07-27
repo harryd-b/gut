@@ -121,4 +121,19 @@ Word count: ~1790.
 
 ## Amendment section
 
-*(Reserved. To be filled only after the adversarial referee pass. No verdict is entered in the BIND-2 registration until then.)*
+### A.1 Referee verdict (2026-07-27): computations CONFIRMED (16/16); kill immunity UPGRADED to all-histories theorem; adjudication MODIFIED (two demotions)
+
+Report preserved verbatim in reviews/REPORTS-phase119-BIND2c-referee-2026-07-27.md. Independent hand + symbolic re-derivation (faithful nilpotent representation; 16/16 checks); the first-applied-winding reading confirmed by a second independent route (conjugation gives the FULL e^{iQ₁da₂} per increment); the split adjudication stress-tested. Verdicts:
+
+- **All numbers CONFIRMED.** Centrality, both ordered central factors and signs, Φ_W, δ₁₂ = ½(n₂−n₁)Q₁Q₂, the three mutual terms {n₂, ½(n₁+n₂), n₁}·Q₁Q₂, mean and span properties. No sign or braid-class-swap errors.
+- **K-B2C-1: DOES NOT FIRE — upgraded to a THEOREM over ALL preparation histories** (C-AE3): schedule-independence within fixed ordering; symmetric splitting reproduces Weyl exactly; mid-loop ordering swaps cancel exactly. Every history's phase closes to one of {n₁Q₁Q₂, n₂Q₁Q₂}; at n₁ = n₂ the set collapses to a point.
+- **Split adjudication: MODIFIED — logic confirmed, labeling demoted twice.** (C-AE1, required): the "spectral registration value" ½(n₁+n₂)Q₁Q₂ at n₁ ≠ n₂ is renamed the **canonical convention value** — the round's own canonicity argument (choice among physically identical descriptions) entails it is not a physical datum, and the odd-difference midpoint (realized by no history, with energies blocked) FORCES the demotion. (C-AE2, required): "ordering class = braid class" graded — ordered values and inter-class interference phase: THEOREM; the discrete label b as data-closing bookkeeping: ADJUDICATED; the identification with refereed defect exchange ("the record rediscovering braiding"): **SPECULATIVE** — commensurability with the exchange unit is verified consistency, not derivation ("a pun with excellent numerology"); an exchange-homotopy argument or the GAP-7 protocol is required to ground it.
+- **C-AE4 (precision):** BOX-2 correctly used the TOTAL closed-transport phase (shifts by the closed-loop Δ of the central c-number); the geometric-phase-only reading would hold only mod 2π.
+
+### A.2 Corrections ledger
+
+C-AE1 (Weyl column renamed canonical convention value; physicality claim at n₁ ≠ n₂ withdrawn); C-AE2 (braid identification graded THEOREM/ADJUDICATED/SPECULATIVE as above); C-AE3 (kill immunity proven for all histories); C-AE4 (total-phase precision). All entered; the registration table of §3 is adopted WITH these demotions applied.
+
+### A.3 Post-verdict status
+
+**BIND-2(c) winding data REGISTERED (refereed), with the demoted labels.** Refereed physical content: ray data (deck classes (n₁, n₂), sectors — prescription-free); per-ordered-history mutual values n_first·Q₁Q₂ (theorem); the inter-class interference phase (n₁−n₂)Q₁Q₂ (theorem); the discrete history label b (adjudicated bookkeeping); common-n data M = (n∓1)Q₁Q₂ immune to ordering under all histories (theorem). Convention entries: the Weyl midpoint value (canonical convention, physicality withdrawn at n₁ ≠ n₂). NOT registered: energy semantics (blocked, standing); the braiding INTERPRETATION of b (speculative, pending GAP-7 protocol or exchange-homotopy derivation — the named successor round if wanted). GAP-6 is closed as a computational ambiguity; its interpretive residue lives on as the C-AE2 grading. Entered into the BIND-2 registration (phase112 §3c). The operator's twist picture status after refereeing: wind counts and twist phases — refereed referents; "which strand crossed first" — a real discrete label whose braiding interpretation is not yet earned; stored energy — still no referent.
