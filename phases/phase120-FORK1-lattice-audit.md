@@ -102,4 +102,20 @@ Word count: ~1950.
 
 ## Amendment section
 
-*(Reserved. To be filled only after the adversarial referee pass. No verdict is entered in the phase-120 registration until then.)*
+### A.1 Referee verdict (2026-07-27): arithmetic ALL VERIFIED; K-FORK-1 DOES NOT FIRE (faithful ruling, provisional rider); a record ERRATUM exposed
+
+Report preserved verbatim in reviews/REPORTS-phase120-FORK1-referee-2026-07-27.md. Independent hand re-derivation of every arithmetic claim; adjudication of the kill ruling against the registered wording; scope-guard audit. Verdicts:
+
+- **All arithmetic VERIFIED** (spacings, all irrationality proofs — with the citation trimmed: irrationality of π suffices, transcendence unnecessary (C-AG1); the winding-existence criterion R² ∈ ℤ derived independently; 8π arithmetic; convention-independence of the 2-vs-5 incommensurability). Zero substantive errors; two presentation defects (C-AG1, C-AG4 — the density lemma re-phrased correctly via Kronecker).
+- **K-FORK-1: DOES NOT FIRE — ruled the FAITHFUL adjudication** of the registered wording ("not scope-separable" is modal: the conjunct fails whenever separation is available in principle; an undecided ontology means inseparability is UNESTABLISHED, which yields non-firing, not suspension). Mandatory rider (C-AG7): the arena-separation scheme is unregistered scaffolding — the ruling is PROVISIONAL pending the arena-ontology decision, and a future single-arena registration REOPENS the kill.
+- **BOX-1 (winding nonexistence at R = √(2π)): VERIFIED, PARTIALLY NEW.** The failure SET coincides exactly with the record's own caveat set (R² ∈ ℤ ⟺ R² ∈ ℕ for R > 0) — C-AG2 corrects "strictly stronger" to "deeper failure mode on the same set." The genuine contributions: converting an undefined-index caveat into a structural nonexistence statement, and exposing an **ERRATUM in the refereed ZM-1 record** (C-AG3): the unconditional "Λ_w = Rℤ ⊂ Λ_R" is FALSE whenever R² ∉ ℕ. Entered as an erratum amendment on phase 117 (A.4 there). The conditional-kill handling ruled honest, not a dodge (locality was never a registered demand; firing now would silently rewrite the kill).
+- **Insufficiency corollary: PARTIAL OVERREACH (C-AG5).** "R is insufficient" is refereed for SU(2)₂ ONLY; the generalization to all level->1 material is conjecture (motivated by Frenkel–Kac but unestablished); "necessary" is asserted, not derived, and conflicts with the round's own decision 5. Re-tagged accordingly.
+- **Scope guards: COMPLIANT** — no pin, no couplings, no anchors.
+
+### A.2 Corrections ledger
+
+C-AG1 (citation trim: irrationality of π suffices); C-AG2 ("strictly stronger" → deeper failure mode, same R-set); C-AG3 (record erratum registered — see phase 117 A.4; added to the decision list as decision 6); C-AG4 (density lemma re-phrased: any subgroup of ℝ containing two incommensurable lattices is dense, hence no discrete refinement); C-AG5 (insufficiency corollary re-tagged: theorem for SU(2)₂, conjecture beyond; "necessary" dropped pending derivation); C-AG6 (decision list extended: decision 7 = disposition of the superseded R = 1 under multi-arena ontology; explicit ZM-1 transport-license item); C-AG7 (non-firing ruling logged as provisional pending the arena-ontology registration).
+
+### A.3 Post-verdict status
+
+**FORK-1 CLOSED (refereed): calibration step 3's terrain is now mapped.** Refereed into the record: the trilemma (three pairwise-{0} charge lattices — no compromise value exists); the cluster structure with ZM-1 as the sole transportable core; the C-BRIDGE internal winding tension (conditional kill, hinging on the unregistered locality-bindingness decision); the ZM-1 erratum (C-AG3); and the SEVEN decisions (five original + C-AG6's two) that any future fork-resolution registration must take before the fine-structure question can even be well-posed — with the honest re-tag that R's sufficiency as the resolution variable is theorem-false for SU(2)₂ and conjecturally insufficient beyond. The fork itself remains OPEN by design; the resolution is a separate future registration. GAP-N7's standing description is amended from "the charge-lattice unit fork" to "the charge-lattice unit fork, of which R is one coordinate; resolution variable undecided (decision 5)."

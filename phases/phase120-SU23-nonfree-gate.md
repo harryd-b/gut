@@ -109,4 +109,22 @@ Word count: ~1980.
 
 ## Amendment section
 
-*(Reserved. To be filled only after the adversarial referee pass. No verdict is entered in the phase-120 registration until then.)*
+### A.1 Referee verdict (2026-07-27): gate PASSES — K-SU23-1 DOES NOT FIRE (label inversion confirmed and corrected); rescue failed on all four routes
+
+Report preserved verbatim in reviews/REPORTS-phase120-SU23-referee-2026-07-27.md. All modular data, sum rules, channel defects, coset remainders, and lattice arithmetic independently re-derived and confirmed; the rescue mandate executed on four routes. Verdicts:
+
+- **Kill-label inversion CONFIRMED as a semantic error (C-AH1).** Under the registered wording (K-SU23-1 fires IF a free realization exists), the round's finding — no free realization — means **K-SU23-1 DOES NOT FIRE; the gate PASSES** as the program's first genuinely non-abelian AND non-free gate. The verdict of record is hereby corrected; the round's "KILL FIRES" label is superseded. Ledger note (binding, house-rule grade): future verdict boxes must quote the registered kill conditional VERBATIM before ruling — this kill was registered so that firing = gate escalation, not gate success.
+- **The non-free substance CONFIRMED after a serious rescue.** All four routes failed: (a) the free-dimension classification is airtight in the corrected form d ∈ ℤ[√2] hence d² ∈ ℤ (C-AH3); φ ∈ ℚ(√5) escapes it; free parafermions/higher-d lattices/W-algebras all excluded from the pinned free class; (b) **the real pressure point — SU(2)₃ DOES embed in a free theory** (diagonal in SU(2)₁³, c = 3, commutant c = 6/5) — but the embedding reading would vacuously "free" EVERY SU(2)_k (including retroactively k = 1, 2), so "admits a free-field realization" is REFEREED-PINNED to isomorphism/MTC-equivalence with matching c mod 8 (C-AH2, binding going forward); a conformal (c-preserving) free embedding is impossible (9/5 ∉ ½ℤ); (c) E₈ stacking cannot help (c mod 8 invariant, dimensions unchanged); (d) non-chiral doubling destroys the invariants under test — irrelevant to the chiral record.
+- **K-SU23-2: DOES NOT FIRE (confirmed)** — rates finite, pairwise distinct, pure data; outcome selection properly quarantined; conditional on the underived candidate (GAP-N1), as conceded.
+- All structural claims verified: the k = 2 vs k = 3 sum-rule contrast (S = 0 special at k = 2); the Fib ⊠ anti-semion scoping ruled adequate; the parafermion localization (σ₁ weight 1/15 at c = 4/5, the 3-state Potts minimal model — itself φ-bearing and non-free, consistent) endorsed as a genuinely nice structural observation.
+
+### A.2 Corrections ledger
+
+- **C-AH1 (record-critical).** Verdict label corrected: K-SU23-1 DOES NOT FIRE; gate PASSES. Substance unchanged.
+- **C-AH2 (binding).** "Admits a free-field realization" pinned to isomorphism/MTC-equivalence (c mod 8 matched); embedding with nontrivial commutant does not count (else vacuous for all SU(2)_k).
+- **C-AH3 (precision).** Free-dimension classification restated as d ∈ ℤ[√2] (d² ∈ ℤ) for the pinned free class.
+- **C-AH4 (typographical).** Garbled S_{½½} line; value 0.37175 correct; 𝒟S_{½½} = 1 exactly.
+
+### A.3 Post-verdict status
+
+**The SU(2)₃ gate is refereed-PASSED: the program now possesses a genuinely non-abelian, genuinely non-free sector structure**, closing the gap the SU(2)₂ referee named (non-abelian ≠ non-free). Registered: the sector table; the channel-defect spectra {−3ℓ/5, +ℓ/5} and {−4ℓ/5, +2ℓ/5} as candidate data (conditional on GAP-N1 + the pair extension); the nonzero sum rule 𝒟S_{½½} = 1 (the k = 2 phase cancellation refereed as special, not generic); the Fibonacci/parafermion localization of the non-free core; the level-tagged lattice observations under both readings (GAP-N7 untouched, feeding the FORK-1 decision list). The non-abelian program's ladder now reads: k = 1 abelian → k = 2 non-abelian/free → k = 3 non-abelian/non-free — with GAP-N1 (no non-abelian rate DERIVATION) still the load-bearing open problem, now carrying three levels of consistency structure it must eventually explain.
