@@ -101,4 +101,24 @@ Two honest flags: [GAP-3] E2's phases were not individually re-audited (document
 
 ## Amendment section
 
-(Reserved for the referee verdict. Empty until the referee pass completes.)
+### A.1 Referee verdict (2026-07-27): both kills CONFIRMED not to fire; κ = ½ refereed as theorem-within-framing
+
+Report preserved verbatim in reviews/REPORTS-phase117-ZM1-referee-2026-07-27.md. All mode-algebra, BCH, and ordering computations re-derived by hand; the units derivation, the ½, the common-n globality step, both kill verdicts, and the R-table each attacked. Verdicts:
+
+- **K-ZM-1: does NOT fire (CONFIRMED).** E1, E3, E4, and the BIND-2 rate independently verified as k≥1/modular functionals reproduced exactly in F₀; E2 covered by the embedding lemma only — entered lemma-conditional per C-AB2.
+- **K-ZM-2: does NOT fire (CONFIRMED).** JOIN-4a″ survives verbatim (its statement quantifies over A(I), to which the extension adds nothing); global disjointness is a genuine strengthening; the single-algebra Connes–Størmer caveat correctly persists (GAP-4); the winding-creatability trigger adjudicated in the construction's favor with GAP-5 upgraded to a BINDING CONDITION (C-AB3): re-declaring A_ext as the physical net voids this ruling's premise and mandates a fresh keystone round.
+- **κ = ½: refereed as a THEOREM within zero-mode framing** — Φ_zm = ½Δa·Q_tot follows from the record's symmetric Weyl map plus the repaired pairing, R-independent; the previously gate-calibrated normalization of phase 109 A.2 is now derived. The ± sign and the deck-count identification of n remain conventions (C-AB5).
+- **D-MS: "forced within zero-mode framing" ruled exactly the right strength.** At common n the value n(Q₁+Q₂)²/2 is choice-free inside the framing — but by the per-particle-coincidence route (C-AB4), not the single-section framing (which would echo M-FRAME's refuted globality step). The crossing-framing rival (C-S3) survives; **M-FRAME2(b) remains the decider between the two definitions of framing.** Per-particle mutual term ½(n₁+n₂)Q₁Q₂ and ordering span (n₁−n₂)Q₁Q₂ verified exact.
+
+### A.2 Corrections ledger
+
+- **C-AB1.** Sign of the mode bracket: the record's conventions force [j̃(f),j̃(g)] = +iσ(f,g), i.e. [j_m,j_n] = −2πmδ — the round's stated sign was the opposite chirality labeling. Only the magnitude 2π is units-load-bearing; every downstream number unaffected; two-point reproduction verified either way.
+- **C-AB2.** K-ZM-1 entered as "does not fire; E2 lemma-conditional (GAP-3)."
+- **C-AB3.** GAP-5 is a binding condition, not an informational flag.
+- **C-AB4.** The common-n D-MS value is derived via the per-particle Weyl-ordered coincidence, not via a single shared branch section; claim strength unchanged.
+- **C-AB5.** "κ = ½ derived" scoped: the ½ is derived; sign and deck-count identification remain conventions.
+- **C-AB6.** The BOX-1 conversion's effect on phase 113 is substantive relabeling (the j = ½ defect's record charge reads √π, both comparison values become ℓ/2); the K-NONAB-1 verdict is stable (agreement check, both sides move together); the reconciliation round is real work, owed.
+
+### A.3 Post-verdict status
+
+**ZM-1 stands: built, conservative, keystone-compatible.** Refereed into the registration: the construction (with the C-S1/C-S2 repairs verified), the forced unit conversion q = Q/√(2π) with D = q²ℓ = 2h_qℓ, the embedding lemma, both kill survivals, the κ = ½ theorem-within-framing, and the sharpened D-MS status. K-ZM-3 shows no sign of firing. The prize queue: (1) M-FRAME2(b) — now the SOLE remaining decider of the spin-scheme binary (the choice between zero-mode framing and crossing framing); (2) the sector-energy column re-registration on ZM-1 inventory (CAS successor); (3) the BIND-2(c) winding data (with GAP-6's ordering treatment); plus the owed BOX-1/phase-113/C-BRIDGE unit-reconciliation round. GAP-1 (vertex-operator locality, [others']) remains unrefereed; R remains unpinned.
