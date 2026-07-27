@@ -47,6 +47,24 @@ Ordered by (value × cheapness). Each states the test AND the null's prediction 
 
 ---
 
+---
+
+## PART III — HUNT RESULTS (2026-07-27, operator-run, no agents)
+
+Four of the six hunting entries were cheap enough to settle in-session. **All four resolved NEGATIVE. Zero survivors.** Graveyard total: 14 entries, 13 deflated, 1 live-but-internal.
+
+**H1 — the ℚ(√2) collision: NEGATIVE as posed; entry stays open pending a mechanism.** The test was whether R can vary while the geodesic side is held fixed. It can: the refereed ZM-1 conservativity theorem states that E1's D, E3, E4, BIND-2 and JOIN-4a″ "demand **nothing** of R" (phase117-ZM1-round1-construction.md §(a)), while the surface's trace field is fixed independently by the moduli/extremality selection. **The two arithmetics are independently variable, so nothing currently couples them; the shared √2 is symbol-matching, not constraint** — exactly the failure the admission tests exist to catch. The entry is NOT closed: the partition-function/modular-invariance route would *create* a coupling where none exists, which is precisely why it remains the Tier-A target. Status: **HUNTING — no constraint exists yet; the hunt is for a mechanism that manufactures one.**
+
+**H2 — exact cross-sector rate degeneracies: NEGATIVE (and the near-miss deflates trivially).** With charges on the integer lattice, D(Q₁,ℓ_i) = D(Q₂,ℓ_j) requires ℓ_i/ℓ_j = Q₂²/Q₁² ∈ ℚ. Tested all 45 pairs of the ten refereed primitive lengths against every rational with denominator ≤ 50, tolerance 10⁻⁹: **no hits.** Closest approach anywhere is rows 3 and 5, ratio 1.219507475 vs 50/41, error 4.7×10⁻⁶ — far too poor to be a convergent, i.e. not close at all for that denominator. Structural reading: a rational ratio would require the eigenvalue-units of two distinct primitive geodesics to be multiplicatively dependent; the computed spectrum shows no such dependence. **New deflated entry (#11): the iterate family** D(nQ, ℓ) = D(Q, n²ℓ) is an *exact* infinite family of cross-sector degeneracies — and deflates immediately as scaling algebra (any D ∝ Q²ℓ has it; the null predicts it with probability 1). It is also inert unless iterates carry defects, which is CAL-2's open GAP-6. **Useful by-product (not a coincidence, but worth keeping):** on the computed range the map (charge, length class) → rate is injective, so cross-sector interleaving is collision-free — no accidental degeneracies to confound the SILVER window counts.
+
+**H3 — is D ever required to be integral? NEGATIVE; family of hopes foreclosed.** The record is explicit and refereed: "E1's refereed derivation is integrality-free (jump height Q ∈ ℝ enters polynomially; η is a function, not a U(1)-map — no winding quantization)" (phase113-NONAB-kill-checks.md BOX B; echoed at phase117 §(a) as "E1 is refereed integrality-free"). Charge is quantised (by R, in the extension); **D is not.** So no Diophantine condition Q²ℓ/2π ∈ ℤ welds the two arithmetics together, and that whole route to H1 is closed. Cost: one grep. Exactly the intended economy of a cheap negative.
+
+**H6 — zero primitives at 2ℓ₁: NEGATIVE (generic absence, not coincidence).** The level sits at trace t² − 2 (from tr γ² = tr²γ − 2). Its emptiness of primitives says only that no primitive element happens to carry that particular trace — which a generic surface also satisfies (measure zero), so the null predicts absence too. Deflated; closed.
+
+**Not run:** H4 (the three "3"s) is *permanently* quarantined by design — no test may be run on it without a derivation linking two of the three, and noticing them together is not evidence. H5 (hyperelliptic chirality correlation) is **BLOCKED**: its input data are OCC-1's orbit tables, which are quarantined behind the unadjudicated GAP-8 census anomaly.
+
+**Reading of this pass.** Four coincidence candidates, chosen as the cheapest and most suggestive available, all dead within one session and for structurally different reasons (independent variability; no rational ratios; no integrality requirement; genericity). The deflationary hypothesis gains further support. The single item that survives as *worth pursuing* — H1 — survives precisely because it has **not** been tested against a mechanism that could couple the two arithmetics; that mechanism does not yet exist in the record, and building it is the Tier-A program.
+
 ## Standing rules
 
 - Every new round must add its coincidence-shaped findings here, **including deflations**, before its verdict is entered.
