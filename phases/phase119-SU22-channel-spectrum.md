@@ -111,4 +111,20 @@ Word count: ~1960.
 
 ## Amendment section
 
-*(Reserved. To be filled only after the adversarial referee pass. No verdict is entered in the phase-119 registration until then.)*
+### A.1 Referee verdict (2026-07-27): both kills CONFIRMED not to fire; eight corrections
+
+Report preserved verbatim in reviews/REPORTS-phase119-SU22-referee-2026-07-27.md. All modular data and arithmetic independently re-derived (symbolic + numeric); both kill rulings stressed in both directions. Verdicts:
+
+- **K-SU22-2: DOES NOT FIRE — upheld in wording AND spirit, and STRENGTHENED.** The referee added an all-rank kill the round only deployed at rank 1: bosonic lattice CFTs have integer central charge; c = 3/2 ∉ ℤ excludes every bosonic lattice realization at a stroke. The round's "evades the kill" self-labeling was ruled over-confessional (C-AD7): Ising/Majorana anyons are the canonical non-abelian anyons; free-fermion realizability does not make the category abelian. GAP-1 (non-abelian ≠ non-free) stands as a NEW gate, not an evasion confession — with the successor gate corrected (C-AD6): SU(2)₃ (Fibonacci, non-free) or SU(3)_{k≥2}; bare "SU(3)" is defective (SU(3)₁ is pointed abelian, a vacuous gate).
+- **K-SU22-1: DOES NOT FIRE — confirmed**, conditional on the candidate status of D_λ = 2h_λℓ and its pair extension (BOX-1/BOX-2, GAP-N1), as the round conceded. The channel-defect spectrum {−3ℓ/4, +ℓ/4} verified; the ribbon-exponent check passes with the CORRECTED spin θ₁ = −1.
+- **One genuine error (C-AD1):** θ₁ = −1, not i (transcription; isolated — the round's own exponent claims require −1).
+- **Two substantive narrowings:** (C-AD2) the monodromy identification is EXPONENT-LEVEL only — ΔD_c is a strict real lift that REFINES monodromy data (which fixes exponents only mod 1); (C-AD3) the round MISSED an exact identity — the dimension-weighted phase sum rule Σ N^c d_c θ_c/θ_{1/2}² = 𝒟·S_{½½} = 0 (S_{½½} = 0 at k = 2) — an abelian-like cancellation DOES hold at phase level; the non-abelian signature survives narrowed to the rate (lift) level, where no canonical nonnegative weighting zeroes the spectrum.
+- **The incommensurability trap (C-AD5, binding on GAP-N7 use):** the round's "factor-2 lattice refinement" holds only under the reading lattice = Rℤ = √(2π)ℤ; under the reading "record charges Q ∈ ℤ" the Cartan and record lattices are INCOMMENSURABLE (ratio √(2π)/2 irrational) and no finite refinement exists. The GAP-N7 convention must be pinned before this observation is used.
+
+### A.2 Corrections ledger
+
+C-AD1 (θ₁ = −1, table corrected by this amendment); C-AD2 (monodromy identification downgraded to exponent-level); C-AD3 (S_{½½} = 0 phase sum rule entered; "no weighting" claim corrected to "no canonical nonnegative weighting at rate level"); C-AD4 (the abelian-vs-channel mean contrast averages over different ensembles — signature restated as a within-record spectral property); C-AD5 (factor-2 claim convention-pinned, incommensurability trap recorded); C-AD6 (successor gate = SU(2)₃ or SU(3)_{k≥2}); C-AD7 (K-SU22-2 survival upgraded to wording-and-spirit); C-AD8 (channel-label admissibility rests on superselection/holonomy structure; the monodromy-protocol justification demoted to in-principle external witness).
+
+### A.3 Post-verdict status
+
+**The SU(2)₂ gate is refereed-passed — the program's first genuinely non-abelian structure stands**, with the channel-defect spectrum {ΔD₀, ΔD₁} = {−3ℓ/4, +ℓ/4} registered as the first non-abelian binding-spectrum CANDIDATE datum (conditional on the transplantation candidate, GAP-N1 — still no non-abelian rate derivation). Registered structure: channel labels as superselection data (C-AD8 grounds); the exponent-level monodromy correspondence; the S_{½½} = 0 sum rule; the vacuum-channel rate-invisibility (a prediction, not a pathology). Calibration step 3 consequences: the fork question is now refereed-INSUFFICIENT as posed — R fixes only the Cartan sub-record once non-abelian sectors are admitted, and the C-AD5 incommensurability trap binds any future fork resolution. Next non-abelian gate per C-AD6: SU(2)₃ (Fibonacci; non-free). GAP-N1 remains the load-bearing open problem of the non-abelian program.
